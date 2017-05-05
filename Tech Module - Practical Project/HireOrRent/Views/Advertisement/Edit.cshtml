@@ -1,0 +1,45 @@
+﻿@model HireOrRent.ModelsView.AdvertisementViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Article</h2>
+@using (Html.BeginForm("Edit", "Advertisement", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    @Html.HiddenFor(m => m.Id)
+    @Html.HiddenFor(m => m.AuthorId)
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Title, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Content, new { @class = "control-label col-sm-2" })
+        <div class="col-md-10">
+            @Html.TextAreaFor(m => m.Content, new { @class = "form-control", @rows = "7" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(Model => Model.CategoryId, new { @class = "control-label col-md-2" })
+        <div class="dropdown col-md-10">
+            @Html.DropDownListFor(Model => Model.CategoryId,
+                new SelectList(Model.Categories, "Id", "Name", Model.CategoryId),
+                new { @class = "form-control col-md-2" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10 col-md-offset-2">
+            @Html.ActionLink("Back to list", "Index", "Advertisement", new { @id = Model.Id }, new { @class = "btn btn-warning" })
+            <input type="submit" value="Edit advertisement" class="btn btn-primary" />
+        </div>
+    </div>
+}

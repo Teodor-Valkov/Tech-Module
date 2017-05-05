@@ -1,0 +1,26 @@
+﻿@model HireOrRent.Models.Category
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Category details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+    </dl>
+</div>
+<p style="margin-left: 85px">
+    @Html.ActionLink("Back to list", "Index", null, new { @class = "btn btn-warning btn-sm" }) |
+    @Html.ActionLink("Edit category", "Edit", new { id = Model.Id }, new { @class = "btn btn-success btn-sm" }) |
+    @Html.ActionLink("Delete category", "Delete", new { id = Model.Id }, new { @class = "btn btn-danger btn-sm" })
+</p>

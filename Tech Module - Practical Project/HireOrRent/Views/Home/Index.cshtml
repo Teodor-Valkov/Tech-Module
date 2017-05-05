@@ -1,0 +1,34 @@
+﻿@model List<HireOrRent.Models.Category>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2 class="text-center" style="color: maroon"><em>Welcome to the best website for renting and hiring places in Sofia!</em></h2>
+
+<div class="row">
+    <br/>
+
+    @for (var i = 0; i < Model.Count; i++)
+    {
+        <div class="col-sm-6">
+            @if (i == 0)
+            {
+                <a href="@Url.Action("CategoryAdvertisements", "Home", new {@categoryId = Model[i].Id})" class="elements"><img src="~/Content/Home-Rent.jpg" style="width: 500px; height: 500px; margin-left: 30px;" /></a>
+            }
+            else
+            {
+                <p>
+                    <a href="@Url.Action("CategoryAdvertisements", "Home", new {@categoryId = Model[i].Id})" class="elements"><img src="~/Content/Home-Hire.jpg" style="width: 500px; height: 500px; margin-left: 30px;" /></a>
+                </p>
+            }
+            <center>
+                <h2>
+                    <em>
+                        @Html.ActionLink(string.Format($"{Model[i].Name} ({Model[i].Advertisements.Count})"), "CategoryAdvertisements", "Home", new {@categoryId = Model[i].Id}, new { @style = "text-decoration: none; color: maroon;" })
+                    </em>
+                </h2>
+            </center>
+        </div>
+    }
+</div>
