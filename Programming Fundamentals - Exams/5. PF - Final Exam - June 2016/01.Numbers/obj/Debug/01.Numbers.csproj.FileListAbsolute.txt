@@ -1,0 +1,12 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\ProgrammingFundamentalsExamJune\01.Numbers\bin\Debug\01.Numbers.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\ProgrammingFundamentalsExamJune\01.Numbers\bin\Debug\01.Numbers.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\ProgrammingFundamentalsExamJune\01.Numbers\bin\Debug\01.Numbers.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\ProgrammingFundamentalsExamJune\01.Numbers\obj\Debug\01.Numbers.csprojResolveAssemblyReference.cache
+c:\users\ac milan\documents\visual studio 2012\Projects\ProgrammingFundamentalsExamJune\01.Numbers\obj\Debug\01.Numbers.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\ProgrammingFundamentalsExamJune\01.Numbers\obj\Debug\01.Numbers.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Labs And Exercises - May 2016\ProgrammingFundamentalsExamJune\01.Numbers\bin\Debug\01.Numbers.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Labs And Exercises - May 2016\ProgrammingFundamentalsExamJune\01.Numbers\obj\Debug\01.Numbers.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Labs And Exercises - May 2016\ProgrammingFundamentalsExamJune\01.Numbers\obj\Debug\01.Numbers.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\5. PF - Final Exam - June 2016\01.Numbers\bin\Debug\01.Numbers.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\5. PF - Final Exam - June 2016\01.Numbers\obj\Debug\01.Numbers.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\5. PF - Final Exam - June 2016\01.Numbers\obj\Debug\01.Numbers.pdb

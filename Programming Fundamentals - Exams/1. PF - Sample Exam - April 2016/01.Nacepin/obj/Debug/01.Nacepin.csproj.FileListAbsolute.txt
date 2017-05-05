@@ -1,0 +1,18 @@
+c:\users\valkov\documents\visual studio 2013\Projects\FinalExamAprilSample\01.Nacepin\bin\Debug\01.Nacepin.exe.config
+c:\users\valkov\documents\visual studio 2013\Projects\FinalExamAprilSample\01.Nacepin\bin\Debug\01.Nacepin.exe
+c:\users\valkov\documents\visual studio 2013\Projects\FinalExamAprilSample\01.Nacepin\bin\Debug\01.Nacepin.pdb
+c:\users\valkov\documents\visual studio 2013\Projects\FinalExamAprilSample\01.Nacepin\obj\Debug\01.Nacepin.exe
+c:\users\valkov\documents\visual studio 2013\Projects\FinalExamAprilSample\01.Nacepin\obj\Debug\01.Nacepin.pdb
+c:\users\valkov\documents\visual studio 2013\Projects\FinalExamAprilSample\01.Nacepin\obj\Debug\01.Nacepin.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Sample Exam - April 2016\01.Nacepin\bin\Debug\01.Nacepin.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Sample Exam - April 2016\01.Nacepin\obj\Debug\01.Nacepin.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Sample Exam - April 2016\01.Nacepin\obj\Debug\01.Nacepin.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Sample Exam - April 2016\01.Nacepin\bin\Debug\01.Nacepin.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Sample Exam - April 2016\01.Nacepin\bin\Debug\01.Nacepin.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Sample Exam - April 2016\01.Nacepin\obj\Debug\01.Nacepin.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\1. PF - Sample Exam - April 2016\01.Nacepin\bin\Debug\01.Nacepin.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\1. PF - Sample Exam - April 2016\01.Nacepin\obj\Debug\01.Nacepin.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\1. PF - Sample Exam - April 2016\01.Nacepin\obj\Debug\01.Nacepin.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\1. PF - Sample Exam - April 2016\01.Nacepin\bin\Debug\01.Nacepin.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\1. PF - Sample Exam - April 2016\01.Nacepin\bin\Debug\01.Nacepin.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\1. PF - Sample Exam - April 2016\01.Nacepin\obj\Debug\01.Nacepin.csprojResolveAssemblyReference.cache

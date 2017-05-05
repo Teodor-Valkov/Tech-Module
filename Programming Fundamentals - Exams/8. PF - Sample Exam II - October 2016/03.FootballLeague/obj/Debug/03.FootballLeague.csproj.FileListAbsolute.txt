@@ -1,0 +1,3 @@
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentalsSampleExam2\03.FootballLeague\bin\Debug\03.FootballLeague.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Sample Exam 2 - October 2016\03.FootballLeague\bin\Debug\03.FootballLeague.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Sample Exam II - October 2016\03.FootballLeague\bin\Debug\03.FootballLeague.exe.config

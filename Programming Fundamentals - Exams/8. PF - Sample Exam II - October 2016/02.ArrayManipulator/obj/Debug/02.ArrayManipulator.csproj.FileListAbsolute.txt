@@ -1,0 +1,12 @@
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentalsSampleExam2\02.ArrayManipulator\bin\Debug\02.ArrayManipulator.exe.config
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentalsSampleExam2\02.ArrayManipulator\bin\Debug\02.ArrayManipulator.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentalsSampleExam2\02.ArrayManipulator\bin\Debug\02.ArrayManipulator.pdb
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentalsSampleExam2\02.ArrayManipulator\obj\Debug\02.ArrayManipulator.csprojResolveAssemblyReference.cache
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentalsSampleExam2\02.ArrayManipulator\obj\Debug\02.ArrayManipulator.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentalsSampleExam2\02.ArrayManipulator\obj\Debug\02.ArrayManipulator.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Sample Exam 2 - October 2016\02.ArrayManipulator\bin\Debug\02.ArrayManipulator.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Sample Exam 2 - October 2016\02.ArrayManipulator\obj\Debug\02.ArrayManipulator.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Sample Exam 2 - October 2016\02.ArrayManipulator\obj\Debug\02.ArrayManipulator.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Sample Exam II - October 2016\02.ArrayManipulator\bin\Debug\02.ArrayManipulator.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Sample Exam II - October 2016\02.ArrayManipulator\obj\Debug\02.ArrayManipulator.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Sample Exam II - October 2016\02.ArrayManipulator\obj\Debug\02.ArrayManipulator.pdb

@@ -1,0 +1,9 @@
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\04.HornetArmada\bin\Debug\04.HornetArmada.exe.config
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\04.HornetArmada\bin\Debug\04.HornetArmada.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\04.HornetArmada\bin\Debug\04.HornetArmada.pdb
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\04.HornetArmada\obj\Debug\04.HornetArmada.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\04.HornetArmada\obj\Debug\04.HornetArmada.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\04.HornetArmada\obj\Debug\04.HornetArmada.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\11. PF - Final Exam - February 2017\04.HornetArmada\bin\Debug\04.HornetArmada.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\11. PF - Final Exam - February 2017\04.HornetArmada\obj\Debug\04.HornetArmada.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\11. PF - Final Exam - February 2017\04.HornetArmada\obj\Debug\04.HornetArmada.pdb

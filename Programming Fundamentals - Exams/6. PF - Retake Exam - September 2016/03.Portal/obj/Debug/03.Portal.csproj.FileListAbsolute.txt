@@ -1,0 +1,12 @@
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\Tech Module May\Programming Fundamentals Exam September 2016\03.Portal\bin\Debug\03.Portal.exe.config
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\Tech Module May\Programming Fundamentals Exam September 2016\03.Portal\bin\Debug\03.Portal.exe
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\Tech Module May\Programming Fundamentals Exam September 2016\03.Portal\bin\Debug\03.Portal.pdb
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\Tech Module May\Programming Fundamentals Exam September 2016\03.Portal\obj\Debug\03.Portal.csprojResolveAssemblyReference.cache
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\Tech Module May\Programming Fundamentals Exam September 2016\03.Portal\obj\Debug\03.Portal.exe
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\Tech Module May\Programming Fundamentals Exam September 2016\03.Portal\obj\Debug\03.Portal.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\6. PF - Retake Exam - September 2016\03.Portal\bin\Debug\03.Portal.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\6. PF - Retake Exam - September 2016\03.Portal\obj\Debug\03.Portal.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\6. PF - Retake Exam - September 2016\03.Portal\obj\Debug\03.Portal.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\6. PF - Retake Exam - September 2016\03.Portal\bin\Debug\03.Portal.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\6. PF - Retake Exam - September 2016\03.Portal\bin\Debug\03.Portal.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\6. PF - Retake Exam - September 2016\03.Portal\obj\Debug\03.Portal.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\01. HornetWings\bin\Debug\_01.HornetWings.exe.config
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\01. HornetWings\bin\Debug\_01.HornetWings.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\01. HornetWings\bin\Debug\_01.HornetWings.pdb
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\01. HornetWings\obj\Debug\01. HornetWings.csprojResolveAssemblyReference.cache
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\01. HornetWings\obj\Debug\_01.HornetWings.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\01. HornetWings\obj\Debug\_01.HornetWings.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\11. PF - Final Exam - February 2017\01. HornetWings\bin\Debug\_01.HornetWings.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\11. PF - Final Exam - February 2017\01. HornetWings\obj\Debug\_01.HornetWings.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\11. PF - Final Exam - February 2017\01. HornetWings\obj\Debug\_01.HornetWings.pdb

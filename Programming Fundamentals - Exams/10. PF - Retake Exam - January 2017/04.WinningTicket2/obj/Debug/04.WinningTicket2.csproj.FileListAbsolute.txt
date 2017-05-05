@@ -1,0 +1,9 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Retake Exam - January 2017\04.WinningTicket2\bin\Debug\04.WinningTicket2.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Retake Exam - January 2017\04.WinningTicket2\bin\Debug\04.WinningTicket2.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Retake Exam - January 2017\04.WinningTicket2\bin\Debug\04.WinningTicket2.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Retake Exam - January 2017\04.WinningTicket2\obj\Debug\04.WinningTicket2.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Retake Exam - January 2017\04.WinningTicket2\obj\Debug\04.WinningTicket2.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\PF - Retake Exam - January 2017\04.WinningTicket2\obj\Debug\04.WinningTicket2.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\10. PF - Retake Exam - January 2017\04.WinningTicket2\bin\Debug\04.WinningTicket2.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\10. PF - Retake Exam - January 2017\04.WinningTicket2\obj\Debug\04.WinningTicket2.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\10. PF - Retake Exam - January 2017\04.WinningTicket2\obj\Debug\04.WinningTicket2.pdb
