@@ -1,0 +1,11 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsLab\04.TrippleSum\bin\Debug\04.TrippleSum.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsLab\04.TrippleSum\bin\Debug\04.TrippleSum.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsLab\04.TrippleSum\bin\Debug\04.TrippleSum.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsLab\04.TrippleSum\obj\Debug\04.TrippleSum.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsLab\04.TrippleSum\obj\Debug\04.TrippleSum.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsLab\04.TrippleSum\bin\Debug\04.TrippleSum.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsLab\04.TrippleSum\obj\Debug\04.TrippleSum.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsLab\04.TrippleSum\obj\Debug\04.TrippleSum.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsLab\04.TrippleSum\bin\Debug\04.TrippleSum.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsLab\04.TrippleSum\obj\Debug\04.TrippleSum.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsLab\04.TrippleSum\obj\Debug\04.TrippleSum.pdb

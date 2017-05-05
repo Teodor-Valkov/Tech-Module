@@ -1,0 +1,10 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\02.MinMaxSumAverage\bin\Debug\02.MinMaxSumAverage.exe.config
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\02.MinMaxSumAverage\bin\Debug\02.MinMaxSumAverage.exe.config
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\02.MinMaxSumAverage\bin\Debug\02.MinMaxSumAverage.exe
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\02.MinMaxSumAverage\bin\Debug\02.MinMaxSumAverage.pdb
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\02.MinMaxSumAverage\obj\Debug\02.MinMaxSumAverage.csprojResolveAssemblyReference.cache
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\02.MinMaxSumAverage\obj\Debug\02.MinMaxSumAverage.exe
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\02.MinMaxSumAverage\obj\Debug\02.MinMaxSumAverage.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\04.DictionariesLambdaLINQLab\02.MinMaxSumAverage\bin\Debug\02.MinMaxSumAverage.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\04.DictionariesLambdaLINQLab\02.MinMaxSumAverage\obj\Debug\02.MinMaxSumAverage.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\04.DictionariesLambdaLINQLab\02.MinMaxSumAverage\obj\Debug\02.MinMaxSumAverage.pdb

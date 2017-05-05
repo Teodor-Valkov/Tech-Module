@@ -1,0 +1,17 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\04.CharacterMultiplier\bin\Debug\04.CharacterMultiplier.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\04.CharacterMultiplier\obj\Debug\04.CharacterMultiplier.pdb

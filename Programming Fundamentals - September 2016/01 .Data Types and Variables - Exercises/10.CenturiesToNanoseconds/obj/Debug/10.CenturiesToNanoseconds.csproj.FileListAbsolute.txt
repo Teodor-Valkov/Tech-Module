@@ -1,0 +1,15 @@
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\bin\Debug\10.CenturiesToNanoseconds.exe.config
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\bin\Debug\10.CenturiesToNanoseconds.exe
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\bin\Debug\10.CenturiesToNanoseconds.pdb
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\obj\Debug\10.CenturiesToNanoseconds.csprojResolveAssemblyReference.cache
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\obj\Debug\10.CenturiesToNanoseconds.exe
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\obj\Debug\10.CenturiesToNanoseconds.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\bin\Debug\10.CenturiesToNanoseconds.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\obj\Debug\10.CenturiesToNanoseconds.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\obj\Debug\10.CenturiesToNanoseconds.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\bin\Debug\10.CenturiesToNanoseconds.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\obj\Debug\10.CenturiesToNanoseconds.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\obj\Debug\10.CenturiesToNanoseconds.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\bin\Debug\10.CenturiesToNanoseconds.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\obj\Debug\10.CenturiesToNanoseconds.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\10.CenturiesToNanoseconds\obj\Debug\10.CenturiesToNanoseconds.pdb

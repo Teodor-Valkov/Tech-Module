@@ -1,0 +1,12 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\16.BombNumbers\bin\Debug\16.BombNumbers.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\16.BombNumbers\bin\Debug\16.BombNumbers.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\16.BombNumbers\bin\Debug\16.BombNumbers.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\16.BombNumbers\obj\Debug\16.BombNumbers.csprojResolveAssemblyReference.cache
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\16.BombNumbers\obj\Debug\16.BombNumbers.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\16.BombNumbers\obj\Debug\16.BombNumbers.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsExercises\16.BombNumbers\bin\Debug\16.BombNumbers.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsExercises\16.BombNumbers\obj\Debug\16.BombNumbers.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsExercises\16.BombNumbers\obj\Debug\16.BombNumbers.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsExercises\16.BombNumbers\bin\Debug\16.BombNumbers.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsExercises\16.BombNumbers\obj\Debug\16.BombNumbers.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsExercises\16.BombNumbers\obj\Debug\16.BombNumbers.pdb

@@ -1,0 +1,14 @@
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\06.StringsAndObjects\bin\Debug\06.StringsAndObjects.exe.config
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\06.StringsAndObjects\bin\Debug\06.StringsAndObjects.exe
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\06.StringsAndObjects\bin\Debug\06.StringsAndObjects.pdb
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\06.StringsAndObjects\obj\Debug\06.StringsAndObjects.exe
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\06.StringsAndObjects\obj\Debug\06.StringsAndObjects.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\01.DataTypesAndVariablesExercises\06.StringsAndObjects\bin\Debug\06.StringsAndObjects.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\01.DataTypesAndVariablesExercises\06.StringsAndObjects\obj\Debug\06.StringsAndObjects.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\01.DataTypesAndVariablesExercises\06.StringsAndObjects\obj\Debug\06.StringsAndObjects.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\06.StringsAndObjects\bin\Debug\06.StringsAndObjects.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\06.StringsAndObjects\obj\Debug\06.StringsAndObjects.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\06.StringsAndObjects\obj\Debug\06.StringsAndObjects.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\06.StringsAndObjects\bin\Debug\06.StringsAndObjects.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\06.StringsAndObjects\obj\Debug\06.StringsAndObjects.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\06.StringsAndObjects\obj\Debug\06.StringsAndObjects.pdb

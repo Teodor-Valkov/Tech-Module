@@ -1,0 +1,12 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesLab\06.RectanglePosition\bin\Debug\06.RectanglePosition.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesLab\06.RectanglePosition\bin\Debug\06.RectanglePosition.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesLab\06.RectanglePosition\bin\Debug\06.RectanglePosition.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesLab\06.RectanglePosition\obj\Debug\06.RectanglePosition.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesLab\06.RectanglePosition\obj\Debug\06.RectanglePosition.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesLab\06.RectanglePosition\obj\Debug\06.RectanglePosition.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesLab\06.RectanglePosition\bin\Debug\06.RectanglePosition.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesLab\06.RectanglePosition\obj\Debug\06.RectanglePosition.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesLab\06.RectanglePosition\obj\Debug\06.RectanglePosition.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesLab\06.RectanglePosition\bin\Debug\06.RectanglePosition.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesLab\06.RectanglePosition\obj\Debug\06.RectanglePosition.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesLab\06.RectanglePosition\obj\Debug\06.RectanglePosition.pdb

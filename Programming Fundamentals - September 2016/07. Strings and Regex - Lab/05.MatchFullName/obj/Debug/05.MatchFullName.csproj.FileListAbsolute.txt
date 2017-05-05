@@ -1,0 +1,15 @@
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\05.MatchFullName\bin\Debug\05.MatchFullName.exe.config
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\05.MatchFullName\bin\Debug\05.MatchFullName.exe
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\05.MatchFullName\bin\Debug\05.MatchFullName.pdb
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\05.MatchFullName\obj\Debug\05.MatchFullName.csprojResolveAssemblyReference.cache
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\05.MatchFullName\obj\Debug\05.MatchFullName.exe
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\05.MatchFullName\obj\Debug\05.MatchFullName.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\05.MatchFullName\bin\Debug\05.MatchFullName.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\05.MatchFullName\obj\Debug\05.MatchFullName.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\05.MatchFullName\obj\Debug\05.MatchFullName.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\05.MatchFullName\bin\Debug\05.MatchFullName.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\05.MatchFullName\obj\Debug\05.MatchFullName.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\05.MatchFullName\obj\Debug\05.MatchFullName.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\05.MatchFullName\bin\Debug\05.MatchFullName.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\05.MatchFullName\bin\Debug\05.MatchFullName.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\05.MatchFullName\obj\Debug\05.MatchFullName.csprojResolveAssemblyReference.cache

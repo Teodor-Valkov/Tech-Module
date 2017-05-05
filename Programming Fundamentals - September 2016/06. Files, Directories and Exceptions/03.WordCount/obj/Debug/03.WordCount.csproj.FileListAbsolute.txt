@@ -1,0 +1,12 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\03.WordCount\bin\Debug\03.WordCount.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\03.WordCount\bin\Debug\03.WordCount.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\03.WordCount\bin\Debug\03.WordCount.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\03.WordCount\obj\Debug\03.WordCount.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\03.WordCount\obj\Debug\03.WordCount.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\03.WordCount\obj\Debug\03.WordCount.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\03.WordCount\bin\Debug\03.WordCount.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\03.WordCount\obj\Debug\03.WordCount.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\03.WordCount\obj\Debug\03.WordCount.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\03.WordCount\bin\Debug\03.WordCount.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\03.WordCount\obj\Debug\03.WordCount.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\03.WordCount\obj\Debug\03.WordCount.pdb

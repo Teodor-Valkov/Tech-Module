@@ -1,0 +1,12 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\14.ArrayManupulator\bin\Debug\14.ArrayManupulator.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\14.ArrayManupulator\bin\Debug\14.ArrayManupulator.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\14.ArrayManupulator\bin\Debug\14.ArrayManupulator.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\14.ArrayManupulator\obj\Debug\14.ArrayManupulator.csprojResolveAssemblyReference.cache
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\14.ArrayManupulator\obj\Debug\14.ArrayManupulator.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\14.ArrayManupulator\obj\Debug\14.ArrayManupulator.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsExercises\14.ArrayManupulator\bin\Debug\14.ArrayManupulator.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsExercises\14.ArrayManupulator\obj\Debug\14.ArrayManupulator.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsExercises\14.ArrayManupulator\obj\Debug\14.ArrayManupulator.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsExercises\14.ArrayManupulator\bin\Debug\14.ArrayManupulator.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsExercises\14.ArrayManupulator\obj\Debug\14.ArrayManupulator.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsExercises\14.ArrayManupulator\obj\Debug\14.ArrayManupulator.pdb

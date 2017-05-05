@@ -1,0 +1,11 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\04.SieveOfEratosthenes\bin\Debug\04.SieveOfEratosthenes.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\04.SieveOfEratosthenes\bin\Debug\04.SieveOfEratosthenes.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\04.SieveOfEratosthenes\bin\Debug\04.SieveOfEratosthenes.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\04.SieveOfEratosthenes\obj\Debug\04.SieveOfEratosthenes.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\04.SieveOfEratosthenes\obj\Debug\04.SieveOfEratosthenes.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsExercises\04.SieveOfEratosthenes\bin\Debug\04.SieveOfEratosthenes.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsExercises\04.SieveOfEratosthenes\obj\Debug\04.SieveOfEratosthenes.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsExercises\04.SieveOfEratosthenes\obj\Debug\04.SieveOfEratosthenes.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsExercises\04.SieveOfEratosthenes\bin\Debug\04.SieveOfEratosthenes.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsExercises\04.SieveOfEratosthenes\obj\Debug\04.SieveOfEratosthenes.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsExercises\04.SieveOfEratosthenes\obj\Debug\04.SieveOfEratosthenes.pdb

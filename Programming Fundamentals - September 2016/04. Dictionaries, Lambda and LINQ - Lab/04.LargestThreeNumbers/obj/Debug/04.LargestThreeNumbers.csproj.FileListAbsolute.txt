@@ -1,0 +1,15 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\04.LargestThreeNumbers\bin\Debug\04.LargestThreeNumbers.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\04.LargestThreeNumbers\bin\Debug\04.LargestThreeNumbers.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\04.LargestThreeNumbers\bin\Debug\04.LargestThreeNumbers.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\04.LargestThreeNumbers\obj\Debug\04.LargestThreeNumbers.csprojResolveAssemblyReference.cache
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\04.LargestThreeNumbers\obj\Debug\04.LargestThreeNumbers.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\04.LargestThreeNumbers\obj\Debug\04.LargestThreeNumbers.pdb
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\04.LargestThreeNumbers\bin\Debug\04.LargestThreeNumbers.exe.config
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\04.LargestThreeNumbers\bin\Debug\04.LargestThreeNumbers.exe
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\04.LargestThreeNumbers\bin\Debug\04.LargestThreeNumbers.pdb
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\04.LargestThreeNumbers\obj\Debug\04.LargestThreeNumbers.csprojResolveAssemblyReference.cache
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\04.LargestThreeNumbers\obj\Debug\04.LargestThreeNumbers.exe
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\04.LargestThreeNumbers\obj\Debug\04.LargestThreeNumbers.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\04.DictionariesLambdaLINQLab\04.LargestThreeNumbers\bin\Debug\04.LargestThreeNumbers.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\04.DictionariesLambdaLINQLab\04.LargestThreeNumbers\obj\Debug\04.LargestThreeNumbers.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\04.DictionariesLambdaLINQLab\04.LargestThreeNumbers\obj\Debug\04.LargestThreeNumbers.pdb

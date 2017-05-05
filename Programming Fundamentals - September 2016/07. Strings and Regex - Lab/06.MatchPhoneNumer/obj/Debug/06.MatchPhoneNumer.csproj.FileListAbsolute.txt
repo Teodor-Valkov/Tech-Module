@@ -1,0 +1,15 @@
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\06.MatchPhoneNumer\bin\Debug\06.MatchPhoneNumer.exe.config
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\06.MatchPhoneNumer\bin\Debug\06.MatchPhoneNumer.exe
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\06.MatchPhoneNumer\bin\Debug\06.MatchPhoneNumer.pdb
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\06.MatchPhoneNumer\obj\Debug\06.MatchPhoneNumer.csprojResolveAssemblyReference.cache
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\06.MatchPhoneNumer\obj\Debug\06.MatchPhoneNumer.exe
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\06.MatchPhoneNumer\obj\Debug\06.MatchPhoneNumer.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\06.MatchPhoneNumer\bin\Debug\06.MatchPhoneNumer.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\06.MatchPhoneNumer\obj\Debug\06.MatchPhoneNumer.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\06.MatchPhoneNumer\obj\Debug\06.MatchPhoneNumer.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\06.MatchPhoneNumer\bin\Debug\06.MatchPhoneNumer.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\06.MatchPhoneNumer\obj\Debug\06.MatchPhoneNumer.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\06.MatchPhoneNumer\obj\Debug\06.MatchPhoneNumer.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\06.MatchPhoneNumer\bin\Debug\06.MatchPhoneNumer.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\06.MatchPhoneNumer\bin\Debug\06.MatchPhoneNumer.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\06.MatchPhoneNumer\obj\Debug\06.MatchPhoneNumer.csprojResolveAssemblyReference.cache

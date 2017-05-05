@@ -1,0 +1,20 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\12.ValidUsername\bin\Debug\12.ValidUsername.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\12.ValidUsername\bin\Debug\12.ValidUsername.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\12.ValidUsername\bin\Debug\12.ValidUsername.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\12.ValidUsername\obj\Debug\12.ValidUsername.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\12.ValidUsername\obj\Debug\12.ValidUsername.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\12.ValidUsername\bin\Debug\12.ValidUsername.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\12.ValidUsername\obj\Debug\12.ValidUsername.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\12.ValidUsername\obj\Debug\12.ValidUsername.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\12.ValidUsername\bin\Debug\12.ValidUsername.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\12.ValidUsername\bin\Debug\12.ValidUsername.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\12.ValidUsername\obj\Debug\12.ValidUsername.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\12.ValidUsername\bin\Debug\12.ValidUsername.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\12.ValidUsername\obj\Debug\12.ValidUsername.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\12.ValidUsername\obj\Debug\12.ValidUsername.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\12.ValidUsername\bin\Debug\12.ValidUsername.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\12.ValidUsername\obj\Debug\12.ValidUsername.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\12.ValidUsername\obj\Debug\12.ValidUsername.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\12.ValidUsername\bin\Debug\12.ValidUsername.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\12.ValidUsername\bin\Debug\12.ValidUsername.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\12.ValidUsername\obj\Debug\12.ValidUsername.csprojResolveAssemblyReference.cache

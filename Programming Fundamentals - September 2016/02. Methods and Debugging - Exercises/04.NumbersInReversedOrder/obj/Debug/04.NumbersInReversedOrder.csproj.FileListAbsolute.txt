@@ -1,0 +1,14 @@
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\bin\Debug\04.NumbersInReversedOrder.exe.config
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\bin\Debug\04.NumbersInReversedOrder.exe
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\bin\Debug\04.NumbersInReversedOrder.pdb
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\obj\Debug\04.NumbersInReversedOrder.exe
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\obj\Debug\04.NumbersInReversedOrder.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\bin\Debug\04.NumbersInReversedOrder.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\obj\Debug\04.NumbersInReversedOrder.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\obj\Debug\04.NumbersInReversedOrder.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\bin\Debug\04.NumbersInReversedOrder.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\bin\Debug\04.NumbersInReversedOrder.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\obj\Debug\04.NumbersInReversedOrder.csprojResolveAssemblyReference.cache
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\bin\Debug\04.NumbersInReversedOrder.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\obj\Debug\04.NumbersInReversedOrder.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingExercises\04.NumbersInReversedOrder\obj\Debug\04.NumbersInReversedOrder.pdb

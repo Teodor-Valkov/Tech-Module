@@ -1,0 +1,12 @@
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\bin\Debug\03.PracticeCharactersAndStrings.exe.config
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\bin\Debug\03.PracticeCharactersAndStrings.exe
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\bin\Debug\03.PracticeCharactersAndStrings.pdb
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\obj\Debug\03.PracticeCharactersAndStrings.csprojResolveAssemblyReference.cache
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\obj\Debug\03.PracticeCharactersAndStrings.exe
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\obj\Debug\03.PracticeCharactersAndStrings.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\bin\Debug\03.PracticeCharactersAndStrings.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\obj\Debug\03.PracticeCharactersAndStrings.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\obj\Debug\03.PracticeCharactersAndStrings.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\bin\Debug\03.PracticeCharactersAndStrings.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\obj\Debug\03.PracticeCharactersAndStrings.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\03.PracticeCharactersAndStrings\obj\Debug\03.PracticeCharactersAndStrings.pdb

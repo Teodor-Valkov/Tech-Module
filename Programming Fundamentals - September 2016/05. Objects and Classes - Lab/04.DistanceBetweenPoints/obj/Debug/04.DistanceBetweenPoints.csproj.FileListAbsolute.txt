@@ -1,0 +1,3 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesLab\04.DistanceBetweenPoints\bin\Debug\04.DistanceBetweenPoints.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesLab\04.DistanceBetweenPoints\bin\Debug\04.DistanceBetweenPoints.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesLab\04.DistanceBetweenPoints\bin\Debug\04.DistanceBetweenPoints.exe.config

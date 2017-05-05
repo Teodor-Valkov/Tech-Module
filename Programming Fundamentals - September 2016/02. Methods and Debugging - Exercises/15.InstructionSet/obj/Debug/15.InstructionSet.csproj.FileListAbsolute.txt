@@ -1,0 +1,11 @@
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\15.InstructionSet\bin\Debug\15.InstructionSet.exe.config
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\15.InstructionSet\bin\Debug\15.InstructionSet.exe
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\15.InstructionSet\bin\Debug\15.InstructionSet.pdb
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\15.InstructionSet\obj\Debug\15.InstructionSet.exe
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\15.InstructionSet\obj\Debug\15.InstructionSet.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\15.InstructionSet\bin\Debug\15.InstructionSet.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\15.InstructionSet\obj\Debug\15.InstructionSet.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\15.InstructionSet\obj\Debug\15.InstructionSet.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingExercises\15.InstructionSet\bin\Debug\15.InstructionSet.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingExercises\15.InstructionSet\obj\Debug\15.InstructionSet.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingExercises\15.InstructionSet\obj\Debug\15.InstructionSet.pdb

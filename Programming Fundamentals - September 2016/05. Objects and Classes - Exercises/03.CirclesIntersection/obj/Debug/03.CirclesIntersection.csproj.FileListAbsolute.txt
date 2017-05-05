@@ -1,0 +1,11 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesExercises\03.CirclesIntersection\bin\Debug\03.CirclesIntersection.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesExercises\03.CirclesIntersection\bin\Debug\03.CirclesIntersection.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesExercises\03.CirclesIntersection\bin\Debug\03.CirclesIntersection.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesExercises\03.CirclesIntersection\obj\Debug\03.CirclesIntersection.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesExercises\03.CirclesIntersection\obj\Debug\03.CirclesIntersection.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesExercises\03.CirclesIntersection\bin\Debug\03.CirclesIntersection.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesExercises\03.CirclesIntersection\obj\Debug\03.CirclesIntersection.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesExercises\03.CirclesIntersection\obj\Debug\03.CirclesIntersection.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesExercises\03.CirclesIntersection\bin\Debug\03.CirclesIntersection.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesExercises\03.CirclesIntersection\obj\Debug\03.CirclesIntersection.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesExercises\03.CirclesIntersection\obj\Debug\03.CirclesIntersection.pdb

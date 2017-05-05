@@ -1,0 +1,12 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\06.MathPower\bin\Debug\06.MathPower.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\06.MathPower\bin\Debug\06.MathPower.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\06.MathPower\bin\Debug\06.MathPower.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\06.MathPower\obj\Debug\06.MathPower.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\06.MathPower\obj\Debug\06.MathPower.pdb
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingLab\06.MathPower\obj\Debug\06.MathPower.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingLab\06.MathPower\bin\Debug\06.MathPower.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingLab\06.MathPower\obj\Debug\06.MathPower.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingLab\06.MathPower\obj\Debug\06.MathPower.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingLab\06.MathPower\bin\Debug\06.MathPower.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingLab\06.MathPower\obj\Debug\06.MathPower.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingLab\06.MathPower\obj\Debug\06.MathPower.pdb

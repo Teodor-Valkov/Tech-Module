@@ -1,0 +1,1 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\13.QueryMessRegex\bin\Debug\13.QueryMessRegex.exe.config

@@ -1,0 +1,19 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\03.UnicodeCharacters\bin\Debug\03.UnicodeCharacters.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\03.UnicodeCharacters\obj\Debug\03.UnicodeCharacters.csprojResolveAssemblyReference.cache

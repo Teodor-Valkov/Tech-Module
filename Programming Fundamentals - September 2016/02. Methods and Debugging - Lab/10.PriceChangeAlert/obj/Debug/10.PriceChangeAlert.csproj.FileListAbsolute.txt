@@ -1,0 +1,12 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\10.PriceChangeAlert\bin\Debug\10.PriceChangeAlert.exe.config
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingLab\10.PriceChangeAlert\bin\Debug\10.PriceChangeAlert.exe
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingLab\10.PriceChangeAlert\bin\Debug\10.PriceChangeAlert.pdb
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingLab\10.PriceChangeAlert\obj\Debug\10.PriceChangeAlert.exe
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingLab\10.PriceChangeAlert\obj\Debug\10.PriceChangeAlert.pdb
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingLab\10.PriceChangeAlert\obj\Debug\10.PriceChangeAlert.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingLab\10.PriceChangeAlert\bin\Debug\10.PriceChangeAlert.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingLab\10.PriceChangeAlert\obj\Debug\10.PriceChangeAlert.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingLab\10.PriceChangeAlert\obj\Debug\10.PriceChangeAlert.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingLab\10.PriceChangeAlert\bin\Debug\10.PriceChangeAlert.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingLab\10.PriceChangeAlert\obj\Debug\10.PriceChangeAlert.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingLab\10.PriceChangeAlert\obj\Debug\10.PriceChangeAlert.pdb

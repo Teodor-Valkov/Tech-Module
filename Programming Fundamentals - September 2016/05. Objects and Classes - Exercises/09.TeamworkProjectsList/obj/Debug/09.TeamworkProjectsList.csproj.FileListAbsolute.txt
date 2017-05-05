@@ -1,0 +1,12 @@
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\bin\Debug\09.TeamworkProjectsList.exe.config
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\bin\Debug\09.TeamworkProjectsList.exe
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\bin\Debug\09.TeamworkProjectsList.pdb
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\obj\Debug\09.TeamworkProjectsList.csprojResolveAssemblyReference.cache
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\obj\Debug\09.TeamworkProjectsList.exe
+C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\obj\Debug\09.TeamworkProjectsList.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\bin\Debug\09.TeamworkProjectsList.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\obj\Debug\09.TeamworkProjectsList.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\obj\Debug\09.TeamworkProjectsList.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\bin\Debug\09.TeamworkProjectsList.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\obj\Debug\09.TeamworkProjectsList.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesExercises\09.TeamworkProjectsList\obj\Debug\09.TeamworkProjectsList.pdb

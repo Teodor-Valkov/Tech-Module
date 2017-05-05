@@ -1,0 +1,15 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\bin\Debug\_15.FastPrimeChecker.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\bin\Debug\_15.FastPrimeChecker.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\bin\Debug\_15.FastPrimeChecker.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\obj\Debug\15. FastPrimeChecker.csprojResolveAssemblyReference.cache
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\obj\Debug\_15.FastPrimeChecker.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\obj\Debug\_15.FastPrimeChecker.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\bin\Debug\_15.FastPrimeChecker.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\obj\Debug\_15.FastPrimeChecker.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\obj\Debug\_15.FastPrimeChecker.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\bin\Debug\_15.FastPrimeChecker.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\obj\Debug\_15.FastPrimeChecker.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\obj\Debug\_15.FastPrimeChecker.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\bin\Debug\_15.FastPrimeChecker.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\obj\Debug\_15.FastPrimeChecker.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesExercises\15. FastPrimeChecker\obj\Debug\_15.FastPrimeChecker.pdb

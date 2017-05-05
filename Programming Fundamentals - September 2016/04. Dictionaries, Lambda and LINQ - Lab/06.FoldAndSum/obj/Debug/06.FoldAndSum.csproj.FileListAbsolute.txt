@@ -1,0 +1,17 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\06.FoldAndSum\bin\Debug\06.FoldAndSum.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\06.FoldAndSum\bin\Debug\06.FoldAndSum.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\06.FoldAndSum\bin\Debug\06.FoldAndSum.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\06.FoldAndSum\obj\Debug\06.FoldAndSum.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\04.Dictionaries,Lambda,LINQLab\06.FoldAndSum\obj\Debug\06.FoldAndSum.pdb
+C:\Users\valko\Desktop\04.Dictionaries,Lambda,LINQLab\06.FoldAndSum\bin\Debug\06.FoldAndSum.exe.config
+C:\Users\valko\Desktop\04.Dictionaries,Lambda,LINQLab\06.FoldAndSum\obj\Debug\06.FoldAndSum.exe
+C:\Users\valko\Desktop\04.Dictionaries,Lambda,LINQLab\06.FoldAndSum\obj\Debug\06.FoldAndSum.pdb
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\06.FoldAndSum\bin\Debug\06.FoldAndSum.exe.config
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\06.FoldAndSum\bin\Debug\06.FoldAndSum.exe
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\06.FoldAndSum\bin\Debug\06.FoldAndSum.pdb
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\06.FoldAndSum\obj\Debug\06.FoldAndSum.csprojResolveAssemblyReference.cache
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\06.FoldAndSum\obj\Debug\06.FoldAndSum.exe
+C:\Users\valko\Desktop\04.DictionariesLambdaLINQLab\06.FoldAndSum\obj\Debug\06.FoldAndSum.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\04.DictionariesLambdaLINQLab\06.FoldAndSum\bin\Debug\06.FoldAndSum.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\04.DictionariesLambdaLINQLab\06.FoldAndSum\obj\Debug\06.FoldAndSum.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\04.DictionariesLambdaLINQLab\06.FoldAndSum\obj\Debug\06.FoldAndSum.pdb

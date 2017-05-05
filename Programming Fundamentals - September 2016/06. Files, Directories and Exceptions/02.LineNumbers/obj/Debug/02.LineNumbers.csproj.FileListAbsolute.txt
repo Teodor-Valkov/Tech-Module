@@ -1,0 +1,12 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\02.LineNumbers\bin\Debug\02.LineNumbers.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\02.LineNumbers\bin\Debug\02.LineNumbers.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\02.LineNumbers\bin\Debug\02.LineNumbers.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\02.LineNumbers\obj\Debug\02.LineNumbers.csprojResolveAssemblyReference.cache
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\02.LineNumbers\obj\Debug\02.LineNumbers.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\02.LineNumbers\obj\Debug\02.LineNumbers.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\02.LineNumbers\bin\Debug\02.LineNumbers.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\02.LineNumbers\obj\Debug\02.LineNumbers.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\02.LineNumbers\obj\Debug\02.LineNumbers.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\02.LineNumbers\bin\Debug\02.LineNumbers.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\02.LineNumbers\obj\Debug\02.LineNumbers.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\02.LineNumbers\obj\Debug\02.LineNumbers.pdb

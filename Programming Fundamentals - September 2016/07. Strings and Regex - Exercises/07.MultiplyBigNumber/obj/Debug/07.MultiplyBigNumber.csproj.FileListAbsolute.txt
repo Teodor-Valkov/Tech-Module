@@ -1,0 +1,16 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\07.MultiplyBigNumber\bin\Debug\07.MultiplyBigNumber.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\07.MultiplyBigNumber\bin\Debug\07.MultiplyBigNumber.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\07.MultiplyBigNumber\bin\Debug\07.MultiplyBigNumber.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\07.MultiplyBigNumber\obj\Debug\07.MultiplyBigNumber.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\07.MultiplyBigNumber\obj\Debug\07.MultiplyBigNumber.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\07.MultiplyBigNumber\bin\Debug\07.MultiplyBigNumber.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\07.MultiplyBigNumber\obj\Debug\07.MultiplyBigNumber.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\07.MultiplyBigNumber\obj\Debug\07.MultiplyBigNumber.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\07.MultiplyBigNumber\bin\Debug\07.MultiplyBigNumber.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\07.MultiplyBigNumber\bin\Debug\07.MultiplyBigNumber.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\07.MultiplyBigNumber\bin\Debug\07.MultiplyBigNumber.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\07.MultiplyBigNumber\obj\Debug\07.MultiplyBigNumber.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\07.MultiplyBigNumber\obj\Debug\07.MultiplyBigNumber.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\07.MultiplyBigNumber\bin\Debug\07.MultiplyBigNumber.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\07.MultiplyBigNumber\obj\Debug\07.MultiplyBigNumber.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\07.MultiplyBigNumber\obj\Debug\07.MultiplyBigNumber.pdb

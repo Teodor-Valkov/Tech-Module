@@ -1,0 +1,21 @@
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\bin\Debug\01.ConvertFromBaseToBase.exe.config
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\bin\Debug\01.ConvertFromBaseToBase.exe
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\bin\Debug\01.ConvertFromBaseToBase.pdb
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.csprojResolveAssemblyReference.cache
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.exe
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\bin\Debug\01.ConvertFromBaseToBase.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\bin\Debug\01.ConvertFromBaseToBase.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\bin\Debug\01.ConvertFromBaseToBase.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\ProgrammingFundamentalsLabsAndExercises\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\bin\Debug\01.ConvertFromBaseToBase.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\ProgrammingFundamentalsLabsAndExercises\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\ProgrammingFundamentalsLabsAndExercises\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\bin\Debug\01.ConvertFromBaseToBase.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\bin\Debug\01.ConvertFromBaseToBase.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\01.ConvertFromBaseToBase\obj\Debug\01.ConvertFromBaseToBase.pdb

@@ -1,0 +1,15 @@
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\07.ReplaceTags\bin\Debug\07.ReplaceTags.exe.config
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\07.ReplaceTags\bin\Debug\07.ReplaceTags.exe
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\07.ReplaceTags\bin\Debug\07.ReplaceTags.pdb
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\07.ReplaceTags\obj\Debug\07.ReplaceTags.csprojResolveAssemblyReference.cache
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\07.ReplaceTags\obj\Debug\07.ReplaceTags.exe
+C:\Users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\07.ReplaceTags\obj\Debug\07.ReplaceTags.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\07.ReplaceTags\bin\Debug\07.ReplaceTags.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\07.ReplaceTags\obj\Debug\07.ReplaceTags.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\07.ReplaceTags\obj\Debug\07.ReplaceTags.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\07.ReplaceTags\bin\Debug\07.ReplaceTags.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\07.ReplaceTags\obj\Debug\07.ReplaceTags.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\07.ReplaceTags\obj\Debug\07.ReplaceTags.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\07.ReplaceTags\bin\Debug\07.ReplaceTags.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\07.ReplaceTags\bin\Debug\07.ReplaceTags.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\07.ReplaceTags\obj\Debug\07.ReplaceTags.csprojResolveAssemblyReference.cache

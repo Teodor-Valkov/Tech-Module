@@ -1,0 +1,17 @@
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.exe.config
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.exe
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.pdb
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.exe
+c:\users\valko\documents\visual studio 2015\Projects\07.StringsAndRegex\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\ProgrammingFundamentalsLabsAndExercises\07.StringsAndRegex\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\ProgrammingFundamentalsLabsAndExercises\07.StringsAndRegex\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\ProgrammingFundamentalsLabsAndExercises\07.StringsAndRegex\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\ProgrammingFundamentalsLabsAndExercises\07.StringsAndRegex\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\ProgrammingFundamentalsLabsAndExercises\07.StringsAndRegex\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\ProgrammingFundamentalsLabsAndExercises\07.StringsAndRegex\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegex\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\02.CountSubstringOccurrences\bin\Debug\02.CountSubstringOccurrences.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegex\02.CountSubstringOccurrences\obj\Debug\02.CountSubstringOccurrences.pdb

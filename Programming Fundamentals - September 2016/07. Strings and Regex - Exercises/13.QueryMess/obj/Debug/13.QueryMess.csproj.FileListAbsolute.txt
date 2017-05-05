@@ -1,0 +1,20 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\13.QueryMess\bin\Debug\13.QueryMess.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\13.QueryMess\bin\Debug\13.QueryMess.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\13.QueryMess\bin\Debug\13.QueryMess.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\13.QueryMess\obj\Debug\13.QueryMess.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\07.StringsAndRegexExercises\13.QueryMess\obj\Debug\13.QueryMess.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\13.QueryMess\bin\Debug\13.QueryMess.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\13.QueryMess\obj\Debug\13.QueryMess.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\13.QueryMess\obj\Debug\13.QueryMess.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\13.QueryMess\bin\Debug\13.QueryMess.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\13.QueryMess\bin\Debug\13.QueryMess.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Projects\07.StringsAndRegexExercises\13.QueryMess\obj\Debug\13.QueryMess.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\13.QueryMess\bin\Debug\13.QueryMess.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\13.QueryMess\obj\Debug\13.QueryMess.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\07.StringsAndRegexExercises\13.QueryMess\obj\Debug\13.QueryMess.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\13.QueryMess\bin\Debug\13.QueryMess.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\13.QueryMess\obj\Debug\13.QueryMess.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\13.QueryMess\obj\Debug\13.QueryMess.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\13.QueryMess\bin\Debug\13.QueryMess.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\13.QueryMess\bin\Debug\13.QueryMess.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\07.StringsAndRegexExercises\13.QueryMess\obj\Debug\13.QueryMess.csprojResolveAssemblyReference.cache

@@ -1,0 +1,17 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesLab\02.CircleArea\bin\Debug\02.CircleArea.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesLab\02.CircleArea\bin\Debug\02.CircleArea.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesLab\02.CircleArea\bin\Debug\02.CircleArea.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesLab\02.CircleArea\obj\Debug\02.CircleArea.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesLab\02.CircleArea\obj\Debug\02.CircleArea.pdb
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesLab\02.CircleArea\bin\Debug\02.CircleArea.exe.CodeAnalysisLog.xml
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesLab\02.CircleArea\bin\Debug\02.CircleArea.exe.lastcodeanalysissucceeded
+C:\Users\AC Milan\documents\visual studio 2012\Projects\01.DataTypesAndVariablesLab\02.CircleArea\obj\Debug\02.CircleArea.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\Programming Fundamentals Labs And Exercises - September 2016\01.DataTypesAndVariablesLab\02.CircleArea\bin\Debug\02.CircleArea.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\Programming Fundamentals Labs And Exercises - September 2016\01.DataTypesAndVariablesLab\02.CircleArea\obj\Debug\02.CircleArea.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\Programming Fundamentals Labs And Exercises - September 2016\01.DataTypesAndVariablesLab\02.CircleArea\obj\Debug\02.CircleArea.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesLab\02.CircleArea\bin\Debug\02.CircleArea.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesLab\02.CircleArea\obj\Debug\02.CircleArea.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016 2\01.DataTypesAndVariablesLab\02.CircleArea\obj\Debug\02.CircleArea.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesLab\02.CircleArea\bin\Debug\02.CircleArea.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesLab\02.CircleArea\obj\Debug\02.CircleArea.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\01.DataTypesAndVariablesLab\02.CircleArea\obj\Debug\02.CircleArea.pdb

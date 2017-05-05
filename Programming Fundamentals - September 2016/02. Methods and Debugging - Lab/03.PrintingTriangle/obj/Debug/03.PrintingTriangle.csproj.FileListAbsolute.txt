@@ -1,0 +1,11 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\03.PrintingTriangle\bin\Debug\03.PrintingTriangle.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\03.PrintingTriangle\bin\Debug\03.PrintingTriangle.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\03.PrintingTriangle\bin\Debug\03.PrintingTriangle.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\03.PrintingTriangle\obj\Debug\03.PrintingTriangle.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\02.MethodsAndDebuggingLab\03.PrintingTriangle\obj\Debug\03.PrintingTriangle.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingLab\03.PrintingTriangle\bin\Debug\03.PrintingTriangle.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingLab\03.PrintingTriangle\obj\Debug\03.PrintingTriangle.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingLab\03.PrintingTriangle\obj\Debug\03.PrintingTriangle.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingLab\03.PrintingTriangle\bin\Debug\03.PrintingTriangle.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingLab\03.PrintingTriangle\obj\Debug\03.PrintingTriangle.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingLab\03.PrintingTriangle\obj\Debug\03.PrintingTriangle.pdb

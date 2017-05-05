@@ -1,0 +1,15 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\01.OddLines\bin\Debug\01.OddLines.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\01.OddLines\bin\Debug\01.OddLines.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\01.OddLines\bin\Debug\01.OddLines.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\01.OddLines\obj\Debug\01.OddLines.csprojResolveAssemblyReference.cache
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\01.OddLines\obj\Debug\01.OddLines.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\06.FilesDirectoriesAndExceptions\01.OddLines\obj\Debug\01.OddLines.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\01.OddLines\bin\Debug\01.OddLines.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\01.OddLines\obj\Debug\01.OddLines.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\01.OddLines\obj\Debug\01.OddLines.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\01.OddLines\bin\Debug\01.OddLines.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\01.OddLines\obj\Debug\01.OddLines.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\01.OddLines\obj\Debug\01.OddLines.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\01.OddLines\bin\Debug\01.OddLines.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\01.OddLines\bin\Debug\01.OddLines.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\06.FilesDirectoriesAndExceptions\01.OddLines\obj\Debug\01.OddLines.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsLab\06.ReverseArrayOfStrings\bin\Debug\06.ReverseArrayOfStrings.exe.config
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsLab\06.ReverseArrayOfStrings\bin\Debug\06.ReverseArrayOfStrings.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsLab\06.ReverseArrayOfStrings\bin\Debug\06.ReverseArrayOfStrings.pdb
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsLab\06.ReverseArrayOfStrings\obj\Debug\06.ReverseArrayOfStrings.exe
+c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsLab\06.ReverseArrayOfStrings\obj\Debug\06.ReverseArrayOfStrings.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsLab\06.ReverseArrayOfStrings\bin\Debug\06.ReverseArrayOfStrings.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsLab\06.ReverseArrayOfStrings\obj\Debug\06.ReverseArrayOfStrings.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsLab\06.ReverseArrayOfStrings\obj\Debug\06.ReverseArrayOfStrings.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsLab\06.ReverseArrayOfStrings\bin\Debug\06.ReverseArrayOfStrings.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsLab\06.ReverseArrayOfStrings\bin\Debug\06.ReverseArrayOfStrings.pdb
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsLab\06.ReverseArrayOfStrings\bin\Debug\06.ReverseArrayOfStrings.exe.config
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsLab\06.ReverseArrayOfStrings\obj\Debug\06.ReverseArrayOfStrings.exe
+C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsLab\06.ReverseArrayOfStrings\obj\Debug\06.ReverseArrayOfStrings.pdb
