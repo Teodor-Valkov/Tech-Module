@@ -1,6 +1,0 @@
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Exercises\bin\Debug\08.Advanced-Collections-Exercises.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Exercises\bin\Debug\08.Advanced-Collections-Exercises.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Exercises\bin\Debug\08.Advanced-Collections-Exercises.pdb
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Exercises\obj\Debug\08.Advanced-Collections-Exercises.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Exercises\obj\Debug\08.Advanced-Collections-Exercises.pdb
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Exercises\obj\Debug\08.Advanced-Collections-Exercises.csprojResolveAssemblyReference.cache

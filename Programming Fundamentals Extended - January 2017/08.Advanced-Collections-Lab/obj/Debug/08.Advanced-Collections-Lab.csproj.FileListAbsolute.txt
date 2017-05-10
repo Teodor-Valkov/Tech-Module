@@ -1,6 +1,0 @@
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Lab\bin\Debug\08.Advanced-Collections-Lab.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Lab\bin\Debug\08.Advanced-Collections-Lab.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Lab\bin\Debug\08.Advanced-Collections-Lab.pdb
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Lab\obj\Debug\08.Advanced-Collections-Lab.csprojResolveAssemblyReference.cache
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Lab\obj\Debug\08.Advanced-Collections-Lab.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\08.Advanced-Collections-Lab\obj\Debug\08.Advanced-Collections-Lab.pdb

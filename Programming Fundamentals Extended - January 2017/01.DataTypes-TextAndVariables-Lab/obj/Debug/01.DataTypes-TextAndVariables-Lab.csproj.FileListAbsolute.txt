@@ -1,1 +1,0 @@
-c:\users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\01.DataTypes-TextAndVariables-Lab\bin\Debug\01.DataTypes-TextAndVariables-Lab.exe.config

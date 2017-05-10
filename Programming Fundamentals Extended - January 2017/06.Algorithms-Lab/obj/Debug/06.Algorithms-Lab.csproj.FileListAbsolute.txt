@@ -1,6 +1,0 @@
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Lab\bin\Debug\06.Algorithms-Lab.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Lab\bin\Debug\06.Algorithms-Lab.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Lab\bin\Debug\06.Algorithms-Lab.pdb
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Lab\obj\Debug\06.Algorithms-Lab.csprojResolveAssemblyReference.cache
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Lab\obj\Debug\06.Algorithms-Lab.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Lab\obj\Debug\06.Algorithms-Lab.pdb

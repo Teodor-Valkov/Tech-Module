@@ -1,6 +1,0 @@
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Exercises\bin\Debug\06.Algorithms-Exercises.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Exercises\bin\Debug\06.Algorithms-Exercises.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Exercises\bin\Debug\06.Algorithms-Exercises.pdb
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Exercises\obj\Debug\06.Algorithms-Exercises.csprojResolveAssemblyReference.cache
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Exercises\obj\Debug\06.Algorithms-Exercises.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\06.Algorithms-Exercises\obj\Debug\06.Algorithms-Exercises.pdb

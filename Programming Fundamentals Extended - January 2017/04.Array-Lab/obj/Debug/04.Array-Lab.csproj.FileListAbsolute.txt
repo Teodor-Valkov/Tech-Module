@@ -1,6 +1,0 @@
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Lab\bin\Debug\04.Array-Lab.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Lab\bin\Debug\04.Array-Lab.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Lab\bin\Debug\04.Array-Lab.pdb
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Lab\obj\Debug\04.Array-Lab.csprojResolveAssemblyReference.cache
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Lab\obj\Debug\04.Array-Lab.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Lab\obj\Debug\04.Array-Lab.pdb

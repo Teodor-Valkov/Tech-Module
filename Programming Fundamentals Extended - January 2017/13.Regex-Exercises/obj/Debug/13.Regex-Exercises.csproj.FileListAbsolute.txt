@@ -1,6 +1,0 @@
-C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\13.Regex-Exercises\bin\Debug\13.Regex-Exercises.exe.config
-C:\Users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\13.Regex-Exercises\bin\Debug\13.Regex-Exercises.exe
-C:\Users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\13.Regex-Exercises\bin\Debug\13.Regex-Exercises.pdb
-C:\Users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\13.Regex-Exercises\obj\Debug\13.Regex-Exercises.exe
-C:\Users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\13.Regex-Exercises\obj\Debug\13.Regex-Exercises.pdb
-C:\Users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\13.Regex-Exercises\obj\Debug\13.Regex-Exercises.csprojResolveAssemblyReference.cache

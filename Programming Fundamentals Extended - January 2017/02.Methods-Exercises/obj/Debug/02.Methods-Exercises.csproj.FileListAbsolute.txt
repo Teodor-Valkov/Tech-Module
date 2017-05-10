@@ -1,6 +1,0 @@
-c:\users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\02.Methods-Exercises\bin\Debug\02.Methods-Exercises.exe.config
-c:\users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\02.Methods-Exercises\bin\Debug\02.Methods-Exercises.exe
-c:\users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\02.Methods-Exercises\bin\Debug\02.Methods-Exercises.pdb
-c:\users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\02.Methods-Exercises\obj\Debug\02.Methods-Exercises.csprojResolveAssemblyReference.cache
-c:\users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\02.Methods-Exercises\obj\Debug\02.Methods-Exercises.exe
-c:\users\valko\documents\visual studio 2015\Projects\Programming Fundamentals Extended - January 2017\02.Methods-Exercises\obj\Debug\02.Methods-Exercises.pdb
