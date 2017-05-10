@@ -1,0 +1,6 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\09.Lambda-LINQ-More-Exercises\bin\Debug\09.Lambda-LINQ-More-Exercises.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\09.Lambda-LINQ-More-Exercises\bin\Debug\09.Lambda-LINQ-More-Exercises.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\09.Lambda-LINQ-More-Exercises\bin\Debug\09.Lambda-LINQ-More-Exercises.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\09.Lambda-LINQ-More-Exercises\obj\Debug\09.Lambda-LINQ-More-Exercises.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\09.Lambda-LINQ-More-Exercises\obj\Debug\09.Lambda-LINQ-More-Exercises.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\09.Lambda-LINQ-More-Exercises\obj\Debug\09.Lambda-LINQ-More-Exercises.pdb

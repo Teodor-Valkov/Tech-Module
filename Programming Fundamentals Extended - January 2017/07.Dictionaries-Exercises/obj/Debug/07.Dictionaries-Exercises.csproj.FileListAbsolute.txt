@@ -1,0 +1,6 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\07.Dictionaries-Exercises\bin\Debug\07.Dictionaries-Exercises.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\07.Dictionaries-Exercises\bin\Debug\07.Dictionaries-Exercises.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\07.Dictionaries-Exercises\bin\Debug\07.Dictionaries-Exercises.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\07.Dictionaries-Exercises\obj\Debug\07.Dictionaries-Exercises.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\07.Dictionaries-Exercises\obj\Debug\07.Dictionaries-Exercises.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\07.Dictionaries-Exercises\obj\Debug\07.Dictionaries-Exercises.csprojResolveAssemblyReference.cache

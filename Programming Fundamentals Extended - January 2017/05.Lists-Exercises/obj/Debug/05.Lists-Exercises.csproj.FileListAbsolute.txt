@@ -1,0 +1,6 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\05.Lists-Exercises\bin\Debug\05.Lists-Exercises.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\05.Lists-Exercises\bin\Debug\05.Lists-Exercises.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\05.Lists-Exercises\bin\Debug\05.Lists-Exercises.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\05.Lists-Exercises\obj\Debug\05.Lists-Exercises.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\05.Lists-Exercises\obj\Debug\05.Lists-Exercises.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\05.Lists-Exercises\obj\Debug\05.Lists-Exercises.pdb

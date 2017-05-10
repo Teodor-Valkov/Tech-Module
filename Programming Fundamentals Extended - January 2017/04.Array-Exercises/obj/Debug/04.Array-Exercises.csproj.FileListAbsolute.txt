@@ -1,0 +1,6 @@
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Exercises\bin\Debug\04.Array-Exercises.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Exercises\bin\Debug\04.Array-Exercises.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Exercises\bin\Debug\04.Array-Exercises.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Exercises\obj\Debug\04.Array-Exercises.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Exercises\obj\Debug\04.Array-Exercises.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\Programming Fundamentals Extended - January 2017\04.Array-Exercises\obj\Debug\04.Array-Exercises.pdb
