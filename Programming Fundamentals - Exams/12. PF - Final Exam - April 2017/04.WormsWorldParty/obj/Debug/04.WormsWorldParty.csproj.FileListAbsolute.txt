@@ -1,0 +1,5 @@
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\04.WormsWorldParty\bin\Debug\04.WormsWorldParty.exe.config
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\04.WormsWorldParty\bin\Debug\04.WormsWorldParty.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\04.WormsWorldParty\bin\Debug\04.WormsWorldParty.pdb
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\04.WormsWorldParty\obj\Debug\04.WormsWorldParty.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\04.WormsWorldParty\obj\Debug\04.WormsWorldParty.pdb

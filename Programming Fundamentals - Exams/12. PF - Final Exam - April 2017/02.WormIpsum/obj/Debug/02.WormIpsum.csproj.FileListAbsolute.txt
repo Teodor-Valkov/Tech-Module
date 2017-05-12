@@ -1,0 +1,6 @@
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\02.WormIpsum\bin\Debug\02.WormIpsum.exe.config
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\02.WormIpsum\bin\Debug\02.WormIpsum.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\02.WormIpsum\bin\Debug\02.WormIpsum.pdb
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\02.WormIpsum\obj\Debug\02.WormIpsum.csprojResolveAssemblyReference.cache
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\02.WormIpsum\obj\Debug\02.WormIpsum.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\02.WormIpsum\obj\Debug\02.WormIpsum.pdb

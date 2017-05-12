@@ -1,0 +1,6 @@
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\03.Wormhole\bin\Debug\03.Wormhole.exe.config
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\03.Wormhole\bin\Debug\03.Wormhole.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\03.Wormhole\bin\Debug\03.Wormhole.pdb
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\03.Wormhole\obj\Debug\03.Wormhole.csprojResolveAssemblyReference.cache
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\03.Wormhole\obj\Debug\03.Wormhole.exe
+c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_April_2017\03.Wormhole\obj\Debug\03.Wormhole.pdb
