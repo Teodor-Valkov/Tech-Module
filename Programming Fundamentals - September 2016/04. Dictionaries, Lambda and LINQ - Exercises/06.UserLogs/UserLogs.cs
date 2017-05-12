@@ -8,7 +8,7 @@
     {
         static void Main()
         {
-            Dictionary<string, Dictionary<string, int>> userAddressCount = new Dictionary<string, Dictionary<string, int>>();
+            SortedDictionary<string, Dictionary<string, int>> userAddressCount = new SortedDictionary<string, Dictionary<string, int>>();
 
             while (true)
             {
@@ -47,27 +47,18 @@
                 }
             }
 
-            foreach (string user in userAddressCount.Keys.OrderBy(x => x))
+            foreach (KeyValuePair<string, Dictionary<string, int>> pair in userAddressCount)
             {
-                Console.WriteLine($"{user}: ");
-                int currentUserAddresses = userAddressCount[user].Values.Count;
+                Console.WriteLine($"{pair.Key}: ");
 
-                List<string> currentUserAddressesString = new List<string>();
-                currentUserAddressesString.AddRange(userAddressCount[user].Keys);
-
-                List<int> currentUserAddressesInt= new List<int>();
-                currentUserAddressesInt.AddRange(userAddressCount[user].Values);
-
-                for (int i = 0; i < currentUserAddresses; i++)
+                int counter = 1;
+                foreach (KeyValuePair<string, int> innerPair in pair.Value)
                 {
-                    if (i == currentUserAddresses - 1)
-                    {
-                        Console.WriteLine($"{currentUserAddressesString[i]} => {currentUserAddressesInt[i]}.");
-                    }
-                    else
-                    {
-                        Console.Write($"{currentUserAddressesString[i]} => {currentUserAddressesInt[i]}, ");
-                    }
+                    Console.Write(counter == pair.Value.Count
+                        ? $"{innerPair.Key} => {innerPair.Value}.\n"
+                        : $"{innerPair.Key} => {innerPair.Value}, ");
+
+                    counter++;
                 }
             }
         }
