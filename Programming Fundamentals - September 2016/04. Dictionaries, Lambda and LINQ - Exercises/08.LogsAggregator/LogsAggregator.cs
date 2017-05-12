@@ -8,47 +8,39 @@
     {
         static void Main()
         {
-            int n = int.Parse(Console.ReadLine());
-            Dictionary<string, Dictionary<string, long>> userAddressDurationDictionary = new Dictionary<string, Dictionary<string, long>>();
+            int number = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < n; i++)
+            SortedDictionary<string, SortedDictionary<string, long>> userAddressesDurations = new SortedDictionary<string, SortedDictionary<string, long>>();
+
+            for (int i = 0; i < number; i++)
             {
                 string input = Console.ReadLine();
 
-                if (input != null)
+                string[] inputArgs = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                string address = inputArgs[0];
+                string user = inputArgs[1];
+                long duration = long.Parse(inputArgs[2]);
+
+                if (!userAddressesDurations.ContainsKey(user))
                 {
-                    string[] inputArgs = input.Split(new [] {' '}, StringSplitOptions.RemoveEmptyEntries);
-
-                    string address = inputArgs[0];
-                    string user = inputArgs[1];
-                    long duration = long.Parse(inputArgs[2]);
-
-                    if (!userAddressDurationDictionary.ContainsKey(user))
-                    {
-                        userAddressDurationDictionary.Add(user, new Dictionary<string, long>());
-                        userAddressDurationDictionary[user].Add(address, duration);
-                    }
-                    else
-                    {
-                        if (!userAddressDurationDictionary[user].ContainsKey(address))
-                        {
-                            userAddressDurationDictionary[user].Add(address, duration);
-                        }
-                        else
-                        {
-                            userAddressDurationDictionary[user][address] += duration;
-                        }
-                    }
+                    userAddressesDurations.Add(user, new SortedDictionary<string, long>());
                 }
+
+                if (!userAddressesDurations[user].ContainsKey(address))
+                {
+                    userAddressesDurations[user][address] = 0;
+                }
+
+                userAddressesDurations[user][address] += duration;
             }
 
-            foreach (KeyValuePair<string, Dictionary<string, long>> pair in userAddressDurationDictionary.OrderBy(x => x.Key))
+            foreach (KeyValuePair<string, SortedDictionary<string, long>> pair in userAddressesDurations)
             {
-                string currentUser = pair.Key;
-                long currentUserDuration = pair.Value.Values.Sum();
-                string[] currentUserAddresses= pair.Value.Keys.OrderBy(x => x).ToArray();
-
-                Console.WriteLine($"{currentUser}: {currentUserDuration} [{(string.Join(", ", currentUserAddresses))}]");
+                string user = pair.Key;
+                long userDuration = pair.Value.Values.Sum();
+                string[] userAddresses = pair.Value.Keys.ToArray();
+                
+                Console.WriteLine($"{user}: {userDuration} [{string.Join(", ", userAddresses)}]");
             }
         }
     }

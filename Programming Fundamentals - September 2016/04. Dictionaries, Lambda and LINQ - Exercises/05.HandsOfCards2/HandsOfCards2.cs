@@ -8,50 +8,40 @@
     {
         static void Main()
         {
-            Dictionary<string, List<string>> nameAndCards = new Dictionary<string, List<string>>();
+             Dictionary<string, HashSet<string>> nameAndCards = new Dictionary<string, HashSet<string>>();
 
             while (true)
             {
                 string input = Console.ReadLine();
 
-                if (input != null && input.ToLower() == "joker")
+                if (input.ToLower() == "joker")
                     break;
 
-                if (input != null)
+                string[] inputArgs = input.Split(new[] { ':' }, StringSplitOptions.RemoveEmptyEntries);
+                string name = inputArgs[0];
+                string cards = inputArgs[1];
+
+                string[] cardsArray = cards.Split(new[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+                if (!nameAndCards.ContainsKey(name))
                 {
-                    string name = new string(input.Take(input.IndexOf(":", StringComparison.Ordinal)).ToArray());
-                    string[] nameAndHand = input.Split(new [] { ':', ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    nameAndCards.Add(name, new HashSet<string>());
+                }
 
-                    List<string> currentHand = new List<string>();
-
-                    for (int i = 1; i < nameAndHand.Length; i++)
-                    {
-                        currentHand.Add(nameAndHand[i]);
-                    }
-
-                    foreach (string card in currentHand)
-                    {
-                        if (nameAndCards.ContainsKey(name))
-                        {
-                            if (nameAndCards[name].Contains(card))
-                                continue;
-
-                            nameAndCards[name].Add(card);
-                        }
-                        else
-                        {
-                            nameAndCards[name] = new List<string>
-                            {
-                                card
-                            };
-                        }
-                    }
+                foreach (string card in cardsArray)
+                {
+                    nameAndCards[name].Add(card);
                 }
             }
 
+            PrintResults(nameAndCards);
+        }
+
+        private static void PrintResults(Dictionary<string, HashSet<string>> nameAndCards)
+        {
             List<List<long>> playersScore = new List<List<long>>();
 
-            foreach (List<string> cards in nameAndCards.Values)
+            foreach (HashSet<string> cards in nameAndCards.Values)
             {
                 List<long> currentPlayerScore = new List<long>();
                 int currentCardScore = 0;

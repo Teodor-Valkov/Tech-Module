@@ -6,37 +6,36 @@
 
     class Dragon
     {
-        public string DragonName { get; set; }
+        public string Name { get; set; }
         public string Type { get; set; }
         public int Health { get; set; }
-        public int Damage { get ; set; }
+        public int Damage { get; set; }
         public int Armor { get; set; }
     }
 
-    class DragonArmy
+    class StartUp
     {
         static void Main()
         {
-            int numberOfDragons = int.Parse(Console.ReadLine());
-            Dictionary<string, List<Dragon>> typeDragonsDictionary = new Dictionary<string, List<Dragon>>();
+            int number = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < numberOfDragons; i++)
+            Dictionary<string, List<Dragon>> typeAndDragons = new Dictionary<string, List<Dragon>>();
+
+            for (int i = 0; i < number; i++)
             {
                 string input = Console.ReadLine();
 
-                if (input != null)
-                {
-                    string[] inputArgs = input.Split(new [] {' '}, StringSplitOptions.RemoveEmptyEntries);
+                string[] inputArgs = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
-                    Dragon currentDragon = GetCurrentDragonStats(inputArgs);
-                    AddingCurrentDragonInDictionary(typeDragonsDictionary, currentDragon);
-                }
+                Dragon dragon = SetDragonStats(inputArgs);
+
+                AddDragonToDictionary(typeAndDragons, dragon);
             }
 
-            PrintingResultOnConsole(typeDragonsDictionary);
+            PrintResult(typeAndDragons);
         }
 
-        private static Dragon GetCurrentDragonStats(string[] inputArgs)
+        private static Dragon SetDragonStats(string[] inputArgs)
         {
             string type = inputArgs[0];
             string name = inputArgs[1];
@@ -45,64 +44,65 @@
             int armor = 10;
 
             if (inputArgs[2] != "null")
+            {
                 damage = int.Parse(inputArgs[2]);
+            }
             if (inputArgs[3] != "null")
+            {
                 health = int.Parse(inputArgs[3]);
+            }
             if (inputArgs[4] != "null")
+            {
                 armor = int.Parse(inputArgs[4]);
+            }
 
-            Dragon currentDragon = new Dragon()
+            Dragon dragon = new Dragon
             {
                 Type = type,
-                DragonName = name,
+                Name = name,
                 Damage = damage,
                 Health = health,
                 Armor = armor
             };
 
-            return currentDragon;
+            return dragon;
         }
 
-        private static void AddingCurrentDragonInDictionary(Dictionary<string, List<Dragon>> typeDragonsDictionary, Dragon currentDragon)
+        private static void AddDragonToDictionary(Dictionary<string, List<Dragon>> typeAndDragons, Dragon dragon)
         {
-            string type = currentDragon.Type;
-            string name = currentDragon.DragonName;
+            string type = dragon.Type;
+            string name = dragon.Name;
 
-            if (!typeDragonsDictionary.ContainsKey(type))
+            if (!typeAndDragons.ContainsKey(type))
             {
-                typeDragonsDictionary.Add(type, new List<Dragon>());
-                typeDragonsDictionary[type].Add(currentDragon);
+                typeAndDragons[type] = new List<Dragon>();
+            }
+
+            if (typeAndDragons[type].Any(dr => dr.Name == name))
+            {
+                int indexOfDragonToOverwrite = typeAndDragons[type].FindIndex(dr => dr.Name == name);
+                typeAndDragons[type][indexOfDragonToOverwrite] = dragon;
             }
             else
             {
-                if (typeDragonsDictionary[type].Any(x => x.DragonName == name))
-                {
-                    int indexOfDragonToOverwrite = typeDragonsDictionary[type].FindIndex(x => x.DragonName == name);
-                    typeDragonsDictionary[type][indexOfDragonToOverwrite] = currentDragon;
-                }
-                else
-                {
-                    typeDragonsDictionary[type].Add(currentDragon);
-                }
+                typeAndDragons[type].Add(dragon);            
             }
         }
 
-        private static void PrintingResultOnConsole(Dictionary<string, List<Dragon>> typeDragonsDictionary)
+        private static void PrintResult(Dictionary<string, List<Dragon>> typeAndDragons)
         {
-            //List<string> distinctedTypes = typeDragonsDictionary.Keys.Distinct().ToList();
-            //foreach (string currentType in distinctedTypes)
-
-            foreach (KeyValuePair<string, List<Dragon>> pair in typeDragonsDictionary)
+            foreach (KeyValuePair<string, List<Dragon>> pair in typeAndDragons)
             {
                 string type = pair.Key;
-                double averageDamage = typeDragonsDictionary[type].Select(x => x.Damage).Average();
-                double averageHealth = typeDragonsDictionary[type].Select(x => x.Health).Average();
-                double averageArmor = typeDragonsDictionary[type].Average(x => x.Armor);
+                double averageDamage = typeAndDragons[type].Average(all => all.Damage);
+                double averageHealth = typeAndDragons[type].Average(all => all.Health);
+                double averageArmor = typeAndDragons[type].Average(all => all.Armor);
 
                 Console.WriteLine($"{type}::({averageDamage:F2}/{averageHealth:F2}/{averageArmor:F2})");
-                foreach (Dragon currentDragon in typeDragonsDictionary[type].OrderBy(x => x.DragonName))
+
+                foreach (Dragon dragon in pair.Value.OrderBy(dr => dr.Name))
                 {
-                    Console.WriteLine($"-{currentDragon.DragonName} -> damage: {currentDragon.Damage}, health: {currentDragon.Health}, armor: {currentDragon.Armor}");
+                    Console.WriteLine($"-{dragon.Name} -> damage: {dragon.Damage}, health: {dragon.Health}, armor: {dragon.Armor}");
                 }
             }
         }

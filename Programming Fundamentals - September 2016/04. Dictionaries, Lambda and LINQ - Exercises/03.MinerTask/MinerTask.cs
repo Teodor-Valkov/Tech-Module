@@ -8,24 +8,22 @@
         static void Main()
         {
             Dictionary<string, long> resourceAndQuantity = new Dictionary<string, long>();
-            
+
             while (true)
             {
                 string resource = Console.ReadLine();
 
-                if (resource != null && resource.ToLower() == "stop")
+                if (resource.ToLower() == "stop")
                     break;
 
                 int quantity = int.Parse(Console.ReadLine());
 
-                if (resourceAndQuantity.ContainsKey(resource))
+                if (!resourceAndQuantity.ContainsKey(resource))
                 {
-                    resourceAndQuantity[resource] += quantity;
+                    resourceAndQuantity[resource] = 0;
                 }
-                else
-                {
-                    resourceAndQuantity.Add(resource, quantity);
-                }
+
+                resourceAndQuantity[resource] += quantity;
             }
 
             foreach (KeyValuePair<string, long> pair in resourceAndQuantity)

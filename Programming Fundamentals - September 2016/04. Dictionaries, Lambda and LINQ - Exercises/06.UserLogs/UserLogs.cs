@@ -14,37 +14,25 @@
             {
                 string input = Console.ReadLine();
 
-                if (input != null && input.ToLower() == "end")
+                if (input.ToLower() == "end")
                     break;
 
-                if (input != null)
+                string[] inputArgs = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+                string user = inputArgs[2].Substring(5);
+                string address = new string(inputArgs[0].Skip(3).Take(inputArgs[0].Length).ToArray());
+
+                if (!userAddressCount.ContainsKey(user))
                 {
-                    string[] inputArs = input.Split(new [] {' '}, StringSplitOptions.RemoveEmptyEntries);
-
-                    string user = inputArs[2];
-                    string address = inputArs[0];
-
-                    // Different ways to take the needed substring
-                    user = user.Substring(5);
-                    address = new string(address.Skip(3).Take(address.Length).ToArray());
-
-                    if (!userAddressCount.ContainsKey(user))
-                    {
-                        userAddressCount.Add(user, new Dictionary<string, int>());
-                        userAddressCount[user].Add(address, 1);
-                    }
-                    else
-                    {
-                        if (userAddressCount[user].ContainsKey(address))
-                        {
-                            userAddressCount[user][address] += 1;
-                        }
-                        else
-                        {
-                            userAddressCount[user][address] = 1;
-                        }
-                    }
+                    userAddressCount[user] = new Dictionary<string, int>();
                 }
+
+                if (!userAddressCount[user].ContainsKey(address))
+                {
+                    userAddressCount[user][address] = 0;
+                }
+
+                userAddressCount[user][address]++;
             }
 
             foreach (KeyValuePair<string, Dictionary<string, int>> pair in userAddressCount)

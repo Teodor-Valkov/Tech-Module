@@ -8,38 +8,30 @@
     {
         static void Main()
         {
-            Dictionary<string, string> nameAndEmail = new Dictionary<string, string>();
+           Dictionary<string, string> nameAndEmail = new Dictionary<string, string>();
 
             while (true)
             {
                 string name = Console.ReadLine();
 
-                if (name != null && name.ToLower() == "stop")
+                if (name.ToLower() == "stop")
                     break;
 
                 string email = Console.ReadLine();
 
-                if (email != null)
-                {
-                    string currentDomainString = new string(email.Skip(email.Length - 2).ToArray());
+                string emailDomain = new string(email.Skip(email.Length - 2).ToArray());
 
-                    if (currentDomainString == "us" || currentDomainString == "uk")
-                        continue;
-                }
-
-                if (nameAndEmail.ContainsKey(name))
+                if (emailDomain == "us" || emailDomain == "uk")
                 {
-                    nameAndEmail[name] = email;
+                    continue;
                 }
-                else
-                {
-                    nameAndEmail.Add(name, email);
-                }
+                
+                nameAndEmail[name] = email;
             }
 
             foreach (KeyValuePair<string, string> pair in nameAndEmail)
             {
-                Console.WriteLine($"{pair.Key} -> {pair.Value}");    
+                Console.WriteLine($"{pair.Key} -> {pair.Value}");
             }
         }
     }

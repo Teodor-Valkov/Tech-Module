@@ -3,105 +3,64 @@
     using System;
     using System.Linq;
     using System.Collections.Generic;
+    using System.Text.RegularExpressions;
 
     class SrubskoUnleashed
     {
         static void Main()
         {
-            Dictionary<string, Dictionary<string, double>> venueSingerMoneyDictionary = new Dictionary<string, Dictionary<string, double>>();
+            Dictionary<string, Dictionary<string, double>> venueSingersMoney = new Dictionary<string, Dictionary<string, double>>();
 
             while (true)
             {
                 string input = Console.ReadLine();
 
-                if (input != null && input.ToLower() == "end")
+                if (input.ToLower() == "end")
                     break;
 
-                string currentVenue = string.Empty;
-                string currentSinger = string.Empty;
+                string venue = string.Empty;
+                string singer = string.Empty;
                 double ticketPrice = 0;
                 double ticketCount = 0;
 
-                if (input != null)
+                string pattern = "(.+)\\s@(.+)\\s(\\d+)\\s(\\d+)";
+                Regex regex = new Regex(pattern);
+
+                Match match = regex.Match(input);
+                if (match.Success)
                 {
-                    int indexOfSingerNameEnd = input.IndexOf("@", StringComparison.Ordinal) - 1;
-
-                    if (input[indexOfSingerNameEnd] == ' ')
-                    {
-                        currentSinger = input.Substring(0, indexOfSingerNameEnd);
-                    }
-                    else
-                    {
-                        continue;
-                    }
-                }
-
-                if (input != null)
-                {
-                    int indexOfVenueStart = input.IndexOf("@", StringComparison.Ordinal) + 1;
-                    int indexOfFirstDigit = GetFirstDigitInInput(input);
-
-                    if (input[indexOfFirstDigit - 1] == ' ')
-                    {
-                        currentVenue = input.Substring(indexOfVenueStart, indexOfFirstDigit - indexOfVenueStart - 1);
-                    }
-                    else
-                    {
-                        continue;
-                    }
-                }
-
-                if (input != null)
-                {
-                    string[] priceAndMoney = input.Split(' ');
-                    ticketPrice = double.Parse(priceAndMoney[priceAndMoney.Length - 2]);
-                    ticketCount = double.Parse(priceAndMoney[priceAndMoney.Length - 1]);
-                }
-
-                if (!venueSingerMoneyDictionary.ContainsKey(currentVenue))
-                {
-                    venueSingerMoneyDictionary.Add(currentVenue, new Dictionary<string, double>());
-                    venueSingerMoneyDictionary[currentVenue].Add(currentSinger, ticketPrice * ticketCount);
+                    singer = match.Groups[1].Value;
+                    venue = match.Groups[2].Value;
+                    ticketPrice = int.Parse(match.Groups[3].Value);
+                    ticketCount = int.Parse(match.Groups[4].Value);
                 }
                 else
                 {
-                    if (!venueSingerMoneyDictionary[currentVenue].ContainsKey(currentSinger))
-                    {
-                        venueSingerMoneyDictionary[currentVenue].Add(currentSinger, ticketPrice*ticketCount);
-                    }
-                    else
-                    {
-                        venueSingerMoneyDictionary[currentVenue][currentSinger] += ticketPrice * ticketCount;
-                    }
+                    continue;
                 }
+
+                if (!venueSingersMoney.ContainsKey(venue))
+                {
+                    venueSingersMoney[venue] = new Dictionary<string, double>();
+                }
+
+                if (!venueSingersMoney[venue].ContainsKey(singer))
+                {
+                    venueSingersMoney[venue][singer] = 0;
+                }
+
+                venueSingersMoney[venue][singer] += ticketPrice * ticketCount;
             }
 
-            foreach (KeyValuePair<string, Dictionary<string, double>> pair in venueSingerMoneyDictionary)
+            foreach (KeyValuePair<string, Dictionary<string, double>> pair in venueSingersMoney)
             {
                 Console.WriteLine(pair.Key);
 
-                foreach (KeyValuePair<string, double> singerMoney in venueSingerMoneyDictionary[pair.Key].OrderByDescending(x => x.Value))
+                foreach (KeyValuePair<string, double> innePair in pair.Value.OrderByDescending(innerPair => innerPair.Value))
                 {
-                    Console.WriteLine($"#  {singerMoney.Key} -> {singerMoney.Value}");
+                    Console.WriteLine($"#  {innePair.Key} -> {innePair.Value}");
                 }
             }
-        }
-
-
-        private static int GetFirstDigitInInput(string input)
-        {
-            int index = 0;
-
-            foreach (char symbol in input)
-            {
-                if (char.IsDigit(symbol))
-                {
-                    index = input.IndexOf(symbol);
-                    return index;
-                }
-            }
-
-            return index;
         }
     }
 }

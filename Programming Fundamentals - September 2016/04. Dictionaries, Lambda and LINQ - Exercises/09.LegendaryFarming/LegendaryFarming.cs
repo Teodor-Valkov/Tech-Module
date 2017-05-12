@@ -8,67 +8,75 @@
     {
         static void Main()
         {
-            Dictionary<string, long> legendaryQuantityDictionary = new Dictionary<string, long>
+            Dictionary<string, long> itemQuantity = new Dictionary<string, long>
             {
                 ["shards"] = 0,
                 ["fragments"] = 0,
                 ["motes"] = 0
             };
 
-            Dictionary<string, long> materialQuantityDictionary = new Dictionary<string, long>();
+            SortedDictionary<string, long> materialQuantity = new SortedDictionary<string, long>();
 
-            while (legendaryQuantityDictionary["shards"] < 250 && legendaryQuantityDictionary["fragments"] < 250 && legendaryQuantityDictionary["motes"] < 250)
+            while (itemQuantity["shards"] < 250 && itemQuantity["fragments"] < 250 && itemQuantity["motes"] < 250)
             {
                 string input = Console.ReadLine().ToLower();
-                string[] inputArgs = input.Split(' ');
+
+                string[] inputArgs = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
                 for (int i = 0; i < inputArgs.Length; i += 2)
                 {
-                    long currentQuantity = long.Parse(inputArgs[i]);
-                    string currentMaterial = inputArgs[i + 1];
+                    long quantity = long.Parse(inputArgs[i]);
+                    string material = inputArgs[i + 1];
 
-                    if (currentMaterial == "shards" || currentMaterial == "fragments" || currentMaterial == "motes")
+                    if (material == "shards" || material == "fragments" || material == "motes")
                     {
-                        legendaryQuantityDictionary[currentMaterial] += currentQuantity;
-                        if (legendaryQuantityDictionary[currentMaterial] >= 250)
+                        itemQuantity[material] += quantity;
+
+                        if (itemQuantity[material] >= 250)
+                        {
                             break;
-                    }            
+                        }
+                    }
                     else
                     {
-                        if (!materialQuantityDictionary.ContainsKey(currentMaterial))
+                        if (!materialQuantity.ContainsKey(material))
                         {
-                            materialQuantityDictionary.Add(currentMaterial, currentQuantity);
+                            materialQuantity[material] = 0;
                         }
-                        else
-                        {
-                            materialQuantityDictionary[currentMaterial] += currentQuantity;
-                        }                                                
-                    } 
+
+                        materialQuantity[material] += quantity;
+                    }
                 }
             }
 
-            if (legendaryQuantityDictionary["shards"] >= 250)
+            if (itemQuantity["shards"] >= 250)
             {
                 Console.WriteLine("Shadowmourne obtained!");
-                legendaryQuantityDictionary["shards"] -= 250;
+                itemQuantity["shards"] -= 250;
             }
-            else if (legendaryQuantityDictionary["fragments"] >= 250)
+            else if (itemQuantity["fragments"] >= 250)
             {
                 Console.WriteLine("Valanyr obtained!");
-                legendaryQuantityDictionary["fragments"] -= 250;
+                itemQuantity["fragments"] -= 250;
             }
-            else if (legendaryQuantityDictionary["motes"] >= 250)
+            else if (itemQuantity["motes"] >= 250)
             {
                 Console.WriteLine("Dragonwrath obtained!");
-                legendaryQuantityDictionary["motes"] -= 250;
+                itemQuantity["motes"] -= 250;
             }
 
-            foreach (KeyValuePair<string, long> pair in legendaryQuantityDictionary.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
-            { 
+            itemQuantity =
+                itemQuantity
+                 .OrderByDescending(pair => pair.Value)
+                 .ThenBy(pair => pair.Key)
+                 .ToDictionary(pair => pair.Key, pair => pair.Value);
+
+            foreach (KeyValuePair<string, long> pair in itemQuantity)
+            {
                 Console.WriteLine($"{pair.Key}: {pair.Value}");
             }
 
-            foreach (KeyValuePair<string, long> pair in materialQuantityDictionary.OrderBy(x => x.Key))
+            foreach (KeyValuePair<string, long> pair in materialQuantity)
             {
                 Console.WriteLine($"{pair.Key}: {pair.Value}");
             }

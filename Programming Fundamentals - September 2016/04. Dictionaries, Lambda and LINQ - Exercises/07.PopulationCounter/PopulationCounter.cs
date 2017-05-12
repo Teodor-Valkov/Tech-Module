@@ -8,41 +8,40 @@
     {
         static void Main()
         {
-            Dictionary<string, Dictionary<string, long>> countryCityPopulation = new Dictionary<string, Dictionary<string, long>>();
+             Dictionary<string, Dictionary<string, long>> countryCityPopulation = new Dictionary<string, Dictionary<string, long>>();
 
-            string input = Console.ReadLine();
-
-            while (input != null && input.ToLower() != "report")
+            while (true)
             {
-                string[] parameters = input.Split(new [] { '|' }, StringSplitOptions.RemoveEmptyEntries);
-                string city = parameters[0]; 
-                string country = parameters[1];
-                long population = long.Parse(parameters[2]);
+                string input = Console.ReadLine();
 
-                if (!countryCityPopulation.ContainsKey(country))               
+                if (input.ToLower() == "report")
+                    break;
+
+                string[] inputArgs = input.Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
+                string city = inputArgs[0];
+                string country = inputArgs[1];
+                long population = long.Parse(inputArgs[2]);
+
+                if (!countryCityPopulation.ContainsKey(country))
                 {
                     countryCityPopulation.Add(country, new Dictionary<string, long>());
-                    countryCityPopulation[country].Add(city, population);
-                }
-                else
-                {
-                    countryCityPopulation[country].Add(city, population);
                 }
 
-                input = Console.ReadLine();
+                countryCityPopulation[country][city] = population;
             }
 
-            // Sorting the dictionary by the sum of each country total population in descending order
-            countryCityPopulation = countryCityPopulation.OrderByDescending(x => x.Value.Values.Sum()).ToDictionary(x => x.Key, x => x.Value);
+            countryCityPopulation = 
+                countryCityPopulation
+                .OrderByDescending(pair => pair.Value.Values.Sum())
+                .ToDictionary(x => x.Key, x => x.Value);
 
             foreach (KeyValuePair<string, Dictionary<string, long>> pair in countryCityPopulation)
             {
-                string currentCountry = pair.Key;
+                Console.WriteLine($"{pair.Key} (total population: {pair.Value.Values.Sum()})");
 
-                Console.WriteLine($"{currentCountry} (total population: {countryCityPopulation[currentCountry].Values.Sum()})");
-                foreach (KeyValuePair<string, long> cityPopulation in countryCityPopulation[currentCountry].OrderByDescending(x => x.Value))
+                foreach (KeyValuePair<string, long> innerPair in pair.Value.OrderByDescending(innerPair => innerPair.Value))
                 {
-                    Console.WriteLine($"=>{cityPopulation.Key}: {cityPopulation.Value}");                    
+                    Console.WriteLine($"=>{innerPair.Key}: {innerPair.Value}");
                 }
             }
         }
