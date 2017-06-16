@@ -1,9 +1,0 @@
-C:\Users\valko\Documents\Visual Studio 2015\Projects\RetakeExamJanuary6\02.SoftUniKaraoke2\bin\Debug\02.SoftUniKaraoke2.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\RetakeExamJanuary6\02.SoftUniKaraoke2\bin\Debug\02.SoftUniKaraoke2.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\RetakeExamJanuary6\02.SoftUniKaraoke2\bin\Debug\02.SoftUniKaraoke2.pdb
-C:\Users\valko\Documents\Visual Studio 2015\Projects\RetakeExamJanuary6\02.SoftUniKaraoke2\obj\Debug\02.SoftUniKaraoke2.csprojResolveAssemblyReference.cache
-C:\Users\valko\Documents\Visual Studio 2015\Projects\RetakeExamJanuary6\02.SoftUniKaraoke2\obj\Debug\02.SoftUniKaraoke2.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\RetakeExamJanuary6\02.SoftUniKaraoke2\obj\Debug\02.SoftUniKaraoke2.pdb
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\10. PF - Retake Exam - January 2017\02.SoftUniKaraoke2\bin\Debug\02.SoftUniKaraoke2.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\10. PF - Retake Exam - January 2017\02.SoftUniKaraoke2\obj\Debug\02.SoftUniKaraoke2.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\10. PF - Retake Exam - January 2017\02.SoftUniKaraoke2\obj\Debug\02.SoftUniKaraoke2.pdb

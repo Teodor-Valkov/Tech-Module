@@ -1,9 +1,0 @@
-C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\14.FactorialTrailingZeroes\bin\Debug\14.FactorialTrailingZeroes.exe.config
-C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\14.FactorialTrailingZeroes\bin\Debug\14.FactorialTrailingZeroes.exe
-C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\14.FactorialTrailingZeroes\bin\Debug\14.FactorialTrailingZeroes.pdb
-C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\14.FactorialTrailingZeroes\obj\Debug\14.FactorialTrailingZeroes.exe
-C:\Users\AC Milan\Documents\Visual Studio 2012\Projects\02.MethodsAndDebuggingExercises\14.FactorialTrailingZeroes\obj\Debug\14.FactorialTrailingZeroes.pdb
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\14.FactorialTrailingZeroes\bin\Debug\14.FactorialTrailingZeroes.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\02.MethodsAndDebuggingExercises\14.FactorialTrailingZeroes\obj\Debug\14.FactorialTrailingZeroes.exe
-C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingExercises\14.FactorialTrailingZeroes\bin\Debug\14.FactorialTrailingZeroes.exe.config
-C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\02.MethodsAndDebuggingExercises\14.FactorialTrailingZeroes\obj\Debug\14.FactorialTrailingZeroes.exe

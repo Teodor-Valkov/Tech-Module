@@ -1,9 +1,0 @@
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\03.HornetAssault\bin\Debug\03.HornetAssault.exe.config
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\03.HornetAssault\bin\Debug\03.HornetAssault.exe
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\03.HornetAssault\bin\Debug\03.HornetAssault.pdb
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\03.HornetAssault\obj\Debug\03.HornetAssault.csprojResolveAssemblyReference.cache
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\03.HornetAssault\obj\Debug\03.HornetAssault.exe
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_February2017\03.HornetAssault\obj\Debug\03.HornetAssault.pdb
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\11. PF - Final Exam - February 2017\03.HornetAssault\bin\Debug\03.HornetAssault.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\11. PF - Final Exam - February 2017\03.HornetAssault\obj\Debug\03.HornetAssault.exe
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\To Upload\11. PF - Final Exam - February 2017\03.HornetAssault\obj\Debug\03.HornetAssault.pdb

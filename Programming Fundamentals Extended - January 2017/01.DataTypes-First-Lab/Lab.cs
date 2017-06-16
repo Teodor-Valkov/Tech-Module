@@ -27,7 +27,6 @@
             long minutes = hours * 60;
 
             Console.WriteLine($"{years} years = {days} days = {hours} hours = {minutes} minutes");
-
         }
 
         private static void CirclePerimeter()

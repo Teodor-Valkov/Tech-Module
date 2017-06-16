@@ -1,5 +1,0 @@
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\03.Spyfer\bin\Debug\03.Spyfer.exe.config
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\03.Spyfer\bin\Debug\03.Spyfer.exe
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\03.Spyfer\bin\Debug\03.Spyfer.pdb
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\03.Spyfer\obj\Debug\03.Spyfer.exe
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\03.Spyfer\obj\Debug\03.Spyfer.pdb

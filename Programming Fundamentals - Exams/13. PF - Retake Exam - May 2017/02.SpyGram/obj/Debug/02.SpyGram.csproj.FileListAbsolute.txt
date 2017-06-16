@@ -1,6 +1,0 @@
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\02.SpyGram\bin\Debug\02.SpyGram.exe.config
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\02.SpyGram\bin\Debug\02.SpyGram.exe
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\02.SpyGram\bin\Debug\02.SpyGram.pdb
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\02.SpyGram\obj\Debug\02.SpyGram.csprojResolveAssemblyReference.cache
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\02.SpyGram\obj\Debug\02.SpyGram.exe
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\02.SpyGram\obj\Debug\02.SpyGram.pdb

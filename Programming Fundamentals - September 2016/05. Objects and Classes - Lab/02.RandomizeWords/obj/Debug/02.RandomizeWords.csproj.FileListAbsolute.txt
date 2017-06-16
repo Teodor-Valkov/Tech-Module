@@ -1,3 +1,0 @@
-c:\users\ac milan\documents\visual studio 2012\Projects\05.ObjectsAndClassesLab\02.RandomizeWords\bin\Debug\02.RandomizeWords.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\05.ObjectsAndClassesLab\02.RandomizeWords\bin\Debug\02.RandomizeWords.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. C# PF Exercises and Exams\PF - September 2016\05.ObjectsAndClassesLab\02.RandomizeWords\bin\Debug\02.RandomizeWords.exe.config

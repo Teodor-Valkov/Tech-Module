@@ -1,3 +1,0 @@
-c:\users\ac milan\documents\visual studio 2012\Projects\03.ArraysAndListsExercises\10.PairsByDifference\bin\Debug\10.PairsByDifference.exe.config
-C:\Users\valko\Documents\Visual Studio 2015\Projects\1. Programming Fundamentals Exams\PF - September 2016\03.ArraysAndListsExercises\10.PairsByDifference\bin\Debug\10.PairsByDifference.exe.config
-C:\Users\valko\Source\Repos\Programming-Fundamentals-September-2016\03.ArraysAndListsExercises\10.PairsByDifference\bin\Debug\10.PairsByDifference.exe.config

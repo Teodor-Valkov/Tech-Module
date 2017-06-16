@@ -1,6 +1,0 @@
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\04.Nsa\bin\Debug\04.Nsa.exe.config
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\04.Nsa\bin\Debug\04.Nsa.exe
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\04.Nsa\bin\Debug\04.Nsa.pdb
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\04.Nsa\obj\Debug\04.Nsa.csprojResolveAssemblyReference.cache
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\04.Nsa\obj\Debug\04.Nsa.exe
-c:\users\valko\documents\visual studio 2015\Projects\ProgrammingFundamentals_Exam_May_2017\04.Nsa\obj\Debug\04.Nsa.pdb
