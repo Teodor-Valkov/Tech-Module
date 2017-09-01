@@ -1,0 +1,65 @@
+﻿@model IEnumerable<HireOrRent.Models.Advertisement>
+
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>List of all advertisements</h2>
+
+<div>
+    @Html.ActionLink("Back to home", "Index", "Home", null, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Create new advertisement", "Create", null, new { @class = "btn btn-primary" })
+</div>
+
+<br />
+
+@foreach (var item in Model)
+{
+    <br/>
+
+    <table cellpadding="0" cellspacing="0" class="table">
+        <tr>
+            <th width="15">Title</th>
+            <td>@item.Title</td>
+            <td align="center" rowspan="6" width="100">
+                @if (item.Picture != null)
+                {
+                    var base64 = Convert.ToBase64String(item.Picture);
+                    var imgsrc = string.Format("data:image/gif;base64,{0}", base64);
+                    <img src="@imgsrc" style="width: 330px; height: 220px; margin-top: 15px;" />
+                }
+            </td>
+        </tr>
+
+        <tr>
+            <th width = "15">Content</th>
+            <td>@HireOrRent.Classes.Utils.CutText(item.Content)</td>
+        </tr>
+
+        <tr>
+            <th width = "15">Author</th>
+            <td>
+                @item.Author.FullName
+            </td>
+        </tr>
+
+        <tr>
+            <th width = "15">Date</th>
+            <td>
+                @item.DateAdded.ToShortDateString()
+            </td>
+        </tr>
+        <tr>
+            <th width = "15">Actions</th>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-info btn-xs" })
+                @if (User.IsInRole("Admin") || item.IsAuthor(User.Identity.Name))
+                {
+                    @: | @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-success btn-xs" })
+                    @: | @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-danger btn-xs" })
+                }
+            </td>
+        </tr>
+    </table>
+}
+

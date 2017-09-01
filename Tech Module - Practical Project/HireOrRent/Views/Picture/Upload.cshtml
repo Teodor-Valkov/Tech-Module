@@ -1,0 +1,28 @@
+﻿@model HireOrRent.Models.Picture
+@{
+    ViewBag.Title = "Upload";
+}
+<h2>Upload</h2>
+
+<div>@ViewBag.Error</div>
+
+@using (Html.BeginForm("Upload", "Picture", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <table>
+        <tr>
+            <td>Select File : </td>
+            <td>
+                @Html.TextBoxFor(Model => Model.File, new { type = "file" })
+            </td>
+            <td>
+                <input type="submit" value="Upload" />
+            </td>
+        </tr>
+    </table>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

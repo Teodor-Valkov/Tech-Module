@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <div class="container body-content">
+        <div class="well">
+            <div class="row">
+                <table class="table table-striped table-hover ">
+                    <thead>
+                    <tr>
+                        <th><h2>All Categories</h2></th>
+                        <th></th>
+                        <th><a href="{{ path('admin_categories_create') }}" class="btn-warning btn">Create Category</a></th>
+                    </tr>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for category in categories %}
+                        <tr>
+                        <tr>
+                            <td>{{ category.id }}</td>
+                            <td>{{ category.getName() }}</td>
+                            <td>
+                                <a class="btn btn-success btn-xs" href="{{ path ('admin_categories_edit', {'id': category.id}) }}">Edit</a>
+                                <a class="btn btn-danger btn-xs" href="{{ path ('admin_categories_delete', {'id': category.id}) }}">Delete</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
+

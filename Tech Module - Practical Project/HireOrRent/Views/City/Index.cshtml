@@ -1,0 +1,43 @@
+﻿@model List<HireOrRent.Models.City>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List of Cities</h2>
+
+<div>
+    @Html.ActionLink("Back to home", "Index", "Home", null, new { @class = "btn btn-warning" })
+    @Html.ActionLink("Create new city", "Create", null, new {@class = "btn btn-primary"})
+</div>
+
+<br />
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Id")
+        </th>
+        <th>
+            @Html.DisplayName("Name")
+        </th>
+        <th>
+            @Html.DisplayName("Actions")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var city in Model)
+    {
+        <tr>
+            <td>@city.Id</td>
+            <td>@Html.ActionLink(string.Format($"{city.Name}"), "Details", "City", new { @id = city.Id }, new {@style = "text-decoration: none" })</td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = city.Id }, new { @class = "btn btn-info btn-xs" }) |
+                @Html.ActionLink("Edit", "Edit", new { id = city.Id }, new { @class = "btn btn-success btn-xs" }) |
+                @Html.ActionLink("Delete", "Delete", new { id = city.Id }, new { @class = "btn btn-danger btn-xs" })
+            </td>
+        </tr>
+    }
+
+</table>

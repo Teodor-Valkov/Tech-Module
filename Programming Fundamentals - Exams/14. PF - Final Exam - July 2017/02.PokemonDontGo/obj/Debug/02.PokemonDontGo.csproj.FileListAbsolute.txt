@@ -1,0 +1,5 @@
+c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\02.PokemonDontGo\bin\Debug\02.PokemonDontGo.exe.config
+c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\02.PokemonDontGo\bin\Debug\02.PokemonDontGo.exe
+c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\02.PokemonDontGo\bin\Debug\02.PokemonDontGo.pdb
+c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\02.PokemonDontGo\obj\Debug\02.PokemonDontGo.exe
+c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\02.PokemonDontGo\obj\Debug\02.PokemonDontGo.pdb
