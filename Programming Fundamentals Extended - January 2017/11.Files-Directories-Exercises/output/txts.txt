@@ -1,5 +1,0 @@
-buhtig.txt
-loremipsum.txt
-muspimerol.txt
-new text document.txt
-sample-text.txt

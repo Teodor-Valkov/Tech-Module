@@ -1,6 +1,0 @@
-c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\03.Regexmon\bin\Debug\03.Regexmon.exe.config
-c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\03.Regexmon\bin\Debug\03.Regexmon.exe
-c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\03.Regexmon\bin\Debug\03.Regexmon.pdb
-c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\03.Regexmon\obj\Debug\03.Regexmon.csprojResolveAssemblyReference.cache
-c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\03.Regexmon\obj\Debug\03.Regexmon.exe
-c:\users\valko\documents\visual studio 2017\Projects\FinalExamJuly2017\03.Regexmon\obj\Debug\03.Regexmon.pdb

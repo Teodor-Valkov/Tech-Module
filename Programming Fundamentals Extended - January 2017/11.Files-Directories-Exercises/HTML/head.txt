@@ -1,6 +1,0 @@
-<!DOCTYPE>
-<html>
-<head>
-	<title>HTML-Contents</title>
-</head>
-<body>
