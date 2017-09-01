@@ -1,8 +1,8 @@
 ﻿namespace _02.PokemonDontGo
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
     public class StartUp
     {
@@ -40,7 +40,7 @@
                     int temp = pokemons.First();
                     pokemons.Add(temp);
                 }
-                
+
                 for (int i = 0; i < pokemons.Count; i++)
                 {
                     if (pokemons[i] <= pokemon)

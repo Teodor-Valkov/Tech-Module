@@ -22,7 +22,7 @@
                 {
                     if (pokemonPower >= exhaustionFactor && exhaustionFactor > 0)
                     {
-                        pokemonPower /= exhaustionFactor;                    
+                        pokemonPower /= exhaustionFactor;
                     }
                 }
             }
