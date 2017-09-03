@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using HireOrRent.Extensions;
+using HireOrRent.Models;
+using HireOrRent.ModelsView;
+using System;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using HireOrRent.Extensions;
-using HireOrRent.Models;
-using HireOrRent.ModelsView;
 
 namespace HireOrRent.Controllers
 {
@@ -79,7 +78,7 @@ namespace HireOrRent.Controllers
 
                 var advertisement = new Advertisement(authorId, model.Title, model.Content, model.CategoryId);
 
-                if(pictureBase!= null)
+                if (pictureBase != null)
                 {
                     advertisement.Picture = new byte[pictureBase.ContentLength];
                     pictureBase.InputStream.Read(advertisement.Picture, 0, pictureBase.ContentLength);

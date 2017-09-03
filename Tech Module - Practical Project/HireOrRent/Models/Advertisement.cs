@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Web;
 
 namespace HireOrRent.Models
 {
@@ -35,7 +33,7 @@ namespace HireOrRent.Models
         public string Content { get; set; }
 
         public DateTime DateAdded { get; set; }
-        
+
         public string AuthorId { get; set; }
 
         public virtual ApplicationUser Author { get; set; }

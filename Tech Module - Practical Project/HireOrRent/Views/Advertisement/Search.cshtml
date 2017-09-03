@@ -10,14 +10,14 @@
 
 @using (Html.BeginForm())
 {
-<div class="form-horizontal">   
+<div class="form-horizontal">
     <div>
         @Html.TextBox("SearchString", null, new { @class = "form-control" })
     </div>
-    
-    <br/>
+
+    <br />
     @Html.ActionLink("Back to home", "Index", "Home", null, new {@class = "btn btn-warning"})
-    <input type="submit" value="Search" class="btn btn-primary"/>
+    <input type="submit" value="Search" class="btn btn-primary" />
 </div>
 }
 
@@ -71,4 +71,3 @@
         </tr>
     </table>
 }
-

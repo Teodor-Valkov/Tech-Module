@@ -5,6 +5,7 @@ using Owin;
 using System.Data.Entity;
 
 [assembly: OwinStartupAttribute(typeof(HireOrRent.Startup))]
+
 namespace HireOrRent
 {
     public partial class Startup

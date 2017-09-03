@@ -1,4 +1,9 @@
-﻿using System;
+﻿using HireOrRent.Extensions;
+using HireOrRent.Models;
+using HireOrRent.ModelsView;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNet.Identity.Owin;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -6,12 +11,6 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using HireOrRent.Extensions;
-using HireOrRent.Models;
-using HireOrRent.ModelsView;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNet.Identity.Owin;
 
 namespace HireOrRent.Controllers.Admin
 {
@@ -113,7 +112,6 @@ namespace HireOrRent.Controllers.Admin
                 user.UserName = model.User.Email;
                 user.FullName = model.User.FullName;
                 this.SetUserRoles(model, user, db);
-
 
                 db.Entry(user).State = EntityState.Modified;
                 db.SaveChanges();

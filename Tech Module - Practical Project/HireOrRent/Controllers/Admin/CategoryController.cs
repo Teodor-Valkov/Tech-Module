@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using HireOrRent.Extensions;
+using HireOrRent.Models;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using HireOrRent.Extensions;
-using HireOrRent.Models;
 
 namespace HireOrRent.Controllers.Admin
 {

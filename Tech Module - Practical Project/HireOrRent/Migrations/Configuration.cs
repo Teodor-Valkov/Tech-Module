@@ -4,7 +4,6 @@ namespace HireOrRent.Migrations
     using Microsoft.AspNet.Identity.EntityFramework;
     using Models;
     using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
@@ -66,7 +65,7 @@ namespace HireOrRent.Migrations
                 UserName = email,
                 FullName = fullName,
                 RegisterDate = DateTime.Now,
-                City = new City() { Name = city}
+                City = new City() { Name = city }
             };
 
             // Create user

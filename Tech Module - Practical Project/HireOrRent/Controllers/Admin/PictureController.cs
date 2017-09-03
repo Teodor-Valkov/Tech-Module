@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using HireOrRent.Models;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using HireOrRent.Models;
 
 namespace HireOrRent.Controllers
 {

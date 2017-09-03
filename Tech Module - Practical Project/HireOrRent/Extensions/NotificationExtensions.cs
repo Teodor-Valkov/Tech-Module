@@ -1,8 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace HireOrRent.Extensions
@@ -19,12 +16,11 @@ namespace HireOrRent.Extensions
     {
         private static IDictionary<String, String> NotificationKey = new Dictionary<String, String>
         {
-            { "Error",      "App.Notifications.Error" }, 
+            { "Error",      "App.Notifications.Error" },
             { "Warning",    "App.Notifications.Warning" },
             { "Success",    "App.Notifications.Success" },
             { "Info",       "App.Notifications.Info" }
         };
-
 
         public static void AddNotification(this ControllerBase controller, String message, String notificationType)
         {
@@ -65,6 +61,5 @@ namespace HireOrRent.Extensions
         public const string WARNING = "Warning";
         public const string SUCCESS = "Success";
         public const string INFO = "Info";
-
     }
 }

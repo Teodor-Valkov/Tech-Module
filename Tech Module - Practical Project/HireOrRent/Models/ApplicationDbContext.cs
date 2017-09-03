@@ -1,8 +1,5 @@
-﻿using System.Data.Entity;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
 
 namespace HireOrRent.Models
 {
@@ -19,7 +16,7 @@ namespace HireOrRent.Models
 
         public virtual IDbSet<Comment> Comments { get; set; }
 
-        public virtual IDbSet<City> Cities{ get; set; }
+        public virtual IDbSet<City> Cities { get; set; }
 
         public virtual IDbSet<Picture> Pictures { get; set; }
 

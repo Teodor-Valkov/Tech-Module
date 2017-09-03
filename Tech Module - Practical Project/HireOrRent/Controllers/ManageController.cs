@@ -1,15 +1,14 @@
-﻿using System;
+﻿using HireOrRent.Models;
+using HireOrRent.ModelsView;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
+using Microsoft.Owin.Security;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
-using HireOrRent.Models;
-using HireOrRent.ModelsView;
 
 namespace HireOrRent.Controllers
 {
@@ -35,9 +34,9 @@ namespace HireOrRent.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set 
-            { 
-                _signInManager = value; 
+            private set
+            {
+                _signInManager = value;
             }
         }
 
@@ -352,7 +351,8 @@ namespace HireOrRent.Controllers
             base.Dispose(disposing);
         }
 
-#region Helpers
+        #region Helpers
+
         // Used for XSRF protection when adding external logins
         private const string XsrfKey = "XsrfId";
 
@@ -403,6 +403,6 @@ namespace HireOrRent.Controllers
             Error
         }
 
-#endregion
+        #endregion Helpers
     }
 }

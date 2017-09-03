@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using HireOrRent.Models;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using HireOrRent.Models;
 
 namespace HireOrRent.Controllers
 {
@@ -40,7 +37,7 @@ namespace HireOrRent.Controllers
                 {
                     ViewBag.Category = "Rent";
                 }
-                
+
                 var advertisements = db.Advertisements.Where(a => a.CategoryId == categoryId).Include(a => a.Author).OrderBy(a => a.DateAdded).ToList();
 
                 return View(advertisements);

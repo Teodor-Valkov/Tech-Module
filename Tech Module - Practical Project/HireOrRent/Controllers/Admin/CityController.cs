@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Net;
-using System.Web;
-using System.Web.Mvc;
-using HireOrRent.Extensions;
+﻿using HireOrRent.Extensions;
 using HireOrRent.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
+using System.Linq;
+using System.Net;
+using System.Web.Mvc;
 
 namespace HireOrRent.Controllers.Admin
 {
@@ -25,7 +22,7 @@ namespace HireOrRent.Controllers.Admin
                 var cities = db.Cities.OrderBy(c => c.Id).ToList();
 
                 return View(cities);
-            }   
+            }
         }
 
         //GET: Ciry/Details/id
