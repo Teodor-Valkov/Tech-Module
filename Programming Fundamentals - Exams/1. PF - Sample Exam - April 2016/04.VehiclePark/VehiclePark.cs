@@ -1,12 +1,12 @@
 ﻿namespace _04.VehiclePark
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class VehiclePark
+    internal class VehiclePark
     {
-        static void Main()
+        private static void Main()
         {
             List<string> availableCars = Console.ReadLine().Split(' ').ToList();
             List<string> wantedCars = new List<string>();
@@ -32,7 +32,7 @@
                 {
                     availableCars.Remove(car);
                     soldCars++;
-                    
+
                     int price = car[0] * int.Parse(car.Substring(1));
                     Console.WriteLine($"Yes, sold for {price}$");
                 }

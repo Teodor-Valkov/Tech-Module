@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class HogwartsSorting
+    internal class HogwartsSorting
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             string[] facultyNumber = new string[n];
@@ -20,7 +20,7 @@
                 string secondName = name[1];
                 string home = string.Empty;
                 long sum = 0;
-                   
+
                 foreach (char letter in firstName)
                 {
                     sum += letter;
@@ -30,7 +30,7 @@
                 {
                     sum += letter;
                 }
-                
+
                 switch (sum % 4)
                 {
                     case 0:
@@ -38,21 +38,25 @@
                         home = "Gryffindor";
                         facultyNumber[i] = sum.ToString() + firstName[0] + secondName[0];
                         break;
+
                     case 1:
                         homes[1]++;
                         home = "Slytherin";
                         facultyNumber[i] = sum.ToString() + firstName[0] + secondName[0];
                         break;
+
                     case 2:
                         homes[2]++;
                         home = "Ravenclaw";
                         facultyNumber[i] = sum.ToString() + firstName[0] + secondName[0];
                         break;
+
                     case 3:
                         homes[3]++;
                         home = "Hufflepuff";
                         facultyNumber[i] = sum.ToString() + firstName[0] + secondName[0];
                         break;
+
                     default:
                         continue;
                 }

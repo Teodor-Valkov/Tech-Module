@@ -2,13 +2,13 @@
 {
     using System;
 
-    class Nacepin
+    internal class Nacepin
     {
-        static void Main()
+        private static void Main()
         {
             decimal usaPrice = decimal.Parse(Console.ReadLine()) / 0.58m;
             decimal usaWeight = decimal.Parse(Console.ReadLine());
-            
+
             decimal englandPrice = decimal.Parse(Console.ReadLine()) / 0.41m;
             decimal englandWeight = decimal.Parse(Console.ReadLine());
 

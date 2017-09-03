@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class BlurFilter
+    internal class BlurFilter
     {
-        static void Main()
+        private static void Main()
         {
             decimal blurAmount = decimal.Parse(Console.ReadLine());
             int[] rowsAndCols = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
@@ -19,10 +19,10 @@
                 decimal[] cells = Console.ReadLine().Split(' ').Select(decimal.Parse).ToArray();
                 for (int col = 0; col < cols; col++)
                 {
-                    matrix[row, col] = cells[col];   
+                    matrix[row, col] = cells[col];
                 }
             }
-            
+
             int[] target = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             int targetRow = target[0];
             int targetCol = target[1];
@@ -39,7 +39,7 @@
                     matrix[row, col] += blurAmount;
                 }
             }
-            
+
             for (int row = 0; row < rows; row++)
             {
                 for (int col = 0; col < cols; col++)

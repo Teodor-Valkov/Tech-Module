@@ -2,9 +2,9 @@
 {
     using System;
 
-    class DressPatern
+    internal class DressPatern
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             int outsideDashes = n * 4;
@@ -32,14 +32,14 @@
             {
                 if (i == 0)
                 {
-                    Console.WriteLine("{0}{1}{0}", new string('.', outsideMiddle), new string('*', insideMiddle));                
+                    Console.WriteLine("{0}{1}{0}", new string('.', outsideMiddle), new string('*', insideMiddle));
                 }
                 else
                 {
                     Console.WriteLine("{0}{1}{0}", new string('_', outsideMiddle), new string('o', insideMiddle));
                 }
             }
-            
+
             insideMiddle -= 2;
 
             for (int i = 0; i < n * 3; i++)
