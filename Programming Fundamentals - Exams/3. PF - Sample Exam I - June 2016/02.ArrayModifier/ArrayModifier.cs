@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class ArrayModifier
+    internal class ArrayModifier
     {
-        static void Main()
+        private static void Main()
         {
             long[] numbers = Console.ReadLine().Split(' ').Select(long.Parse).ToArray();
             string command = Console.ReadLine().ToLower();

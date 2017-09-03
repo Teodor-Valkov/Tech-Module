@@ -1,12 +1,12 @@
 ﻿namespace _02.GameOfNames
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class GameOfNames
+    internal class GameOfNames
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             List<string> names = new List<string>(n);

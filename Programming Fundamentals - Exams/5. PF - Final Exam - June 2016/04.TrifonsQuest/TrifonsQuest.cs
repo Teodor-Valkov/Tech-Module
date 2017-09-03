@@ -2,9 +2,9 @@
 {
     using System;
 
-    class TrifonsQuest
+    internal class TrifonsQuest
     {
-        static void Main()
+        private static void Main()
         {
             long health = long.Parse(Console.ReadLine());
             string[] typeRowsAndCols = Console.ReadLine().Split(' ');
@@ -61,8 +61,8 @@
                             case 'T': turns += 2; break;
                         }
 
-                        turns++;  
-                                              
+                        turns++;
+
                         if (health <= 0)
                         {
                             Console.WriteLine($"Died at: [{currentRow}, {col}]");

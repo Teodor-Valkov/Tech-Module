@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class TargetMultiplier
+    internal class TargetMultiplier
     {
-        static void Main()
+        private static void Main()
         {
             int[] size = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             int rows = size[0];
@@ -51,7 +51,7 @@
                 {
                     if (row == targetRow && col == targetCol)
                     {
-                        matrix[row, col] = oldValueTargetCell*sumOfNeighbourCells;
+                        matrix[row, col] = oldValueTargetCell * sumOfNeighbourCells;
                     }
                     else
                     {

@@ -1,12 +1,12 @@
 ﻿namespace _02.SoftuniWaterSupplies
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class SoftuniWaterSupplies
+    internal class SoftuniWaterSupplies
     {
-        static void Main()
+        private static void Main()
         {
             double waterStorage = int.Parse(Console.ReadLine());
             List<double> bottlesFilled = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
@@ -18,8 +18,8 @@
             if (waterStorage % 2 == 0)
             {
                 for (int i = 0; i < bottlesFilled.Count; i++)
-			    {
-			        double currentBottleFilled = bottlesFilled[i];
+                {
+                    double currentBottleFilled = bottlesFilled[i];
                     double toBeFilled = capacity - currentBottleFilled;
 
                     if (waterStorage >= capacity)
@@ -35,16 +35,16 @@
                             bottlesWithoutWater.Add(i);
                             bottlesWithoutWaterCount++;
                         }
-                    }                    
-			    }   
+                    }
+                }
             }
             else
             {
-                for (int i = bottlesFilled.Count - 1; i >= 0 ; i--)
+                for (int i = bottlesFilled.Count - 1; i >= 0; i--)
                 {
                     double currentBottleFilled = bottlesFilled[i];
                     double toBeFilled = capacity - currentBottleFilled;
-                     
+
                     if (waterStorage >= capacity)
                     {
                         waterStorage -= toBeFilled;

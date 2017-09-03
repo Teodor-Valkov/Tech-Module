@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class ArrayModifier
+    internal class ArrayModifier
     {
-        static void Main()
+        private static void Main()
         {
             long[] numbers = Console.ReadLine().Split(' ').Select(long.Parse).ToArray();
             string command = Console.ReadLine().ToLower();
@@ -29,7 +29,7 @@
                     string action = input[0];
                     long indexFirst = long.Parse(input[1]);
                     long indexSecond = long.Parse(input[2]);
-                
+
                     if (action == "swap")
                     {
                         long temp = numbers[indexFirst];

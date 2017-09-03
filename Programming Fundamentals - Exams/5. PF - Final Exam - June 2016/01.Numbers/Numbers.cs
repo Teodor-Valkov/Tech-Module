@@ -1,12 +1,12 @@
 ﻿namespace _01.Numbers
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Numbers
+    internal class Numbers
     {
-        static void Main()
+        private static void Main()
         {
             List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
             List<int> biggerThanAverageNumber = new List<int>();
@@ -21,7 +21,7 @@
                     biggerThanAverageNumber.Add(number);
                 }
             }
-        
+
             biggerThanAverageNumber.Sort();
             biggerThanAverageNumber.Reverse();
             //or biggerThanAverageNumber.Sort((a,b) => b.CompareTo(a));

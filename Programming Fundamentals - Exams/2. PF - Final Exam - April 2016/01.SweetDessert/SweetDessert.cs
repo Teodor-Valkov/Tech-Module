@@ -2,9 +2,9 @@
 {
     using System;
 
-    class SweetDessert
+    internal class SweetDessert
     {
-        static void Main()
+        private static void Main()
         {
             decimal moneyOwn = decimal.Parse(Console.ReadLine());
             decimal guests = int.Parse(Console.ReadLine());

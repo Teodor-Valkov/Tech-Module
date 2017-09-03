@@ -3,9 +3,9 @@
     using System;
     using System.Globalization;
 
-    class SoftUniCaffeeOrders
+    internal class SoftUniCaffeeOrders
     {
-        static void Main()
+        private static void Main()
         {
             long orders = long.Parse(Console.ReadLine());
             decimal totalPrice = 0;

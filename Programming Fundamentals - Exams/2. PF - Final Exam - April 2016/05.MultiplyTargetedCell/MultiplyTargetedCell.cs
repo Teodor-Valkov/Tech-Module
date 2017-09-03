@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class MultiplyTargetedCell
+    internal class MultiplyTargetedCell
     {
-        static void Main()
+        private static void Main()
         {
             int[] rowsAndCols = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             int rows = rowsAndCols[0];

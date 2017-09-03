@@ -1,12 +1,12 @@
 ﻿namespace _03.FootballLeague
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class FootballLeague
+    internal class FootballLeague
     {
-        static void Main()
+        private static void Main()
         {
             string key = Console.ReadLine();
             string command = Console.ReadLine();

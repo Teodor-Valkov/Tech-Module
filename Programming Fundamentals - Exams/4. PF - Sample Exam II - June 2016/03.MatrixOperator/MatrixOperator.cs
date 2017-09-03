@@ -1,12 +1,12 @@
 ﻿namespace _03.MatrixOperator
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class MatrixOperator
+    internal class MatrixOperator
     {
-        static void Main()
+        private static void Main()
         {
             // There is a better solution with "List<List<int>>" instead of List<int[]> because the int[] cannot be changed directly;
 
@@ -209,7 +209,7 @@
                                 break;
                         }
                         break;
-                        #endregion
+                    #endregion
 
                     case "insert":
                         #region
@@ -223,7 +223,7 @@
                         currentRowAfter.AddRange(rows[rowIndex]);
                         rows[rowIndex] = currentRowAfter.ToArray();
                         break;
-                        #endregion
+                    #endregion
 
                     case "swap":
                         int firstRowIndex = int.Parse(tokens[1]);

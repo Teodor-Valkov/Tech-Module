@@ -1,12 +1,12 @@
 ﻿namespace _04.SoftuniCoffeeSupplies
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class SoftuniCoffeeSupplies
+    internal class SoftuniCoffeeSupplies
     {
-        static void Main()
+        private static void Main()
         {
             string[] separators = Console.ReadLine().Split(' ');
             string currentInfoLine = Console.ReadLine();
@@ -30,7 +30,7 @@
                     if (!coffeeTypeAndQuantity.ContainsKey(coffeeType))
                     {
                         coffeeTypeAndQuantity.Add(coffeeType, 0);
-                    }                        
+                    }
                 }
 
                 if (currentInfoLine.Contains(separators[1]))
@@ -74,7 +74,7 @@
                 string[] tokens = orders.Split(' ');
                 string person = tokens[0];
                 int cups = int.Parse(tokens[1]);
-                
+
                 string personFavouriteCoffe = personAndCoffee[person];
                 coffeeTypeAndQuantity[personFavouriteCoffe] -= cups;
 
@@ -82,7 +82,7 @@
                 {
                     oufOfCoffeeList.Add(personFavouriteCoffe);
                 }
-    
+
                 orders = Console.ReadLine();
             }
 
@@ -98,7 +98,7 @@
                 if (coffeeTypeAndQuantity[currentFavouriteCoffeeTypeLeft] > 0)
                 {
                     Console.WriteLine($"{pair.Key} {pair.Value}");
-                }                    
+                }
             }
 
             Console.WriteLine("For:");

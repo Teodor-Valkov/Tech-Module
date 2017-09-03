@@ -2,9 +2,9 @@
 {
     using System;
 
-    class SoftuniAirline
+    internal class SoftuniAirline
     {
-        static void Main()
+        private static void Main()
         {
             int flights = int.Parse(Console.ReadLine());
             decimal overallProfit = 0;

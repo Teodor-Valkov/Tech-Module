@@ -2,9 +2,9 @@
 {
     using System;
 
-    class Strawberry
+    internal class Strawberry
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             int outsideDashes = 0;
@@ -35,7 +35,7 @@
             {
                 Console.WriteLine("{0}#{1}#{0}", new string('-', outsideDashes), new string('.', insideDots));
                 outsideDashes++;
-                insideDots -= 2;                
+                insideDots -= 2;
             }
         }
     }

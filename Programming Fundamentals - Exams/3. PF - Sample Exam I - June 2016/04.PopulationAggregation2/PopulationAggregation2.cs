@@ -1,12 +1,12 @@
 ﻿namespace _04.PopulationAggregation2
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class PopulationAggregation2
+    internal class PopulationAggregation2
     {
-        static void Main()
+        private static void Main()
         {
             // Another way for removing the prohibited symbols with Regex
             //string cleaned = Regex.Replace(parameters[0], "[0-9@#$&]+", "");
@@ -17,7 +17,7 @@
             string input = Console.ReadLine();
             while (input != null && input.ToLower() != "stop")
             {
-                string[] parameters = input.Split(new [] { '\\' }, StringSplitOptions.RemoveEmptyEntries);
+                string[] parameters = input.Split(new[] { '\\' }, StringSplitOptions.RemoveEmptyEntries);
 
                 string country = string.Empty;
                 string city = string.Empty;
@@ -48,7 +48,7 @@
                 for (int i = 0; i <= 9; i++)
                 {
                     country = country.Replace(i.ToString(), string.Empty);
-                    city = city.Replace(i.ToString(), string.Empty);    
+                    city = city.Replace(i.ToString(), string.Empty);
                 }
 
                 if (!countriesAndCities.ContainsKey(country))

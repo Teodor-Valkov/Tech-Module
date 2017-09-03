@@ -1,12 +1,12 @@
 ﻿namespace _04.PopulationAggregation
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class PopulationAggregation
+    internal class PopulationAggregation
     {
-        static void Main()
+        private static void Main()
         {
             // Another way for removing the prohibited symbols with Regex
             //string cleaned = Regex.Replace(parameters[0], "[0-9@#$&]+", "");
@@ -14,11 +14,11 @@
             Dictionary<string, int> countriesAndCities = new Dictionary<string, int>();
             Dictionary<string, long> citiesAndPopulation = new Dictionary<string, long>();
             char[] prohibitedSymbols = { '@', '#', '$', '&' };
-            
+
             string input = Console.ReadLine();
             while (input != null && input.ToLower() != "stop")
             {
-                string[] parameters = input.Split(new [] { '\\' }, StringSplitOptions.RemoveEmptyEntries);
+                string[] parameters = input.Split(new[] { '\\' }, StringSplitOptions.RemoveEmptyEntries);
 
                 string countryBefore = string.Empty;
                 string cityBefore = string.Empty;
@@ -92,7 +92,7 @@
                 {
                     break;
                 }
-                
+
                 counter++;
                 Console.WriteLine($"{cityAndPopulation.Key} -> {cityAndPopulation.Value}");
             }

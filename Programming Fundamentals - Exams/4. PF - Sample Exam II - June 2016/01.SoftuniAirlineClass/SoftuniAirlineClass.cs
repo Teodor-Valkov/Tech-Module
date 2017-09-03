@@ -2,7 +2,7 @@
 {
     using System;
 
-    class Flight
+    internal class Flight
     {
         public int Adults { get; set; }
         public double AdultsPrice { get; set; }
@@ -29,12 +29,11 @@
                 return (decimal)(Duration * FuelPerHour * FuelPrice);
             }
         }
-
     }
 
-    class SoftuniAirlineClass
+    internal class SoftuniAirlineClass
     {
-        static void Main()
+        private static void Main()
         {
             int flights = int.Parse(Console.ReadLine());
             decimal overallProfit = 0;
