@@ -1,32 +1,32 @@
 ﻿namespace _04.HornetArmada
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class HornetArmada
+    internal class HornetArmada
     {
-        static void Main()
+        private static void Main()
         {
             Dictionary<string, int> legionsWithActivity = new Dictionary<string, int>();
-            Dictionary<string, Dictionary<string, long>> legionsWithSoldiers = new Dictionary<string, Dictionary<string, long>>(); 
+            Dictionary<string, Dictionary<string, long>> legionsWithSoldiers = new Dictionary<string, Dictionary<string, long>>();
 
             int numberOfLegions = int.Parse(Console.ReadLine());
-            
+
             for (int i = 0; i < numberOfLegions; i++)
             {
                 string input = Console.ReadLine();
 
                 if (input != null)
                 {
-                    string[] inputArgs = input.Split(new[] {"=", "->", ":", " "}, StringSplitOptions.RemoveEmptyEntries);
+                    string[] inputArgs = input.Split(new[] { "=", "->", ":", " " }, StringSplitOptions.RemoveEmptyEntries);
 
                     int lastActivity = int.Parse(inputArgs[0]);
                     string legionName = inputArgs[1];
                     string soldierType = inputArgs[2];
                     int soldiersCount = int.Parse(inputArgs[3]);
 
-                    char[] forbiddenSymbols = {'=', '-', '>', ':', ' '};
+                    char[] forbiddenSymbols = { '=', '-', '>', ':', ' ' };
                     if (legionName.Any(symbol => forbiddenSymbols.Contains(symbol)) || soldierType.Any(symbol => forbiddenSymbols.Contains(symbol)))
                     {
                         continue;

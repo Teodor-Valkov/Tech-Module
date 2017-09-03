@@ -2,9 +2,9 @@
 {
     using System;
 
-    class SinoTheWalker
+    internal class SinoTheWalker
     {
-        static void Main()
+        private static void Main()
         {
             string inputTime = Console.ReadLine();
             int steps = int.Parse(Console.ReadLine()) % 86400;
@@ -15,15 +15,15 @@
                 string[] hoursMinutesSeconds = inputTime.Split(':');
 
                 double hours = double.Parse(hoursMinutesSeconds[0]);
-                double minutes= double.Parse(hoursMinutesSeconds[1]);
-                double seconds= double.Parse(hoursMinutesSeconds[2]);
+                double minutes = double.Parse(hoursMinutesSeconds[1]);
+                double seconds = double.Parse(hoursMinutesSeconds[2]);
 
-                double allTime = steps*secondsPerStep;
+                double allTime = steps * secondsPerStep;
 
-                allTime += hours*3600;
-                allTime += minutes*60;
+                allTime += hours * 3600;
+                allTime += minutes * 60;
                 allTime += seconds;
-                        
+
                 Console.WriteLine($@"Time Arrival: {TimeSpan.FromSeconds(allTime):hh\:mm\:ss}");
             }
         }

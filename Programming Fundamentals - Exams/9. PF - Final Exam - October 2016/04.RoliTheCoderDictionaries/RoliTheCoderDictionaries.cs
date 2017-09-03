@@ -1,13 +1,12 @@
 ﻿namespace _04.RoliTheCoderDictionaries
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
-    using System.Text.RegularExpressions;
+    using System.Linq;
 
-    class RoliTheCoderDictionaries
+    internal class RoliTheCoderDictionaries
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
             Dictionary<int, string> idAndEvent = new Dictionary<int, string>();

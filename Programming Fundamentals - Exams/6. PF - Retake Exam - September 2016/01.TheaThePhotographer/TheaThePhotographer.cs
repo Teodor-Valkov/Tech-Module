@@ -2,18 +2,18 @@
 {
     using System;
 
-    class TheaThePhotographer
+    internal class TheaThePhotographer
     {
-        static void Main()
+        private static void Main()
         {
             long pictures = int.Parse(Console.ReadLine());
             long singlePictureTime = int.Parse(Console.ReadLine());
             long percentageOfPictures = int.Parse(Console.ReadLine());
             long timePerEveryFilteredPicture = int.Parse(Console.ReadLine());
 
-            double filteredPictures = Math.Ceiling((pictures*((double)percentageOfPictures / 100)));
-            double totalPicturesTime = pictures*singlePictureTime;
-            double filteredPicturesTime = filteredPictures*timePerEveryFilteredPicture;
+            double filteredPictures = Math.Ceiling((pictures * ((double)percentageOfPictures / 100)));
+            double totalPicturesTime = pictures * singlePictureTime;
+            double filteredPicturesTime = filteredPictures * timePerEveryFilteredPicture;
             double timeNeededInSeconds = totalPicturesTime + filteredPicturesTime;
 
             // Solution with TimeSpan
@@ -23,15 +23,15 @@
             double hours = 0;
             double minutes = 0;
             double seconds = 0;
-  
-            days = Math.Floor(timeNeededInSeconds/86400);
-            timeNeededInSeconds -= days*86400;
 
-            hours = Math.Floor(timeNeededInSeconds/3600);
-            timeNeededInSeconds -= hours*3600;
+            days = Math.Floor(timeNeededInSeconds / 86400);
+            timeNeededInSeconds -= days * 86400;
 
-            minutes = Math.Floor(timeNeededInSeconds/60);
-            timeNeededInSeconds -= minutes*60;
+            hours = Math.Floor(timeNeededInSeconds / 3600);
+            timeNeededInSeconds -= hours * 3600;
+
+            minutes = Math.Floor(timeNeededInSeconds / 60);
+            timeNeededInSeconds -= minutes * 60;
 
             seconds = timeNeededInSeconds;
 

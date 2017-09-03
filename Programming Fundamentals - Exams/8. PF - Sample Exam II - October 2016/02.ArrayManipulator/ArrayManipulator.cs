@@ -1,12 +1,12 @@
 ﻿namespace _02.ArrayManipulator
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class ArrayManipulator
+    internal class ArrayManipulator
     {
-        static void Main()
+        private static void Main()
         {
             List<long> numbers = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(long.Parse).ToList();
 

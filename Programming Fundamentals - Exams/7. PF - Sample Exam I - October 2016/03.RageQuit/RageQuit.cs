@@ -5,9 +5,9 @@
     using System.Text;
     using System.Text.RegularExpressions;
 
-    class RageQuit
+    internal class RageQuit
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine().ToUpper();
             StringBuilder finalInput = new StringBuilder();

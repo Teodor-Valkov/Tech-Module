@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class Ladybugs
+    internal class Ladybugs
     {
-        static void Main()
+        private static void Main()
         {
             int size = int.Parse(Console.ReadLine());
             int[] ladybugIndexes = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
@@ -30,7 +30,7 @@
 
                 if (command != null)
                 {
-                    string[] commandArgs = command.Split(new [] {' '}, StringSplitOptions.RemoveEmptyEntries);
+                    string[] commandArgs = command.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
                     int currentLadybugPosition = int.Parse(commandArgs[0]);
                     string direction = commandArgs[1];

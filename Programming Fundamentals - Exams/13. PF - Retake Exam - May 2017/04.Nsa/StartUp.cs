@@ -1,12 +1,12 @@
 ﻿namespace _04.Nsa
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main()
+        private static void Main()
         {
             Dictionary<string, Dictionary<string, int>> contrySpiesAndScores = new Dictionary<string, Dictionary<string, int>>();
 

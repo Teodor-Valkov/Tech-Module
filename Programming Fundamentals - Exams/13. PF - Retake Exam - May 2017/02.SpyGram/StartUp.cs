@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Text.RegularExpressions;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main()
+        private static void Main()
         {
             string key = Console.ReadLine();
 
@@ -35,7 +35,7 @@
 
                     if (!nameAndMessage.ContainsKey(name))
                     {
-                        nameAndMessage[name] = new List<string>();                    
+                        nameAndMessage[name] = new List<string>();
                     }
 
                     nameAndMessage[name].Add(encryptedMessage);

@@ -1,15 +1,15 @@
 ﻿namespace _04.WinningTicket
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class WinningTicket
+    internal class WinningTicket
     {
-        static void Main()
+        private static void Main()
         {
-            List<string> tickets = Console.ReadLine().Split(new [] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries).ToList();
-            
+            List<string> tickets = Console.ReadLine().Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+
             foreach (string ticket in tickets)
             {
                 if (ticket.Length != 20)

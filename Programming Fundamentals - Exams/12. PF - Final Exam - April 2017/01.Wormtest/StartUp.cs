@@ -2,16 +2,16 @@
 {
     using System;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main()
+        private static void Main()
         {
             double wormLength = double.Parse(Console.ReadLine()) * 100;
             double wormWidth = double.Parse(Console.ReadLine());
 
             double reminder = wormLength % wormWidth;
 
-            if (reminder == 0 ||  wormLength == 0 || wormWidth == 0)
+            if (reminder == 0 || wormLength == 0 || wormWidth == 0)
             {
                 double product = wormLength * wormWidth;
                 Console.WriteLine($"{product:F2}");

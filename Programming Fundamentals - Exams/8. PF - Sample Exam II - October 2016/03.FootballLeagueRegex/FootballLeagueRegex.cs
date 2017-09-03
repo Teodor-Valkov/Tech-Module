@@ -1,13 +1,13 @@
 ﻿namespace _03.FootballLeagueRegex
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Text.RegularExpressions;
 
-    class FootballLeagueRegex
+    internal class FootballLeagueRegex
     {
-        static void Main()
+        private static void Main()
         {
             string key = Console.ReadLine();
             string command = Console.ReadLine();
@@ -39,7 +39,6 @@
                     Array.Reverse(awayTeamChars);
                     awayTeam = new string(awayTeamChars).ToUpper();
                 }
-
 
                 //Finding goals and points
                 long[] goals = teamsNamesAndResult[2].Split(':').Select(long.Parse).ToArray();

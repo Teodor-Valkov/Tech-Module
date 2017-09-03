@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class Portal
+    internal class Portal
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             int turns = 0;
@@ -103,7 +103,7 @@
 
             if (!success)
             {
-                Console.WriteLine($"Robot stuck at {currentRow} {currentCol}. Experiment failed.");           
+                Console.WriteLine($"Robot stuck at {currentRow} {currentCol}. Experiment failed.");
             }
         }
     }

@@ -1,10 +1,10 @@
 ﻿namespace _02.SoftUniKaraoke
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Singer
+    internal class Singer
     {
         public Singer()
         {
@@ -17,14 +17,14 @@
         public List<string> Awards { get; set; }
     }
 
-    class SoftUniKaraoke
+    internal class SoftUniKaraoke
     {
-        static void Main()
+        private static void Main()
         {
             List<Singer> singers = new List<Singer>();
             List<string> givenAwards = new List<string>();
 
-            string[] inputSingers = Console.ReadLine().Split(new [] {',', ' '}, StringSplitOptions.RemoveEmptyEntries);
+            string[] inputSingers = Console.ReadLine().Split(new[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
             string[] inputSongs = Console.ReadLine().Split(',');
 
             List<string> songs = new List<string>();
@@ -74,7 +74,7 @@
 
                         singer.Songs.Add(currentSong);
                         singer.Awards.Add(currentAward);
-                        
+
                         singers.Add(singer);
                     }
 

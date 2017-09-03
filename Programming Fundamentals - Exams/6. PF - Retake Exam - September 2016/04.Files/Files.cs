@@ -1,12 +1,12 @@
 ﻿namespace _04.Files
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Files
+    internal class Files
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             List<string> files = new List<string>();

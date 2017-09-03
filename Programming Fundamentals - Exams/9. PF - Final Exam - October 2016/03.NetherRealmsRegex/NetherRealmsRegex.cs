@@ -4,11 +4,11 @@
     using System.Linq;
     using System.Text.RegularExpressions;
 
-    class NetherRealmsRegex
+    internal class NetherRealmsRegex
     {
-        static void Main()
+        private static void Main()
         {
-            string[] demons = Console.ReadLine().Split(new [] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries).OrderBy(x => x).ToArray();
+            string[] demons = Console.ReadLine().Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries).OrderBy(x => x).ToArray();
 
             foreach (string demon in demons)
             {
@@ -20,7 +20,7 @@
 
         private static double GetDemonHealth(string demon)
         {
-            // Regex for finding Health (all the symbols without numbers and math signs) 
+            // Regex for finding Health (all the symbols without numbers and math signs)
             string demonHealthPattern = @"[^\d\.\+\-\*\/]";
             Regex regex = new Regex(demonHealthPattern);
 

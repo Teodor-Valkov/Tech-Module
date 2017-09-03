@@ -1,13 +1,13 @@
 ﻿namespace _02.WormIpsum
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Text.RegularExpressions;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main()
+        private static void Main()
         {
             while (true)
             {
@@ -47,7 +47,7 @@
 
                         if (symbolsAndCount.Count > 0)
                         {
-                            char symbolWithMostOccurrences = 
+                            char symbolWithMostOccurrences =
                                 symbolsAndCount
                                  .OrderByDescending(pair => pair.Value)
                                  .ToDictionary(pair => pair.Key, pair => pair.Value)

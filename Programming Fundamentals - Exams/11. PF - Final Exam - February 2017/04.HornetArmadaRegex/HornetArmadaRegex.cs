@@ -5,9 +5,9 @@
     using System.Linq;
     using System.Text.RegularExpressions;
 
-    class HornetArmadaRegex
+    internal class HornetArmadaRegex
     {
-        static void Main()
+        private static void Main()
         {
             Dictionary<string, int> legionsWithActivity = new Dictionary<string, int>();
             Dictionary<string, Dictionary<string, long>> legionsWithSoldiers = new Dictionary<string, Dictionary<string, long>>();
@@ -43,7 +43,7 @@
                 }
                 else
                 {
-                    legionsWithSoldiers[legionName][soldierType] += soldierCount;                
+                    legionsWithSoldiers[legionName][soldierType] += soldierCount;
                 }
             }
 
@@ -75,7 +75,7 @@
                    .OrderByDescending(legion => legion.Value[soldierType])
                    .ToDictionary(pair => pair.Key, pair => pair.Value);
 
-                foreach (KeyValuePair<string, Dictionary< string, long>> pair in legionsWithSoldiers)
+                foreach (KeyValuePair<string, Dictionary<string, long>> pair in legionsWithSoldiers)
                 {
                     if (legionsWithActivity[pair.Key] < activity)
                     {

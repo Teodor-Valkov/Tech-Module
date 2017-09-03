@@ -1,12 +1,12 @@
 ﻿namespace _02.TrophonTheGrumpyCat
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class TrophonTheGrumpyCat
+    internal class TrophonTheGrumpyCat
     {
-        static void Main()
+        private static void Main()
         {
             List<int> items = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
             int startingItem = int.Parse(Console.ReadLine());

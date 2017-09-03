@@ -2,9 +2,9 @@
 {
     using System;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main()
+        private static void Main()
         {
             double distanceInMiles = double.Parse(Console.ReadLine());
             double fuelCapacity = double.Parse(Console.ReadLine());

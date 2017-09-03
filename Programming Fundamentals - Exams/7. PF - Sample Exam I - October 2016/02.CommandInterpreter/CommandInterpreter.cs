@@ -1,14 +1,14 @@
 ﻿namespace _02.CommandInterpreter
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class CommandInterpreter
+    internal class CommandInterpreter
     {
-        static void Main()
+        private static void Main()
         {
-            List<string> input = Console.ReadLine().Split(new [] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            List<string> input = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
             string[] command = Console.ReadLine().Split(' ');
             List<string> currentList = new List<string>();

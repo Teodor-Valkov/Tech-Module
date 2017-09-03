@@ -1,19 +1,19 @@
 ﻿namespace _03.NetherRealmsClass
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Dragon
+    internal class Dragon
     {
         public long Health { get; set; }
         public double Damage { get; set; }
         public string Name { get; set; }
     }
 
-    class NetherRealmsClass
+    internal class NetherRealmsClass
     {
-        static void Main()
+        private static void Main()
         {
             List<Dragon> dragons = new List<Dragon>();
             string input = Console.ReadLine();

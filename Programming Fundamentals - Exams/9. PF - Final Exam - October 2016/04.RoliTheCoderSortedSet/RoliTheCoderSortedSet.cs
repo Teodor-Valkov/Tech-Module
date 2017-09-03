@@ -1,8 +1,8 @@
 ﻿namespace _04.RoliTheCoderSortedSet
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
     public class Event
     {
@@ -11,9 +11,9 @@
         public SortedSet<string> Participants { get; set; }
     }
 
-    class RoliTheCoderSortedSet
+    internal class RoliTheCoderSortedSet
     {
-        static void Main()
+        private static void Main()
         {
             List<Event> events = new List<Event>();
             string input = Console.ReadLine();

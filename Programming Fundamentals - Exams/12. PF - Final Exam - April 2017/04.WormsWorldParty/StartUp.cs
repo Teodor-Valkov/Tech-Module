@@ -1,12 +1,12 @@
 ﻿namespace _04.WormsWorldParty
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main()
+        private static void Main()
         {
             Dictionary<string, Dictionary<string, long>> teamsWormsAndScores = new Dictionary<string, Dictionary<string, long>>();
 
@@ -34,7 +34,7 @@
 
                 teamsWormsAndScores[wormTeam][wormName] = wormScore;
             }
-            
+
             int counter = 1;
             foreach (KeyValuePair<string, Dictionary<string, long>> pair in teamsWormsAndScores)
             {

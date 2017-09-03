@@ -1,12 +1,12 @@
 ﻿namespace _02.HornetComm
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class HornetComm
+    internal class HornetComm
     {
-        static void Main()
+        private static void Main()
         {
             List<string> messages = new List<string>();
             List<string> broadcasts = new List<string>();

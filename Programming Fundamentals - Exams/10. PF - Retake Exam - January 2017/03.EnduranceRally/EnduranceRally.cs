@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class EnduranceRally
+    internal class EnduranceRally
     {
-        static void Main()
+        private static void Main()
         {
             string[] drivers = Console.ReadLine().Split(' ');
             double[] trackLength = Console.ReadLine().Split(' ').Select(double.Parse).ToArray();

@@ -3,13 +3,13 @@
     using System;
     using System.Linq;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main()
+        private static void Main()
         {
             int[] wormholes = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
             int steps = 0;
-            
+
             for (int i = 0; i < wormholes.Length; i++)
             {
                 steps++;

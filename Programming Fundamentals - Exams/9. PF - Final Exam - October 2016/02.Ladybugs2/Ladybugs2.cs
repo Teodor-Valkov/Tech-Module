@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class Ladybugs2
+    internal class Ladybugs2
     {
-        static void Main()
+        private static void Main()
         {
             int size = int.Parse(Console.ReadLine());
             int[] occupiedIndexes = Console.ReadLine().Split().Select(int.Parse).ToArray();
@@ -55,7 +55,7 @@
 
                 input = Console.ReadLine();
             }
-            
+
             Console.WriteLine(string.Join(" ", fieldSize.Select(isOccupied => isOccupied ? 1 : 0)));
         }
     }

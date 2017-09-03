@@ -1,12 +1,12 @@
 ﻿namespace _03.HornetAssault
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class HornetAssault
+    internal class HornetAssault
     {
-        static void Main()
+        private static void Main()
         {
             List<long> beehives = Console.ReadLine().Split(' ').Select(long.Parse).ToList();
             List<long> hornets = Console.ReadLine().Split(' ').Select(long.Parse).ToList();

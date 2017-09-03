@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class Ladybugs3
+    internal class Ladybugs3
     {
-        static void Main()
+        private static void Main()
         {
             int size = int.Parse(Console.ReadLine());
             long[] occupiedIndexes = Console.ReadLine().Split(' ').Select(long.Parse).ToArray();
@@ -70,7 +70,7 @@
                                 {
                                     if (fieldSize[currentLadybugPosition - currentLadybugFlyLength] == 1)
                                     {
-                                        currentLadybugFlyLength +=  currentLadybugFlyLength;
+                                        currentLadybugFlyLength += currentLadybugFlyLength;
                                     }
                                     else
                                     {
@@ -84,7 +84,6 @@
                                 }
                             }
                         }
-
                     }
                 }
 

@@ -1,10 +1,10 @@
 ﻿namespace _04.RoliTheCoderClass
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Event
+    internal class Event
     {
         public Event()
         {
@@ -16,10 +16,10 @@
         public List<string> Participants { get; set; }
     }
 
-    class RoliTheCoderClass
+    internal class RoliTheCoderClass
     {
-        static void Main()
-        { 
+        private static void Main()
+        {
             List<Event> allEvents = new List<Event>();
 
             while (true)
@@ -34,10 +34,10 @@
 
                 if (input != null)
                 {
-                    string[] inputArgs = input.Split(new [] { ' ', '#', '@' }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] inputArgs = input.Split(new[] { ' ', '#', '@' }, StringSplitOptions.RemoveEmptyEntries);
                     string tempId = inputArgs[0];
                     string tempName = inputArgs[1];
-                    
+
                     if (input.Contains("@"))
                     {
                         Event currentEvent = new Event();

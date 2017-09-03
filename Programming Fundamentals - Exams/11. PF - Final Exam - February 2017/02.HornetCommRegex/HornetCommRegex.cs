@@ -5,9 +5,9 @@
     using System.Linq;
     using System.Text.RegularExpressions;
 
-    class HornetCommRegex
+    internal class HornetCommRegex
     {
-        static void Main()
+        private static void Main()
         {
             List<string> messages = new List<string>();
             List<string> broadcasts = new List<string>();

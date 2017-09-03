@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class CubicMessages
+    internal class CubicMessages
     {
-        static void Main()
+        private static void Main()
         {
             while (true)
             {

@@ -3,9 +3,9 @@
     using System;
     using System.Globalization;
 
-    class SinoTheWalker2
+    internal class SinoTheWalker2
     {
-        static void Main()
+        private static void Main()
         {
             string inputTime = Console.ReadLine();
             long steps = long.Parse(Console.ReadLine());

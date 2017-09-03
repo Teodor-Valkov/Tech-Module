@@ -2,9 +2,9 @@
 {
     using System;
 
-    class HornetWings
+    internal class HornetWings
     {
-        static void Main()
+        private static void Main()
         {
             long flapsToMake = long.Parse(Console.ReadLine());
             double distanceForThousandFlaps = double.Parse(Console.ReadLine());

@@ -1,17 +1,17 @@
 ﻿namespace _04.WinningTicket2
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Text.RegularExpressions;
 
-    class WinningTicket2
+    internal class WinningTicket2
     {
-        static void Main()
+        private static void Main()
         {
             string pattern = @"([^@$#\^]+)?([@]{6,10}|[#]{6,10}|[$]{6,10}|[\^]{6,10})([^@$#\^]+)?";
 
-            List<string> tickets = Console.ReadLine().Trim().Split(new [] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+            List<string> tickets = Console.ReadLine().Trim().Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries).ToList();
             Regex regex = new Regex(pattern);
 
             foreach (string ticket in tickets)

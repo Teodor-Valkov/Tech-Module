@@ -1,16 +1,16 @@
 ﻿namespace _02.SoftUniKaraoke2
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
     public class SoftUniKaraoke2
     {
         public static void Main()
         {
-            string[] inputParticipants = Console.ReadLine().Split(new [] { ", " }, StringSplitOptions.None);
-            string[] inputSongs = Console.ReadLine().Split(new [] { ", " }, StringSplitOptions.None);
-            string[] currentPerformance = Console.ReadLine().Split(new [] { ", " }, StringSplitOptions.None);
+            string[] inputParticipants = Console.ReadLine().Split(new[] { ", " }, StringSplitOptions.None);
+            string[] inputSongs = Console.ReadLine().Split(new[] { ", " }, StringSplitOptions.None);
+            string[] currentPerformance = Console.ReadLine().Split(new[] { ", " }, StringSplitOptions.None);
 
             Dictionary<string, List<string>> singersAndAwards = new Dictionary<string, List<string>>();
 
@@ -36,7 +36,7 @@
                     }
                 }
 
-                currentPerformance = Console.ReadLine().Split(new [] { ", " }, StringSplitOptions.None);
+                currentPerformance = Console.ReadLine().Split(new[] { ", " }, StringSplitOptions.None);
             }
 
             if (singersAndAwards.Count == 0)

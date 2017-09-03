@@ -1,20 +1,20 @@
 ﻿namespace _03.NetherRealms
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class NetherRealms
+    internal class NetherRealms
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
             Dictionary<string, Dictionary<long, double>> nameHealthDamage = new Dictionary<string, Dictionary<long, double>>();
 
             if (input != null)
             {
-                string[] inputArgs = input.Split(new [] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries);
-                
+                string[] inputArgs = input.Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries);
+
                 foreach (string arg in inputArgs)
                 {
                     long health = DemonHealth(arg);
@@ -77,10 +77,8 @@
                         }
                     }
 
-
                     nameHealthDamage.Add(arg, new Dictionary<long, double>());
                     nameHealthDamage[arg].Add(health, baseDamage);
-
                 }
 
                 foreach (KeyValuePair<string, Dictionary<long, double>> dragon in nameHealthDamage.OrderBy(x => x.Key))
