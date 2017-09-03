@@ -1,12 +1,12 @@
 ﻿namespace _10.Objects_Classes_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             MoreExercises();
@@ -252,9 +252,9 @@
                 if (input.ToLower() == "end")
                     break;
 
-                string[] cordinates = input.Split(new [] { " | " }, StringSplitOptions.RemoveEmptyEntries);
-                string[] firstPoint = cordinates[0].Split(new [] { ":" }, StringSplitOptions.RemoveEmptyEntries);
-                string[] secondPoint = cordinates[1].Split(new [] { ":" }, StringSplitOptions.RemoveEmptyEntries);
+                string[] cordinates = input.Split(new[] { " | " }, StringSplitOptions.RemoveEmptyEntries);
+                string[] firstPoint = cordinates[0].Split(new[] { ":" }, StringSplitOptions.RemoveEmptyEntries);
+                string[] secondPoint = cordinates[1].Split(new[] { ":" }, StringSplitOptions.RemoveEmptyEntries);
                 string[] thirdPoint = cordinates[2].Split(new[] { ":" }, StringSplitOptions.RemoveEmptyEntries);
 
                 Box box = new Box();
@@ -315,7 +315,6 @@
                     sender = inputArgs[0];
                     receiver = inputArgs[2];
                     content = string.Join(" ", inputArgs.Skip(3));
-
 
                     if (registeredUsers.Any(user => user.Username == sender) && registeredUsers.Any(user => user.Username == receiver))
                     {
@@ -385,7 +384,7 @@
         }
     }
 
-    class Exercise
+    internal class Exercise
     {
         public string Topic { get; set; }
         public string CourseName { get; set; }
@@ -393,20 +392,20 @@
         public List<string> Problems { get; set; }
     }
 
-    class BankAccount
+    internal class BankAccount
     {
         public string Name { get; set; }
         public string Bank { get; set; }
         public decimal Balance { get; set; }
     }
 
-    class Animal
+    internal class Animal
     {
         public string Name { get; set; }
         public int Age { get; set; }
     }
 
-    class Dog : Animal
+    internal class Dog : Animal
     {
         public int NumberOfLegs { get; set; }
 
@@ -416,7 +415,7 @@
         }
     }
 
-    class Cat : Animal
+    internal class Cat : Animal
     {
         public int IntelligenceQuotient { get; set; }
 
@@ -426,7 +425,7 @@
         }
     }
 
-    class Snake : Animal
+    internal class Snake : Animal
     {
         public int CrueltyCoefficient { get; set; }
 
@@ -436,14 +435,14 @@
         }
     }
 
-    class Website
+    internal class Website
     {
         public string Host { get; set; }
         public string Domain { get; set; }
         public List<string> Queries { get; set; }
     }
 
-    class Box
+    internal class Box
     {
         public int X1 { get; set; }
         public int X2 { get; set; }
@@ -461,13 +460,13 @@
         }
     }
 
-    class User
+    internal class User
     {
         public string Username { get; set; }
-        public List<Message> ReceivedMessages { get; set; }    
+        public List<Message> ReceivedMessages { get; set; }
     }
 
-    class Message
+    internal class Message
     {
         public string Content { get; set; }
         public User Sender { get; set; }

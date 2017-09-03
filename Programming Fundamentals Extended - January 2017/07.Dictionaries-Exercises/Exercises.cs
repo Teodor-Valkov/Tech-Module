@@ -1,12 +1,12 @@
 ﻿namespace _07.Dictionaries_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             LetterRepetition();
@@ -240,7 +240,7 @@
                 {
                     nameAndAge[name] = int.Parse(ageSalaryOrPosition);
                 }
-                
+
                 if (ageSalaryOrPosition.Contains('.'))
                 {
                     nameAndSalary[name] = double.Parse(ageSalaryOrPosition);

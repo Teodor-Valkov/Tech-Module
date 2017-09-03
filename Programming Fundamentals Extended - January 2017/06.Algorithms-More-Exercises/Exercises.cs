@@ -1,12 +1,12 @@
 ﻿namespace _06.Algorithms_More_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             RabbitHole();
@@ -164,7 +164,6 @@
                         {
                             break;
                         }
-
                     }
 
                     for (int j = 0; j < numbers.Count - 1; j++)
@@ -200,7 +199,7 @@
                     int counter = number.ToString().Length;
                     currentNumberAsString = number.ToString();
                     minNumber = number;
-                    
+
                     for (int i = 0; i < counter; i++)
                     {
                         currentNumberAsString = currentNumberAsString.Insert(currentNumberAsString.Length, currentNumberAsString[0].ToString());

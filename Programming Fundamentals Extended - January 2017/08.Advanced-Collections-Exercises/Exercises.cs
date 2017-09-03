@@ -1,12 +1,12 @@
 ﻿namespace _08.Advanced_Collections_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             Shellbound();
@@ -53,7 +53,7 @@
 
             //regionAndShellSizes
             //    .ToList()
-            //    .ForEach(pair => 
+            //    .ForEach(pair =>
             //        Console.WriteLine($"{pair.Key} -> {string.Join(", ", pair.Value)} ({pair.Value.Sum() - (pair.Value.Sum() / pair.Value.Count)})"));
         }
 
@@ -108,7 +108,7 @@
 
             //nameAndValues
             //    .ToList()
-            //    .ForEach(pair => 
+            //    .ForEach(pair =>
             //        Console.WriteLine($"{pair.Key} === {string.Join(", ", pair.Value)}"));
         }
 
@@ -204,7 +204,6 @@
                             likesAndDislikes.Add(action, new Dictionary<string, int>());
                             likesAndDislikes[action]["Likes"] = 0;
                             likesAndDislikes[action]["Dislikes"] = 0;
-
                         }
                         break;
 
@@ -236,7 +235,7 @@
                             commentatorsAndComments[action] = new Dictionary<string, List<string>>();
                         }
 
-                        commentatorsAndComments[action][commentator] = comments;    
+                        commentatorsAndComments[action][commentator] = comments;
                         break;
                 }
             }
@@ -249,7 +248,7 @@
                 {
                     Console.Write($" | {innerPair.Key}: {Math.Max(innerPair.Value, 0)}");
                 }
-                
+
                 Console.WriteLine("\nComments:");
 
                 bool isPostCommented = commentatorsAndComments.ContainsKey(pair.Key);

@@ -2,9 +2,9 @@
 {
     using System;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             TrickyStrings();
@@ -46,7 +46,6 @@
 
         private static void TriangleFormation()
         {
-
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
@@ -70,7 +69,7 @@
             bool rightTriangleConditioFirst = a * a + b * b == c * c;
             bool rightTriangleConditionSecond = b * b + c * c == a * a;
             bool rightTriangleConditionThird = a * a + c * c == b * b;
-            
+
             if (rightTriangleConditioFirst || rightTriangleConditionSecond || rightTriangleConditionThird)
             {
                 if (c > a && c > b)
@@ -123,7 +122,7 @@
                 int currentNumber = int.Parse(Console.ReadLine());
 
                 int digitFirst = currentNumber / 100;
-                int digitSecond= currentNumber % 100 / 10;
+                int digitSecond = currentNumber % 100 / 10;
                 int digitThird = currentNumber % 10;
 
                 totalValue += (digitFirst + digitSecond + digitThird) / (float)number;
@@ -145,7 +144,7 @@
                     decrypted += (char)asciiCode;
                 }
             }
-            
+
             Console.WriteLine($"Message: {decrypted}");
             Console.WriteLine($"Value: {totalValue:F7}");
         }
@@ -169,7 +168,7 @@
             {
                 Console.WriteLine(new string('*', n * 3));
             }
-            
+
             for (int i = 0; i < n; i++)
             {
                 Console.WriteLine(new string('.', n) + new string('*', n) + new string('.', n));
@@ -180,7 +179,7 @@
         {
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine(new string('*', n)+ new string('.', n));
+                Console.WriteLine(new string('*', n) + new string('.', n));
             }
 
             for (int i = 0; i < n; i++)
@@ -208,7 +207,7 @@
 
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine(new string('.', n)+ new string('*', n));
+                Console.WriteLine(new string('.', n) + new string('*', n));
             }
         }
     }

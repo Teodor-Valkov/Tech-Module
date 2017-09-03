@@ -1,12 +1,12 @@
 ﻿namespace _06.Algorithms_Lab
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Lab
+    internal class Lab
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             ArrayContainsElement();
@@ -100,11 +100,9 @@
 
             Console.WriteLine(string.Join(" ", numbers));
         }
-        
 
         private static void InsertionSortUsingList()
         {
-
             List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
             for (int i = 1; i < numbers.Count; i++)
@@ -136,6 +134,6 @@
             int number = int.Parse(Console.ReadLine());
 
             Console.WriteLine(string.Join(" ", numbers.OrderByDescending(num => num).Take(number)));
-        }       
+        }
     }
 }

@@ -1,12 +1,12 @@
 ﻿namespace _12.Strings_More_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             SerializeString();
@@ -178,11 +178,10 @@
 
                     if (!string.IsNullOrEmpty(core))
                     {
-                        Console.WriteLine(core + border + core);                     
+                        Console.WriteLine(core + border + core);
                     }
                 }
             }
         }
     }
 }
-

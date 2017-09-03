@@ -1,13 +1,13 @@
 ﻿namespace _11.Files_Directories_Lab
 {
     using System;
+    using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using System.Collections.Generic;
 
-    class Lab
+    internal class Lab
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             OddLines();
@@ -92,7 +92,7 @@
                 File.AppendAllText("Output/ouput.txt", firstFile[i] + Environment.NewLine + secondFile[i] + Environment.NewLine);
 
                 //File.AppendAllLines("Output/ouput.txt", new [] {firstFile[i], secondFile[i]});
-                //The method itself has a separator for new line and we can just pass the parameters from the arrays 
+                //The method itself has a separator for new line and we can just pass the parameters from the arrays
             }
         }
 

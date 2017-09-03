@@ -1,12 +1,12 @@
 ﻿namespace _05.Lists_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             RemoveElementsAtOddPositions();
@@ -32,7 +32,7 @@
             List<string> inputList = Console.ReadLine().Split().ToList();
             List<string> resultList = new List<string>();
 
-            for (int i = 1; i < inputList.Count; i+=2)
+            for (int i = 1; i < inputList.Count; i += 2)
             {
                 resultList.Add(inputList[i]);
             }
@@ -64,7 +64,7 @@
 
                 if (isValid)
                 {
-                    resultList.Add(input);                
+                    resultList.Add(input);
                 }
             }
 
@@ -89,9 +89,8 @@
             string result = firstNumbers.Sum() == secondNumbers.Sum()
                 ? $"Yes. Sum: {firstNumbers.Sum()}"
                 : $"No. Diff: {Math.Abs(firstNumbers.Sum() - secondNumbers.Sum())}";
-            
+
             Console.WriteLine(result);
-            
         }
 
         private static void FlipListSides()
@@ -112,7 +111,7 @@
         {
             List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
-            List<int> tempNumbers = numbers.Skip(numbers.Count/2).Take(numbers.Count).ToList();
+            List<int> tempNumbers = numbers.Skip(numbers.Count / 2).Take(numbers.Count).ToList();
             numbers.RemoveRange(numbers.Count / 2, numbers.Count / 2);
 
             List<int> result = new List<int>();

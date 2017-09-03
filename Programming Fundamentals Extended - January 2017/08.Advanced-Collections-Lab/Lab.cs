@@ -1,12 +1,12 @@
 ﻿namespace _08.Advanced_Collections_Lab
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Lab
+    internal class Lab
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             AverageStudentGrades();
@@ -52,7 +52,7 @@
 
             //studentsAndGrades
             //    .ToList()
-            //    .ForEach(pair => 
+            //    .ForEach(pair =>
             //    Console.WriteLine($"{pair.Key} -> {string.Join(" ", pair.Value.Select(grade => string.Format($"{grade:F2}")))} (avg: {pair.Value.Average():F2})"));
         }
 
@@ -71,7 +71,7 @@
                     string continent = inputArgs[0];
                     string country = inputArgs[1];
                     string city = inputArgs[2];
-                   
+
                     if (!continentCountryAndCities.ContainsKey(continent))
                     {
                         continentCountryAndCities[continent] = new Dictionary<string, List<string>>();

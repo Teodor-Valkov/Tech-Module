@@ -1,13 +1,13 @@
 ﻿namespace _13.Regex_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Text.RegularExpressions;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             Cards();
@@ -289,7 +289,7 @@
         }
     }
 
-    class Commit
+    internal class Commit
     {
         public string Hash { get; set; }
         public string Message { get; set; }

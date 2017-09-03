@@ -1,12 +1,12 @@
 ﻿namespace _01.DataTypes_Exercises
 {
     using System;
-    using System.Linq;
     using System.Globalization;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             PracticeIntegerNumbers();
@@ -401,7 +401,6 @@
                 {
                     result += word + delimiter;
                 }
-
             }
 
             Console.WriteLine($"{result}");

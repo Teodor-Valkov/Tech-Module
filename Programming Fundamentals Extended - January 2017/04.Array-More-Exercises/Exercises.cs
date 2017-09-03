@@ -1,12 +1,12 @@
 ﻿namespace _04.Array_More_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             LastThreeConsecutiveEqualStrings();
@@ -128,8 +128,8 @@
 
                 if (numberSum % 2 == 1)
                 {
-                    answer = action == "call" 
-                        ? "no answer" 
+                    answer = action == "call"
+                        ? "no answer"
                         : "busy";
                 }
                 else
@@ -141,7 +141,7 @@
                         ? $"call ended. duration: {minutes:00}:{seconds:00}"
                         : "meet me there";
                 }
-                
+
                 Console.WriteLine($"{answer}");
             }
         }
@@ -196,7 +196,7 @@
                 {
                     if (i != counter)
                     {
-                        numbers[i]--;                    
+                        numbers[i]--;
                     }
                 }
 
@@ -226,7 +226,7 @@
                         break;
                     }
 
-                    string[] commands = input.Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries).ToArray();
+                    string[] commands = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
 
                     string action = commands[0];
                     int number = 0;
@@ -241,12 +241,15 @@
                         case "push":
                             result = result + " " + number;
                             break;
+
                         case "pop":
                             result = Pop(result);
                             break;
+
                         case "removeAt":
                             result = RemoveAt(result, number);
                             break;
+
                         case "clear":
                             result = string.Empty;
                             break;
@@ -254,8 +257,8 @@
                 }
             }
         }
-        
-        static string Pop(string input)
+
+        private static string Pop(string input)
         {
             string result = string.Empty;
             string[] inputCharArray = input.TrimStart().Split();
@@ -268,7 +271,7 @@
             return result.TrimEnd();
         }
 
-        static string RemoveAt(string input, int number)
+        private static string RemoveAt(string input, int number)
         {
             string result = string.Empty;
             string[] inputCharArray = input.TrimStart().Split();

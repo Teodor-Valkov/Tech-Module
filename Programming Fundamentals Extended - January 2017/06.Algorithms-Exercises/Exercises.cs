@@ -1,12 +1,12 @@
 ﻿namespace _06.Algorithms_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             ShootListElements();
@@ -166,7 +166,7 @@
             {
                 int allCount = occurrences.Sum();
                 int currentCount = occurrences[i];
-                double percentage = 100/(double) allCount * currentCount;
+                double percentage = 100 / (double)allCount * currentCount;
 
                 Console.WriteLine($"{words[i]} -> {currentCount} times ({percentage:F2}%)");
             }
@@ -208,8 +208,8 @@
             {
                 string[] argsElements = inputArgs[i].Split('.');
 
-                char leftSideSymbol = (char) int.Parse(argsElements[0]);
-                char rightSideSymbol = (char) int.Parse(argsElements[1]);
+                char leftSideSymbol = (char)int.Parse(argsElements[0]);
+                char rightSideSymbol = (char)int.Parse(argsElements[1]);
 
                 if (leftSideSymbol != 0)
                 {
@@ -242,7 +242,7 @@
                 }
                 else
                 {
-                    double lastedHours = Math.Ceiling(capacity[i]/usage[i]);
+                    double lastedHours = Math.Ceiling(capacity[i] / usage[i]);
                     Console.WriteLine($"Battery {i + 1}: dead (lasted {lastedHours} hours)");
                 }
             }

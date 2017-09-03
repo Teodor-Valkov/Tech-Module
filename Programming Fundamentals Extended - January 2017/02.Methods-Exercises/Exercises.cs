@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             HelloName();
@@ -130,7 +130,6 @@
 
                 Letterize(number);
             }
-
         }
 
         private static void StringEcryption()
@@ -303,7 +302,7 @@
             result = numberAsString.First() + numberAsString.Last().ToString();
 
             char nextLetter = Convert.ToChar(letter + int.Parse(numberAsString.Last().ToString()));
-            char previousLetter = Convert.ToChar(letter- int.Parse(numberAsString.First().ToString()));
+            char previousLetter = Convert.ToChar(letter - int.Parse(numberAsString.First().ToString()));
 
             result = nextLetter + result + previousLetter;
             return result;

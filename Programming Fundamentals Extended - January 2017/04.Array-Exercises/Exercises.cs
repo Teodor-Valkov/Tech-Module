@@ -1,12 +1,12 @@
 ﻿namespace _04.Array_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             LargestElementInArray();
@@ -170,7 +170,7 @@
             string[] inputArgs = Console.ReadLine().Split();
             double initialAltitude = double.Parse(inputArgs[0]);
 
-            for (int i = 1; i < inputArgs.Length; i+=2)
+            for (int i = 1; i < inputArgs.Length; i += 2)
             {
                 string direction = inputArgs[i];
                 double altitude = double.Parse(inputArgs[i + 1]);

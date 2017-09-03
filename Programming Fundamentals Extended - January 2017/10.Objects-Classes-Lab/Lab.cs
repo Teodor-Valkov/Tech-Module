@@ -1,14 +1,14 @@
 ﻿namespace _10.Objects_Classes_Lab
 {
     using System;
+    using System.Collections.Generic;
+    using System.Globalization;
     using System.Linq;
     using System.Numerics;
-    using System.Globalization;
-    using System.Collections.Generic;
 
-    class Lab
+    internal class Lab
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             DayOfWeek();

@@ -2,9 +2,9 @@
 {
     using System;
 
-    class Lab
+    internal class Lab
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             SpecialNumbers();

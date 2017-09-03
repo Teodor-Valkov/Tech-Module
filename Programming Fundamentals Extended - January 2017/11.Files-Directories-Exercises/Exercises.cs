@@ -1,13 +1,13 @@
 ﻿namespace _11.Files_Directories_Exercises
 {
     using System;
+    using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using System.Collections.Generic;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             FilterExtensions();
@@ -178,7 +178,7 @@
 
             foreach (string file in files)
             {
-                string[] content = file.Split(new[] {'.', '/', '\\'}, StringSplitOptions.RemoveEmptyEntries);
+                string[] content = file.Split(new[] { '.', '/', '\\' }, StringSplitOptions.RemoveEmptyEntries);
 
                 string extension = content.Last();
 

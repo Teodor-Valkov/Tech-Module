@@ -1,12 +1,12 @@
 ﻿namespace _09.Lambda_LINQ_More_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             LambadaExpressions();
@@ -105,7 +105,6 @@
                     Console.WriteLine($"{pair.Key} => {innerPair.Key}.{innerPair.Value}");
                 }
             }
-
         }
 
         private static void OrderedBankingSystem()
@@ -195,14 +194,14 @@
                     int number = int.Parse(collection);
 
                     //List<string> currentCollectionMethods =
-                        collectionAndMethods
-                            .OrderByDescending(pair => pair.Value.Count)
-                            .Take(1)
-                            .SelectMany(pair => pair.Value)
-                            .OrderBy(method => method.Length)
-                            .Take(number)
-                            .ToList()
-                            .ForEach(method => Console.WriteLine($"* {method}"));
+                    collectionAndMethods
+                        .OrderByDescending(pair => pair.Value.Count)
+                        .Take(1)
+                        .SelectMany(pair => pair.Value)
+                        .OrderBy(method => method.Length)
+                        .Take(number)
+                        .ToList()
+                        .ForEach(method => Console.WriteLine($"* {method}"));
 
                     //foreach (string method in currentCollectionMethods)
                     //{
@@ -213,14 +212,14 @@
                 if (IsCollectionExistingInDictionary(collection, collectionAndMethods) && !methods.Any())
                 {
                     //List<string> currentCollectionMethods =
-                        collectionAndMethods
-                            .Where(pair => pair.Key == collection)
-                            .SelectMany(pair => pair.Value)
-                            .OrderByDescending(method => method.Length)
-                            .ThenByDescending(method => method.Distinct().Count())
-                            .ToList()
-                            .ForEach(method => Console.WriteLine($"* {method}"));
-                    
+                    collectionAndMethods
+                        .Where(pair => pair.Key == collection)
+                        .SelectMany(pair => pair.Value)
+                        .OrderByDescending(method => method.Length)
+                        .ThenByDescending(method => method.Distinct().Count())
+                        .ToList()
+                        .ForEach(method => Console.WriteLine($"* {method}"));
+
                     //foreach (string method in currentCollectionMethods)
                     //{
                     //    Console.WriteLine($"* {method}");
@@ -261,7 +260,6 @@
 
             if (neededsSelection.ToLower() == "all")
             {
-
                 //collectionAndMethods
                 //    .Where(pair => pair.Value.Contains(neededMethod))
                 //    .OrderByDescending(pair => pair.Value.Count)

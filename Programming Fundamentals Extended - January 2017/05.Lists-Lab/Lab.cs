@@ -1,12 +1,12 @@
 ﻿namespace _05.Lists_Lab
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Lab
+    internal class Lab
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             RemoveNegativesAndReverse();
@@ -158,14 +158,13 @@
 
         private static void SquareNumbers()
         {
-
             List<double> numbers = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
             List<double> result = new List<double>();
 
             foreach (double number in numbers)
             {
                 if (number % Math.Sqrt(number) == 0)
-                //or (Math.Sqrt(numbers[i] == (int)Math.Sqrt(numbers[i])) 
+                //or (Math.Sqrt(numbers[i] == (int)Math.Sqrt(numbers[i]))
                 {
                     result.Add(number);
                 }

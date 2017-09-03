@@ -3,13 +3,13 @@
     using System;
     using System.Linq;
 
-    class Lab
+    internal class Lab
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             SumArrayElements();
-            
+
             // Task 2
             MultiplyArrayOfDoubles();
 
@@ -48,7 +48,6 @@
 
             numbers = numbers.Select(num => num * number).ToArray();
             Console.WriteLine(string.Join(" ", numbers));
-
         }
 
         private static void SmallestElementInArray()
@@ -85,7 +84,7 @@
                 if (number % 2 == 1 || number % 2 == -1)
                 {
                     counter++;
-                }   
+                }
             }
 
             Console.WriteLine(counter);

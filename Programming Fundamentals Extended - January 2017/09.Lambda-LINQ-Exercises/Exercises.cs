@@ -1,13 +1,13 @@
 ﻿namespace _09.Lambda_LINQ_Exercises
 {
     using System;
-    using System.Linq;
-    using System.Globalization;
     using System.Collections.Generic;
+    using System.Globalization;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             RegisteredUsers();
@@ -40,7 +40,7 @@
                 usernameAndDate[username] = date;
             }
 
-            usernameAndDate = 
+            usernameAndDate =
                 usernameAndDate
                  .Reverse()
                  .OrderBy(pair => pair.Value)
@@ -76,7 +76,7 @@
                 keysAndValues[key] = value;
             }
 
-            Dictionary<string, string> originalKeysAndValues = 
+            Dictionary<string, string> originalKeysAndValues =
                 keysAndValues
                  .Where(pair => pair.Value != "null")
                  .OrderByDescending(pair => pair.Value.Length)
@@ -87,7 +87,7 @@
                 Console.WriteLine($"{pair.Key} <-> {pair.Value}");
             }
 
-            Dictionary<string, string> replacedKeysAndValues = 
+            Dictionary<string, string> replacedKeysAndValues =
                 keysAndValues
                  .Where(pair => pair.Value == "null")
                  .ToDictionary(pair => pair.Key, pair => pair.Value);
@@ -100,7 +100,6 @@
 
         private static void FlattenDictionary()
         {
-
             Dictionary<string, Dictionary<string, string>> dictAndInnerDict = new Dictionary<string, Dictionary<string, string>>();
             string flattenKey = string.Empty;
 
@@ -110,7 +109,7 @@
 
                 if (input.ToLower() == "end")
                     break;
-                
+
                 if (input.ToLower().Contains("flatten"))
                 {
                     int startIndex = "flatten ".Length;
@@ -135,7 +134,7 @@
                 }
             }
 
-            dictAndInnerDict = 
+            dictAndInnerDict =
                 dictAndInnerDict
                  .OrderByDescending(pair => pair.Key.Length)
                  .ToDictionary(pair => pair.Key, pair => pair.Value);
@@ -145,7 +144,7 @@
             {
                 Console.WriteLine($"{pair.Key}");
 
-                Dictionary<string, string> notFlattenedDict = 
+                Dictionary<string, string> notFlattenedDict =
                     pair.Value
                      .Where(innerPair => innerPair.Value != "flatten")
                      .OrderBy(innerPair => innerPair.Key.Length)
@@ -158,11 +157,11 @@
 
                 if (pair.Key == flattenKey)
                 {
-                    Dictionary<string, string> flattenedDict = 
+                    Dictionary<string, string> flattenedDict =
                         pair.Value
                          .Where(innerPair => innerPair.Value == "flatten")
                          .ToDictionary(innerPair => innerPair.Key, innerPair => innerPair.Value);
-                    
+
                     foreach (KeyValuePair<string, string> innerPair in flattenedDict)
                     {
                         Console.WriteLine($"{counter++}. {innerPair.Key}");
@@ -202,19 +201,19 @@
             double allheightSum = treeAndHeight.Sum(pair => pair.Value.Sum());
             double pricePerMeter = Math.Round(allheightSum / treeAndHeight.Sum(pair => pair.Value.Count), 2);
 
-            List<int> unneededTreesHeight = 
+            List<int> unneededTreesHeight =
                 treeAndHeight
                  .Where(pair => pair.Key != neededTree)
                  .SelectMany(pair => pair.Value).ToList();
 
-            List<int> neededTreesUnsuficientHeight = 
+            List<int> neededTreesUnsuficientHeight =
                 treeAndHeight[neededTree]
                  .Where(value => value < neededHeight)
                  .ToList();
 
             double unneededTreesPrice = Math.Round((neededTreesUnsuficientHeight.Sum() + unneededTreesHeight.Sum()) * pricePerMeter * 0.25, 2);
 
-            List<int> neededTreesHeight = 
+            List<int> neededTreesHeight =
                 treeAndHeight[neededTree]
                 .Where(value => value >= neededHeight)
                 .ToList();

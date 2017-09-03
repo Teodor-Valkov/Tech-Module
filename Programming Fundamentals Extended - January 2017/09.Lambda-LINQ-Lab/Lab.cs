@@ -1,19 +1,19 @@
 ﻿namespace _09.Lambda_LINQ_Lab
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Lab
+    internal class Lab
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             SumMinMaxAverage();
-            
+
             // Task 2
             LargestThreeNumbers();
-            
+
             // Task 3
             ShortWordsSorted();
 

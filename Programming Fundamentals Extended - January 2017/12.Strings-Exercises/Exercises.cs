@@ -1,13 +1,13 @@
 ﻿namespace _12.Strings_Exercises
 {
     using System;
-    using System.Text;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             Placeholders();
@@ -179,11 +179,10 @@
         }
     }
 
-    class Student
+    internal class Student
     {
         public string Name { get; set; }
         public int Age { get; set; }
         public List<int> Grades { get; set; }
     }
 }
-

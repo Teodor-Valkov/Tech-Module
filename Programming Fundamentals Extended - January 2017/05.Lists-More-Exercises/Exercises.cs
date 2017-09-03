@@ -1,12 +1,12 @@
 ﻿namespace _05.Lists_More_Exercises
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Exercises
+    internal class Exercises
     {
-        static void Main()
+        private static void Main()
         {
             // Task 1
             DistinctList();
@@ -125,62 +125,72 @@
                         naturals.Add("C");
                         naturalsSum += double.Parse(frequency);
                         break;
+
                     case "277.18":
                         notes.Add("C#");
                         sharps.Add("C#");
                         sharpsSum += double.Parse(frequency);
                         break;
+
                     case "293.66":
                         notes.Add("D");
                         naturals.Add("D");
                         naturalsSum += double.Parse(frequency);
                         break;
+
                     case "311.13":
                         notes.Add("D#");
                         sharps.Add("D#");
                         sharpsSum += double.Parse(frequency);
                         break;
+
                     case "329.63":
                         notes.Add("E");
                         naturals.Add("E");
                         naturalsSum += double.Parse(frequency);
                         break;
+
                     case "349.23":
                         notes.Add("F");
                         naturals.Add("F");
                         naturalsSum += double.Parse(frequency);
                         break;
+
                     case "369.99":
                         notes.Add("F#");
                         sharps.Add("F#");
                         sharpsSum += double.Parse(frequency);
                         break;
+
                     case "392.00":
                         notes.Add("G");
                         naturals.Add("G");
                         naturalsSum += double.Parse(frequency);
                         break;
+
                     case "415.30":
                         notes.Add("G#");
                         sharps.Add("G#");
                         sharpsSum += double.Parse(frequency);
                         break;
+
                     case "440.00":
                         notes.Add("A");
                         naturals.Add("A");
                         naturalsSum += double.Parse(frequency);
                         break;
+
                     case "466.16":
                         notes.Add("A#");
                         sharps.Add("A#");
                         sharpsSum += double.Parse(frequency);
                         break;
+
                     case "493.88":
                         notes.Add("B");
                         naturals.Add("B");
                         naturalsSum += double.Parse(frequency);
                         break;
-
                 }
             }
 
@@ -226,7 +236,7 @@
                         }
                     }
                 }
-            
+
                 counter++;
 
                 if (counter == number)
