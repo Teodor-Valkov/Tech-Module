@@ -3,9 +3,9 @@
     using System;
     using System.Text.RegularExpressions;
 
-    class MatchFullNames
+    internal class MatchFullNames
     {
-        static void Main()
+        private static void Main()
         {
             string pattern = @"\b[A-Z][a-z]+ [A-Z][a-z]+\b";
 

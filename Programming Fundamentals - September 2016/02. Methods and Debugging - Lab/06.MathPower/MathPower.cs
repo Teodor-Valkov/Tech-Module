@@ -2,13 +2,13 @@
 {
     using System;
 
-    class MathPower
+    internal class MathPower
     {
-        static void Main()
+        private static void Main()
         {
             double n = double.Parse(Console.ReadLine());
             double power = double.Parse(Console.ReadLine());
-            double result = CalculateMathPower(n, power); 
+            double result = CalculateMathPower(n, power);
 
             Console.WriteLine(result);
         }

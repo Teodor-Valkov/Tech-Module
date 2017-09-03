@@ -3,9 +3,9 @@
     using System;
     using System.Numerics;
 
-    class BigFactorial
+    internal class BigFactorial
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
 

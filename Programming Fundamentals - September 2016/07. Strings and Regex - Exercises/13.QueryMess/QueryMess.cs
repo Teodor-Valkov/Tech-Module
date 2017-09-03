@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Text.RegularExpressions;
 
-    class QueryMess
+    internal class QueryMess
     {
-        static void Main()
+        private static void Main()
         {
             while (true)
             {

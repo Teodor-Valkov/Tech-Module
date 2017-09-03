@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class MaxSequenceOfEqualElements
+    internal class MaxSequenceOfEqualElements
     {
-        static void Main()
+        private static void Main()
         {
             int[] array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 

@@ -1,11 +1,11 @@
 ﻿namespace _06.BookLibraryModification
 {
     using System;
-    using System.Linq;
-    using System.Globalization;
     using System.Collections.Generic;
+    using System.Globalization;
+    using System.Linq;
 
-    class Book
+    internal class Book
     {
         public string Title { get; set; }
         public string Author { get; set; }
@@ -14,15 +14,16 @@
         public string IsbnNumber { get; set; }
         public decimal Price { get; set; }
     }
-    class Library
+
+    internal class Library
     {
         public string Name { get; set; }
         public List<Book> Books { get; set; }
     }
 
-    class BookLibrary
+    internal class BookLibrary
     {
-        static void Main()
+        private static void Main()
         {
             System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
 
@@ -71,7 +72,7 @@
                 IsbnNumber = currentBookParameters[4],
                 Price = decimal.Parse(currentBookParameters[5])
             };
-            
+
             return currentBook;
         }
     }

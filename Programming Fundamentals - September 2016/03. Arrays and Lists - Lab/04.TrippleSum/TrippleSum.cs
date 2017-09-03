@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class TrippleSum
+    internal class TrippleSum
     {
-        static void Main()
+        private static void Main()
         {
             int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             bool answer = false;

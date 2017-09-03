@@ -1,10 +1,10 @@
 ﻿namespace _07.AndreyAndBilliard
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Client
+    internal class Client
     {
         public string Name { get; set; }
         public List<string> Orders { get; set; }
@@ -12,9 +12,9 @@
         public double Bill { get; set; }
     }
 
-    class AndreyAndBilliard
+    internal class AndreyAndBilliard
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
 
@@ -32,7 +32,7 @@
 
                 if (inputLine != null)
                 {
-                    string[] inputLineArgs = inputLine.Split(new [] { '-', ',' }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] inputLineArgs = inputLine.Split(new[] { '-', ',' }, StringSplitOptions.RemoveEmptyEntries);
                     string currentName = inputLineArgs[0];
                     string currentOrder = inputLineArgs[1];
                     int quantity = int.Parse(inputLineArgs[2]);
@@ -42,8 +42,8 @@
                         Client currentClient = new Client
                         {
                             Name = currentName,
-                            Orders = new List<string> {currentOrder},
-                            OrdersQuantity = new Dictionary<string, int> {{currentOrder, quantity}}
+                            Orders = new List<string> { currentOrder },
+                            OrdersQuantity = new Dictionary<string, int> { { currentOrder, quantity } }
                         };
 
                         currentClient.Bill += quantity * productPriceDictionary[currentOrder];

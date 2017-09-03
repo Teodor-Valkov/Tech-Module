@@ -2,9 +2,9 @@
 {
     using System;
 
-    class CharacterMultiplier
+    internal class CharacterMultiplier
     {
-        static void Main()
+        private static void Main()
         {
             string[] words = Console.ReadLine().Split(' ');
 
@@ -22,7 +22,6 @@
             {
                 Console.WriteLine(sum);
             }
-
             else
             {
                 if (first.Length > second.Length)

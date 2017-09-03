@@ -3,13 +3,13 @@
     using System;
     using System.IO;
 
-    class OddLines
+    internal class OddLines
     {
-        static void Main()
+        private static void Main()
         {
             string[] fileInput = File.ReadAllLines("new folder/input.txt");
 
-            for (int i = 1; i < fileInput.Length; i+=2)
+            for (int i = 1; i < fileInput.Length; i += 2)
             {
                 File.AppendAllText("output.txt", fileInput[i] + Environment.NewLine);
             }

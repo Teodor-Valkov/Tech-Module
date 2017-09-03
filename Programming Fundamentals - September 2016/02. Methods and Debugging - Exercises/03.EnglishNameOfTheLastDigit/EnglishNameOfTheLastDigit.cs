@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class EnglishNameOfTheLastDigit
+    internal class EnglishNameOfTheLastDigit
     {
-        static void Main()
+        private static void Main()
         {
             string n = Console.ReadLine();
             string lastDigitEnglishName = GetLastDigitEnglishName(n);
@@ -18,7 +18,7 @@
             string lastDigitName = string.Empty;
 
             switch (number.Last())
-            {          
+            {
                 case '0': lastDigitName = "zero"; break;
                 case '1': lastDigitName = "one"; break;
                 case '2': lastDigitName = "two"; break;

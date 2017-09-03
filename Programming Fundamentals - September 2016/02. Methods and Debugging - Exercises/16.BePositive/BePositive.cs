@@ -1,12 +1,12 @@
 ﻿namespace _16.BePositive
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class BePositive
+    internal class BePositive
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
 

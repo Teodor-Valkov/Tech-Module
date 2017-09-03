@@ -2,9 +2,9 @@
 {
     using System;
 
-    class ComparingFloats
+    internal class ComparingFloats
     {
-        static void Main()
+        private static void Main()
         {
             double a = double.Parse(Console.ReadLine());
             double b = double.Parse(Console.ReadLine());

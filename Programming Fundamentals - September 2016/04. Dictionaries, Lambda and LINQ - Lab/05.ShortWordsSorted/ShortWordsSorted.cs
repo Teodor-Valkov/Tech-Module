@@ -1,14 +1,14 @@
 ﻿namespace _05.ShortWordsSorted
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class ShortWordsSorted
+    internal class ShortWordsSorted
     {
-        static void Main()
+        private static void Main()
         {
-            // In SoftUni you can study Java C# PHP and JavaScript. Java and c# developers graduate in 2-3 years. Go in! 
+            // In SoftUni you can study Java C# PHP and JavaScript. Java and c# developers graduate in 2-3 years. Go in!
 
             string separators = ".,:;()[]\"'\\/!? ";
 

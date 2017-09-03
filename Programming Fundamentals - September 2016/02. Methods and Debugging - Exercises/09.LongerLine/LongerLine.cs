@@ -2,9 +2,9 @@
 {
     using System;
 
-    class LongerLine
+    internal class LongerLine
     {
-        static void Main()
+        private static void Main()
         {
             double firstPointX = double.Parse(Console.ReadLine());
             double firstPointY = double.Parse(Console.ReadLine());
@@ -19,9 +19,9 @@
             double secondPointDistanceToCenter = GetDistanceFromCenter(secondPointX, secondPointY);
             double thirdPointDistanceToCenter = GetDistanceFromCenter(thirdPointX, thirdPointY);
             double fourthPointDistanceToCenter = GetDistanceFromCenter(fourthPointX, fourthPointY);
-            
+
             double lineBetweenFirstAndSecond = GetLineBetweenTwoPoints(firstPointX, firstPointY, secondPointX, secondPointY);
-            double lineBetweenThirdAndFourth = GetLineBetweenTwoPoints(thirdPointX, thirdPointY, fourthPointX, fourthPointY); 
+            double lineBetweenThirdAndFourth = GetLineBetweenTwoPoints(thirdPointX, thirdPointY, fourthPointX, fourthPointY);
 
             string longerLine = FindTheLongerLine(lineBetweenFirstAndSecond, lineBetweenThirdAndFourth);
 
@@ -30,7 +30,6 @@
                     Console.WriteLine("({0}, {1})({2}, {3})", firstPointX, firstPointY, secondPointX, secondPointY);
                 else
                     Console.WriteLine("({0}, {1})({2}, {3})", secondPointX, secondPointY, firstPointX, firstPointY);
-
             else if (longerLine == "secondLine")
                 if (thirdPointDistanceToCenter <= fourthPointDistanceToCenter)
                     Console.WriteLine("({0}, {1})({2}, {3})", thirdPointX, thirdPointY, fourthPointX, fourthPointY);

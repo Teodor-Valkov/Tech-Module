@@ -2,9 +2,9 @@
 {
     using System;
 
-    class RefactorVolumeOfPiramid
+    internal class RefactorVolumeOfPiramid
     {
-        static void Main()
+        private static void Main()
         {
             double length = double.Parse(Console.ReadLine());
             double width = double.Parse(Console.ReadLine());

@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class ExtractMiddleElements
+    internal class ExtractMiddleElements
     {
-        static void Main()
+        private static void Main()
         {
             int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 

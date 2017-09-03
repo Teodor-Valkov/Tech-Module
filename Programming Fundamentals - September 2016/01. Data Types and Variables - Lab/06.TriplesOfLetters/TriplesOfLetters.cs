@@ -2,12 +2,12 @@
 {
     using System;
 
-    class TriplesOfLetters
+    internal class TriplesOfLetters
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
-            
+
             for (char i = 'a'; i < 'a' + n; i++)
             {
                 for (char j = 'a'; j < 'a' + n; j++)

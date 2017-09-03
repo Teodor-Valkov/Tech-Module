@@ -1,12 +1,12 @@
 ﻿namespace _15.SquareNumbers
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class SquareNumbers
+    internal class SquareNumbers
     {
-        static void Main()
+        private static void Main()
         {
             List<double> numbers = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
             List<double> result = new List<double>();
@@ -14,7 +14,7 @@
             foreach (double number in numbers)
             {
                 if (number % Math.Sqrt(number) == 0)
-                    //or (Math.Sqrt(numbers[i] == (int)Math.Sqrt(numbers[i])) 
+                //or (Math.Sqrt(numbers[i] == (int)Math.Sqrt(numbers[i]))
                 {
                     result.Add(number);
                 }

@@ -1,14 +1,14 @@
 ﻿namespace _05.HandsOfCards
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class HandsOfCards
+    internal class HandsOfCards
     {
-        static void Main()
+        private static void Main()
         {
-                Dictionary<string, HashSet<string>> nameAndCards = new Dictionary<string, HashSet<string>>();
+            Dictionary<string, HashSet<string>> nameAndCards = new Dictionary<string, HashSet<string>>();
 
             while (true)
             {
@@ -16,7 +16,7 @@
 
                 if (input.ToLower() == "joker")
                     break;
-                
+
                 string[] inputArgs = input.Split(new[] { ':' }, StringSplitOptions.RemoveEmptyEntries);
                 string name = inputArgs[0];
                 string cards = inputArgs[1];
@@ -67,7 +67,7 @@
 
             switch (rank)
             {
-                case "2": rankPower = 2; break; 
+                case "2": rankPower = 2; break;
                 case "3": rankPower = 3; break;
                 case "4": rankPower = 4; break;
                 case "5": rankPower = 5; break;
@@ -75,7 +75,7 @@
                 case "7": rankPower = 7; break;
                 case "8": rankPower = 8; break;
                 case "9": rankPower = 9; break;
-                case "10":rankPower = 10; break;
+                case "10": rankPower = 10; break;
                 case "J": rankPower = 11; break;
                 case "Q": rankPower = 12; break;
                 case "K": rankPower = 13; break;

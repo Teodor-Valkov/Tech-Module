@@ -1,12 +1,12 @@
 ﻿namespace _05.MagicExchangeableWords
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class MagicExchangeableWords
+    internal class MagicExchangeableWords
     {
-        static void Main()
+        private static void Main()
         {
             string[] words = Console.ReadLine().Split();
 

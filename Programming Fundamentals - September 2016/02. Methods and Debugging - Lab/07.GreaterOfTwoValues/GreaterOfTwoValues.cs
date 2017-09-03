@@ -2,27 +2,29 @@
 {
     using System;
 
-    class GreaterOfTwoValues
+    internal class GreaterOfTwoValues
     {
-        static void Main()
+        private static void Main()
         {
             string type = Console.ReadLine();
             switch (type)
             {
-                case "int" :
+                case "int":
                     int firstNumber = int.Parse(Console.ReadLine());
                     int secondNumber = int.Parse(Console.ReadLine());
                     int biggerNumber = GetMax(firstNumber, secondNumber);
                     Console.WriteLine(biggerNumber);
                     break;
-                case "char" :
+
+                case "char":
                     char firstChar = char.Parse(Console.ReadLine());
                     char secondChar = char.Parse(Console.ReadLine());
                     char biggerChar = GetMax(firstChar, secondChar);
                     Console.WriteLine(biggerChar);
                     break;
-                case "string" :
-                    string firstString= Console.ReadLine();
+
+                case "string":
+                    string firstString = Console.ReadLine();
                     string secondString = Console.ReadLine();
                     string biggerString = GetMax(firstString, secondString);
                     Console.WriteLine(biggerString);
@@ -46,7 +48,7 @@
             return second;
         }
 
-        private static string GetMax(string first,string second)
+        private static string GetMax(string first, string second)
         {
             if (first.CompareTo(second) >= 0)
                 return first;

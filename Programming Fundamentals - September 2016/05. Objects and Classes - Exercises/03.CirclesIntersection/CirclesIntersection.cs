@@ -10,9 +10,9 @@
         public double Radius { get; set; }
     }
 
-    class CirclesIntersection
+    internal class CirclesIntersection
     {
-        static void Main()
+        private static void Main()
         {
             Circle firstCircle = ReadCircle();
             Circle secondCircle = ReadCircle();

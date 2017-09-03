@@ -3,9 +3,9 @@
     using System;
     using System.Text.RegularExpressions;
 
-    class LettersChangeNumbersRegex
+    internal class LettersChangeNumbersRegex
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
             decimal totalSum = 0;
@@ -32,7 +32,7 @@
                     {
                         number *= firstLetter - 'a' + 1;
                     }
-                
+
                     char lastLetter = Convert.ToChar(match.Groups[4].ToString());
 
                     if (lastLetter >= 'A' && lastLetter <= 'Z')
@@ -44,7 +44,7 @@
                     {
                         number += lastLetter - 'a' + 1;
                     }
-              
+
                     totalSum += number;
                 }
             }

@@ -2,9 +2,9 @@
 {
     using System;
 
-    class RandomizeWords
+    internal class RandomizeWords
     {
-        static void Main()
+        private static void Main()
         {
             string[] words = Console.ReadLine().Split(' ');
 

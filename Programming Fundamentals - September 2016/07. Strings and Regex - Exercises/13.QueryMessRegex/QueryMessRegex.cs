@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Text.RegularExpressions;
 
-    class QueryMessRegex
+    internal class QueryMessRegex
     {
-        static void Main()
+        private static void Main()
         {
             string pattern = @"([^&=?\s]+)=([^&=\s]+)";
             string spaces = @"((%20|\+)+)";

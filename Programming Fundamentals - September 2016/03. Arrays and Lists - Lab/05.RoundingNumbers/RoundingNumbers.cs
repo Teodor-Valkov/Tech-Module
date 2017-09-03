@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class RoundingNumbers
+    internal class RoundingNumbers
     {
-        static void Main()
+        private static void Main()
         {
             double[] numbers = Console.ReadLine().Split(' ').Select(double.Parse).ToArray();
 

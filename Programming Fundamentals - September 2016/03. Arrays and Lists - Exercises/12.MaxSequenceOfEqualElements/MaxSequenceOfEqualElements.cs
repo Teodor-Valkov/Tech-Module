@@ -1,12 +1,12 @@
 ﻿namespace _12.MaxSequenceOfEqualElements
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class MaxSequenceOfEqualElements
+    internal class MaxSequenceOfEqualElements
     {
-        static void Main()
+        private static void Main()
         {
             List<int> nums = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 

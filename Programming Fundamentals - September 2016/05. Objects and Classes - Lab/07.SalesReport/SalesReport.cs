@@ -1,10 +1,10 @@
 ﻿namespace _07.SalesReport
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Sale
+    internal class Sale
     {
         public string Town { get; set; }
         public string Product { get; set; }
@@ -12,9 +12,9 @@
         public double Quantity { get; set; }
     }
 
-    class SalesReport
+    internal class SalesReport
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
 
@@ -25,7 +25,7 @@
                 Sale currentSale = ReadSale();
                 sales.Add(currentSale);
             }
-            
+
             List<string> towns = sales.Select(x => x.Town).OrderBy(x => x).Distinct().ToList();
 
             foreach (string currentTown in towns)
@@ -33,11 +33,11 @@
                 double saleForTown = sales.Where(x => x.Town == currentTown).Sum(x => x.Price * x.Quantity);
                 // saleForTown = sales.Where(x => x.town == currentTown).Select(x => x.price * x.quantity).Sum();
 
-                Console.WriteLine($"{currentTown} -> {saleForTown:F2}");                
+                Console.WriteLine($"{currentTown} -> {saleForTown:F2}");
             }
         }
 
-        static Sale ReadSale()
+        private static Sale ReadSale()
         {
             string[] input = Console.ReadLine().Split(' ');
 

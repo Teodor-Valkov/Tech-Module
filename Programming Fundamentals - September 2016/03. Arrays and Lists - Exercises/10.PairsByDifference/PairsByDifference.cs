@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class PairsByDifference
+    internal class PairsByDifference
     {
-        static void Main()
+        private static void Main()
         {
             int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             int difference = int.Parse(Console.ReadLine());

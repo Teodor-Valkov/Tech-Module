@@ -1,12 +1,12 @@
-﻿    namespace _08.LogsAggregator
+﻿namespace _08.LogsAggregator
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class LogsAggregator
+    internal class LogsAggregator
     {
-        static void Main()
+        private static void Main()
         {
             int number = int.Parse(Console.ReadLine());
 
@@ -39,7 +39,7 @@
                 string user = pair.Key;
                 long userDuration = pair.Value.Values.Sum();
                 string[] userAddresses = pair.Value.Keys.ToArray();
-                
+
                 Console.WriteLine($"{user}: {userDuration} [{string.Join(", ", userAddresses)}]");
             }
         }

@@ -2,9 +2,9 @@
 {
     using System;
 
-    class RefactorSpecialNumbers
+    internal class RefactorSpecialNumbers
     {
-        static void Main()
+        private static void Main()
         {
             int numbers = int.Parse(Console.ReadLine());
             int sum = 0;

@@ -2,14 +2,14 @@
 {
     using System;
 
-    class AdvertisementMessage
+    internal class AdvertisementMessage
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             Random rnd = new Random();
 
-            string[] phrases = 
+            string[] phrases =
             {
                 "Excellent product",
                 "Such a great product",
@@ -17,7 +17,7 @@
                 "Best product of its category"
             };
 
-            string[] events = 
+            string[] events =
             {
                 "Now I feel good",
                 "I have succeeded to change",
@@ -26,7 +26,7 @@
                 "Try it yourself, I am very satisfied"
             };
 
-            string[] authors = 
+            string[] authors =
             {
                 "Diana",
                 "Petya",
@@ -38,7 +38,7 @@
                 "Misha"
             };
 
-            string[] cities = 
+            string[] cities =
             {
                 "Burgas",
                 "Sofia",

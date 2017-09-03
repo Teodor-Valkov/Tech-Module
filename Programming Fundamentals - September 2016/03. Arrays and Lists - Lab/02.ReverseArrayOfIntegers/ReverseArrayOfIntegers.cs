@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class ReverseArrayOfIntegers
+    internal class ReverseArrayOfIntegers
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             int[] numbers = new int[n];
@@ -24,12 +24,12 @@
                     Console.WriteLine("{0} ", numbers[i]);
                 }
                 else
-                {   
-                    Console.Write("{0} ", numbers[i]);                
+                {
+                    Console.Write("{0} ", numbers[i]);
                 }
             }
 
-            // Second Solution 
+            // Second Solution
 
             List<int> reversedNumbers = new List<int>(n);
             reversedNumbers.AddRange(numbers);

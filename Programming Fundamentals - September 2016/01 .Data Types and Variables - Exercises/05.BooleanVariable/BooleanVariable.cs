@@ -2,9 +2,9 @@
 {
     using System;
 
-    class BooleanVariable
+    internal class BooleanVariable
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
             bool flag = Convert.ToBoolean(input);

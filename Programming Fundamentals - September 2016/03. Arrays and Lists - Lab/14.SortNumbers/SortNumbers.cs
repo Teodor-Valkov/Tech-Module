@@ -1,12 +1,12 @@
 ﻿namespace _14.SortNumbers
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class SortNumbers
+    internal class SortNumbers
     {
-        static void Main()
+        private static void Main()
         {
             List<decimal> numbers = Console.ReadLine().Split(' ').Select(decimal.Parse).ToList();
             numbers.Sort();

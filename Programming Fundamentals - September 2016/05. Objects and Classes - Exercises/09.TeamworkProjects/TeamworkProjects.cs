@@ -1,10 +1,10 @@
 ﻿namespace _09.TeamworkProjects
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Team
+    internal class Team
     {
         public Team()
         {
@@ -16,9 +16,9 @@
         public List<string> TeamUsers { get; set; }
     }
 
-    class TeamworkProjects
+    internal class TeamworkProjects
     {
-        static void Main()
+        private static void Main()
         {
             int teamsNumber = int.Parse(Console.ReadLine());
 
@@ -26,7 +26,7 @@
 
             for (int i = 0; i < teamsNumber; i++)
             {
-                string[] input = Console.ReadLine().Split(new char[] {'-'}, StringSplitOptions.RemoveEmptyEntries);
+                string[] input = Console.ReadLine().Split(new char[] { '-' }, StringSplitOptions.RemoveEmptyEntries);
                 string creator = input[0];
                 string teamName = input[1];
 
@@ -57,7 +57,7 @@
 
                 if (input != null)
                 {
-                    string[] inputArgs = input.Split(new[] {'-', '>'}, StringSplitOptions.RemoveEmptyEntries);
+                    string[] inputArgs = input.Split(new[] { '-', '>' }, StringSplitOptions.RemoveEmptyEntries);
                     string userToJoin = inputArgs[0];
                     string teamToJoin = inputArgs[1];
 
@@ -117,4 +117,3 @@
         }
     }
 }
-

@@ -2,9 +2,9 @@
 {
     using System;
 
-    class Substring
+    internal class Substring
     {
-        static void Main()
+        private static void Main()
         {
             string text = Console.ReadLine();
             int jump = int.Parse(Console.ReadLine());
@@ -13,7 +13,7 @@
 
             for (int i = 0; i < text.Length; i++)
             {
-                if(text[i] == 'p')
+                if (text[i] == 'p')
                 {
                     hasMatch = true;
                     string matchedString = string.Empty;

@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class Phonebook
+    internal class Phonebook
     {
-        static void Main()
+        private static void Main()
         {
             // Here we can save the result in a new List and print it after the end of all input lines, but
             // in the upgraded version of the problem the results should be printed on each iteration of the loop
@@ -34,7 +34,7 @@
                     //else
                     //{
                     //    phonebook.Add(name, number);
-                    //} 
+                    //}
                 }
                 else if (action == "S")
                 {

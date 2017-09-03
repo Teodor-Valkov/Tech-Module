@@ -1,12 +1,12 @@
 ﻿namespace _14.ArrayManupulator
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class ArrayManupulator
+    internal class ArrayManupulator
     {
-        static void Main()
+        private static void Main()
         {
             List<decimal> numbers = Console.ReadLine().Split(' ').Select(decimal.Parse).ToList();
             string[] input = Console.ReadLine().Split(' ');

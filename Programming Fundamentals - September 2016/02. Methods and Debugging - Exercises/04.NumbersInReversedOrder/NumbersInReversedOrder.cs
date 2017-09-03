@@ -2,9 +2,9 @@
 {
     using System;
 
-    class NumbersInReversedOrder
+    internal class NumbersInReversedOrder
     {
-        static void Main()
+        private static void Main()
         {
             //Two solutions with a method with overloads:
 
@@ -13,7 +13,7 @@
 
             string reversedNumString = GetReversedNumber(numString);
             char[] reversedNumCharArray = GetReversedNumber(numCharArray);
-    
+
             Console.WriteLine(reversedNumString);
             Console.WriteLine(reversedNumCharArray);
         }

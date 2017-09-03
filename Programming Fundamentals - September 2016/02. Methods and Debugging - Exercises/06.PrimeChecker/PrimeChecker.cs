@@ -2,9 +2,9 @@
 {
     using System;
 
-    class PrimeChecker
+    internal class PrimeChecker
     {
-        static void Main()
+        private static void Main()
         {
             long n = long.Parse(Console.ReadLine());
             bool isPrime = CheckIfNumberIsPrime(n);

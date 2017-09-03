@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class MinerTask
+    internal class MinerTask
     {
-        static void Main()
+        private static void Main()
         {
             Dictionary<string, long> resourceAndQuantity = new Dictionary<string, long>();
 

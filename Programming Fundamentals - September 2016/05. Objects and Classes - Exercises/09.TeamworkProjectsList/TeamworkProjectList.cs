@@ -1,10 +1,10 @@
 ﻿namespace _09.TeamworkProjectsList
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Team
+    internal class Team
     {
         public Team()
         {
@@ -16,9 +16,9 @@
         public List<string> TeamUsers { get; set; }
     }
 
-    class TeamworkProjectList
+    internal class TeamworkProjectList
     {
-        static void Main()
+        private static void Main()
         {
             int teamsNumber = int.Parse(Console.ReadLine());
             List<Team> teams = new List<Team>();
@@ -32,7 +32,7 @@
         {
             for (int i = 0; i < teamsNumber; i++)
             {
-                string[] input = Console.ReadLine().Split(new [] { '-' }, StringSplitOptions.RemoveEmptyEntries);
+                string[] input = Console.ReadLine().Split(new[] { '-' }, StringSplitOptions.RemoveEmptyEntries);
                 string creator = input[0];
                 string teamName = input[1];
 
@@ -58,7 +58,7 @@
                 }
             }
         }
-        
+
         private static void UsersJoiningTeams(List<Team> teams)
         {
             while (true)
@@ -70,7 +70,7 @@
 
                 if (input != null)
                 {
-                    string[] inputArgs = input.Split(new [] {'-', '>'}, StringSplitOptions.RemoveEmptyEntries);
+                    string[] inputArgs = input.Split(new[] { '-', '>' }, StringSplitOptions.RemoveEmptyEntries);
                     string userToJoin = inputArgs[0];
                     string teamToJoin = inputArgs[1];
 
@@ -114,8 +114,8 @@
             Console.WriteLine("Teams to disband:");
 
             // If we don't want to use the 'if' clause in the 'foreach' loop
-            //List<Team> disbanded = teams.FindAll(x => x.TeamUsers.Count == 0).ToList(); 
-            //List<Team> disbanded = teams.Where(x => x.TeamUsers.Count == 0).ToList(); 
+            //List<Team> disbanded = teams.FindAll(x => x.TeamUsers.Count == 0).ToList();
+            //List<Team> disbanded = teams.Where(x => x.TeamUsers.Count == 0).ToList();
 
             foreach (Team currentTeam in teams.OrderBy(x => x.TeamName))
             {

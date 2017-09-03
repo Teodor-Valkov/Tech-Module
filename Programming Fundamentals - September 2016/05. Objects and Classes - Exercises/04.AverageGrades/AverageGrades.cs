@@ -1,13 +1,14 @@
 ﻿namespace _04.AverageGrades
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
     public class Student
     {
         public string Name { get; set; }
         public List<double> Grades { get; set; }
+
         //public double AverageGrade => Grades.Average();
         public double AverageGrade
         {
@@ -15,9 +16,9 @@
         }
     }
 
-    class AverageGrades
+    internal class AverageGrades
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
 
@@ -40,9 +41,9 @@
                 for (int j = 1; j < nameAndGrades.Length; j++)
                 {
                     double currentGrade = double.Parse(nameAndGrades[j]);
-                    currentStudent.Grades.Add(currentGrade);                    
+                    currentStudent.Grades.Add(currentGrade);
                 }
-                
+
                 if (currentStudent.AverageGrade >= 5.00)
                 {
                     allStudentsWithHighGrades.Add(currentStudent);

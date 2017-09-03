@@ -1,13 +1,13 @@
 ﻿namespace _10.SrubskoUnleashed
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Text.RegularExpressions;
 
-    class SrubskoUnleashed
+    internal class SrubskoUnleashed
     {
-        static void Main()
+        private static void Main()
         {
             Dictionary<string, Dictionary<string, double>> venueSingersMoney = new Dictionary<string, Dictionary<string, double>>();
 

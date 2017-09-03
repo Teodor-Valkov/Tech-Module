@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class SplitByWordCasing
+    internal class SplitByWordCasing
     {
-        static void Main()
+        private static void Main()
         {
             string separators = ",;:.!()\'\"/\\[] ";
             string[] input = Console.ReadLine().Split(separators.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);

@@ -2,11 +2,10 @@
 {
     using System;
     using System.Text;
-    using System.Numerics;
 
-    class SumBigNumbers
+    internal class SumBigNumbers
     {
-        static void Main()
+        private static void Main()
         {
             // Solution with BigInteger
             //BigInteger firstNumber = BigInteger.Parse(Console.ReadLine());
@@ -14,7 +13,7 @@
             //BigInteger sum = firstNumber + secondNumber;
             //
             //Console.WriteLine(sum);
-            
+
             // Solution without BigInteger
             string firstNumber = Console.ReadLine().TrimStart('0');
             string secondNumber = Console.ReadLine().TrimStart('0');

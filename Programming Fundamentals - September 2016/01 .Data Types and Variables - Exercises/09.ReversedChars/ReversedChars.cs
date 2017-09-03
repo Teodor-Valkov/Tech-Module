@@ -2,9 +2,9 @@
 {
     using System;
 
-    class ReversedChars
+    internal class ReversedChars
     {
-        static void Main()
+        private static void Main()
         {
             string letter1 = Console.ReadLine();
             string letter2 = Console.ReadLine();

@@ -2,9 +2,9 @@
 {
     using System;
 
-    class Elevator
+    internal class Elevator
     {
-        static void Main()
+        private static void Main()
         {
             double people = double.Parse(Console.ReadLine());
             double cabin = double.Parse(Console.ReadLine());

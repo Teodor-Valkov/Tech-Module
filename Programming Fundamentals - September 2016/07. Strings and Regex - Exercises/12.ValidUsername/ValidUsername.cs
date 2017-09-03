@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Text.RegularExpressions;
 
-    class ValidUsername
+    internal class ValidUsername
     {
-        static void Main()
+        private static void Main()
         {
             // We can also use "/b" - the input args are splitted in different "words"
             string pattern = @"^[A-Za-z]\w{2,24}$";

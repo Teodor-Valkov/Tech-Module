@@ -1,11 +1,10 @@
 ﻿namespace _06.ReverseArrayOfStrings
 {
     using System;
-    using System.Linq;
 
-    class ReverseArrayOfStrings
+    internal class ReverseArrayOfStrings
     {
-        static void Main()
+        private static void Main()
         {
             string[] input = Console.ReadLine().Split(' ');
 

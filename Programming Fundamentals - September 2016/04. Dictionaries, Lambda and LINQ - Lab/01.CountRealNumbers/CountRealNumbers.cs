@@ -1,12 +1,12 @@
 ﻿namespace _01.CountRealNumbers
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class CountRealNumbers
+    internal class CountRealNumbers
     {
-        static void Main()
+        private static void Main()
         {
             List<double> numbers = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
 

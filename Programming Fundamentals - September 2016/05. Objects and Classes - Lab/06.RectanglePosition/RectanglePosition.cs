@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class Rectangle
+    internal class Rectangle
     {
-        static void Main()
+        private static void Main()
         {
             RectanglePosition r1 = RectanglePosition.ReadRectangle();
             RectanglePosition r2 = RectanglePosition.ReadRectangle();
@@ -14,7 +14,7 @@
         }
     }
 
-    class RectanglePosition
+    internal class RectanglePosition
     {
         public int Top { get; set; }
         public int Left { get; set; }

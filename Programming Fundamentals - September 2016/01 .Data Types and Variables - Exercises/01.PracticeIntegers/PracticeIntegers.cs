@@ -2,9 +2,9 @@
 {
     using System;
 
-    class PracticeIntegers
+    internal class PracticeIntegers
     {
-        static void Main()
+        private static void Main()
         {
             sbyte num1 = -100;
             byte num2 = 128;

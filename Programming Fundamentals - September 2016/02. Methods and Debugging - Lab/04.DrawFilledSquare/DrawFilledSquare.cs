@@ -2,9 +2,9 @@
 {
     using System;
 
-    class DrawFilledSquare
+    internal class DrawFilledSquare
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
 

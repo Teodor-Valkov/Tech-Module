@@ -1,22 +1,22 @@
 ﻿namespace _03.WordCount
 {
     using System;
+    using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using System.Collections.Generic;
 
-    class WordCount
+    internal class WordCount
     {
-        static void Main()
+        private static void Main()
         {
             string separators = "/n/r,.!?- ";
 
             string[] text = File.ReadAllText("New folder/input.txt").ToLower().Split(separators.ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-            
+
             string[] words = File.ReadAllText("New folder/words.txt").ToLower().Split(' ');
             //string[] words = File.ReadAllLines("New folder/words.txt");
             //If the sentences are separated in new lines, the method itself splits them in new lines
-            
+
             Dictionary<string, int> wordCount = new Dictionary<string, int>();
 
             foreach (string word in words)

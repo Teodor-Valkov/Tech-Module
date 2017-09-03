@@ -2,11 +2,10 @@
 {
     using System;
     using System.Text;
-    using System.Numerics;
 
-    class MultiplyBigNumber
+    internal class MultiplyBigNumber
     {
-        static void Main()
+        private static void Main()
         {
             // Solution with BigInteger
             //BigInteger firstNumber = BigInteger.Parse(Console.ReadLine());
@@ -41,7 +40,6 @@
                 {
                     result.Append(numberInMind);
                 }
-
             }
 
             char[] resultToCharArr = result.ToString().ToCharArray();

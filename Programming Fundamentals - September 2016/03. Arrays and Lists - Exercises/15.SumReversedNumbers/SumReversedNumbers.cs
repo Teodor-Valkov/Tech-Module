@@ -1,12 +1,12 @@
 ﻿namespace _15.SumReversedNumbers
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class SumReversedNumbers
+    internal class SumReversedNumbers
     {
-        static void Main()
+        private static void Main()
         {
             string[] input = Console.ReadLine().Split(' ');
 

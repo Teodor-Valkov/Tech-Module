@@ -1,10 +1,10 @@
 ﻿namespace _11.DragonArmy
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Dragon
+    internal class Dragon
     {
         public string Name { get; set; }
         public string Type { get; set; }
@@ -13,9 +13,9 @@
         public int Armor { get; set; }
     }
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main()
+        private static void Main()
         {
             int number = int.Parse(Console.ReadLine());
 
@@ -85,7 +85,7 @@
             }
             else
             {
-                typeAndDragons[type].Add(dragon);            
+                typeAndDragons[type].Add(dragon);
             }
         }
 

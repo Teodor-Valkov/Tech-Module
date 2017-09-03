@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class FoldAndSum
+    internal class FoldAndSum
     {
-        static void Main()
+        private static void Main()
         {
             //First Solution
             int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();

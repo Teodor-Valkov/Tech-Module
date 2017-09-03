@@ -2,9 +2,9 @@
 {
     using System;
 
-    class CenturiesToMinutes
+    internal class CenturiesToMinutes
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             byte centuries = byte.Parse(Console.ReadLine());
             short years = (short)(centuries * 100);

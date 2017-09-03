@@ -2,9 +2,9 @@
 {
     using System;
 
-    class VariableInHexFormat
+    internal class VariableInHexFormat
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
             int number = Convert.ToInt32(input, 16);

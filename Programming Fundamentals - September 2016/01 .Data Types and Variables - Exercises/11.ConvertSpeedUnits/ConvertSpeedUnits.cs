@@ -2,9 +2,9 @@
 {
     using System;
 
-    class ConvertSpeedUnits
+    internal class ConvertSpeedUnits
     {
-        static void Main()
+        private static void Main()
         {
             float meters = float.Parse(Console.ReadLine());
             float hours = float.Parse(Console.ReadLine());

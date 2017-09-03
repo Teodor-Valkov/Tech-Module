@@ -3,9 +3,9 @@
     using System;
     using System.Text;
 
-    class UnicodeChracters
+    internal class UnicodeChracters
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
 

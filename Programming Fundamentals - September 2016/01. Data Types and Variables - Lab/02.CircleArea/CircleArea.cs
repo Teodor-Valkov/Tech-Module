@@ -1,10 +1,10 @@
 ﻿namespace _02.CircleArea
-{   
+{
     using System;
 
-    class CircleArea
+    internal class CircleArea
     {
-        static void Main()
+        private static void Main()
         {
             double radius = double.Parse(Console.ReadLine());
             double area = Math.PI * Math.Pow(radius, 2);

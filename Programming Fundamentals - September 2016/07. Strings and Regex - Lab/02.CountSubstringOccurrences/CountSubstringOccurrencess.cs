@@ -2,9 +2,9 @@
 {
     using System;
 
-    class CountSubstringOccurrencess
+    internal class CountSubstringOccurrencess
     {
-        static void Main()
+        private static void Main()
         {
             string text = Console.ReadLine().ToLower();
             string word = Console.ReadLine().ToLower();

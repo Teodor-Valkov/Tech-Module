@@ -2,9 +2,9 @@
 {
     using System;
 
-    class FastPrimeChecker
+    internal class FastPrimeChecker
     {
-        static void Main()
+        private static void Main()
         {
             int endNumber = int.Parse(Console.ReadLine());
 

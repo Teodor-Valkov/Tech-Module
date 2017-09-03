@@ -3,12 +3,12 @@
     using System;
     using System.Text.RegularExpressions;
 
-    class MatchPhoneNumer
+    internal class MatchPhoneNumer
     {
-        static void Main()
+        private static void Main()
         {
             string pattern = @"^(\s*?)(\+359(\s|\-)2\3\d{3}\3\d{4})\b";
-            
+
             while (true)
             {
                 string input = Console.ReadLine();

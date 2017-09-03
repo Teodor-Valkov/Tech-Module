@@ -2,9 +2,9 @@
 {
     using System.IO;
 
-    class FolderSize
+    internal class FolderSize
     {
-        static void Main()
+        private static void Main()
         {
             string[] files = Directory.GetFiles("New folder/TestFolder");
             double sum = 0;
@@ -17,7 +17,7 @@
 
             sum = sum / 1024 / 1024;
 
-            File.WriteAllText("Output/output.txt", sum.ToString()); 
+            File.WriteAllText("Output/output.txt", sum.ToString());
         }
     }
 }

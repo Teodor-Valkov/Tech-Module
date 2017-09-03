@@ -1,12 +1,12 @@
 ﻿namespace _16.CountNumbers
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class CountNumbers
+    internal class CountNumbers
     {
-        static void Main()
+        private static void Main()
         {
             List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
             List<int> numsDistinct = numbers.Distinct().OrderBy(x => x).ToList();

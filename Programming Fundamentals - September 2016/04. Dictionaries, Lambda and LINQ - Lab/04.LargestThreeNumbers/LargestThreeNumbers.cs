@@ -1,12 +1,12 @@
 ﻿namespace _04.LargestThreeNumbers
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class LargestThreeNumbers
+    internal class LargestThreeNumbers
     {
-        static void Main()
+        private static void Main()
         {
             List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 

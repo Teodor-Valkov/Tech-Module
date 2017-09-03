@@ -2,9 +2,9 @@
 {
     using System;
 
-    class IntegerToHexAndBinary
+    internal class IntegerToHexAndBinary
     {
-        static void Main()
+        private static void Main()
         {
             int number = int.Parse(Console.ReadLine());
 

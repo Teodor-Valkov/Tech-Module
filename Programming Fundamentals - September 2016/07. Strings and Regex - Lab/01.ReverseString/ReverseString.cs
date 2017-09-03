@@ -2,9 +2,9 @@
 {
     using System;
 
-    class ReverseString
+    internal class ReverseString
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
 

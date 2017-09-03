@@ -2,9 +2,9 @@
 {
     using System;
 
-    class SieveOfEratosthenes
+    internal class SieveOfEratosthenes
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             bool[] primes = new bool[n + 1];

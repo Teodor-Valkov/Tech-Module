@@ -2,9 +2,9 @@
 {
     using System;
 
-    class CubeProperty
+    internal class CubeProperty
     {
-        static void Main()
+        private static void Main()
         {
             double side = double.Parse(Console.ReadLine());
             string parameter = Console.ReadLine();

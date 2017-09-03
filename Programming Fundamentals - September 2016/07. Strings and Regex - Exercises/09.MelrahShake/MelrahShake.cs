@@ -3,9 +3,9 @@
     using System;
     using System.Text;
 
-    class MelrahShake
+    internal class MelrahShake
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
             string pattern = Console.ReadLine();

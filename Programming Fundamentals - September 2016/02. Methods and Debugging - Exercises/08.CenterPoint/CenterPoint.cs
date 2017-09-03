@@ -2,9 +2,9 @@
 {
     using System;
 
-    class CenterPoint
+    internal class CenterPoint
     {
-        static void Main()
+        private static void Main()
         {
             double firstPointX = double.Parse(Console.ReadLine());
             double firstPointY = double.Parse(Console.ReadLine());

@@ -2,9 +2,9 @@
 {
     using System;
 
-    class MultiplyEvensByOdds
+    internal class MultiplyEvensByOdds
     {
-        static void Main()
+        private static void Main()
         {
             int number = Math.Abs(int.Parse(Console.ReadLine()));
             int multiplyEvensByOdds = GetMultipleOfEvensAndOdds(number);
@@ -39,7 +39,7 @@
 
             return sumOfEvens;
         }
-        
+
         private static int GetSumOfOddDigits(int number)
         {
             int sumOfOdds = 0;

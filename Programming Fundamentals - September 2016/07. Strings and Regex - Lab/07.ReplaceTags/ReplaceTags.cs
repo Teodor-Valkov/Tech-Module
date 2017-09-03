@@ -3,9 +3,9 @@
     using System;
     using System.Text.RegularExpressions;
 
-    class ReplaceTags
+    internal class ReplaceTags
     {
-        static void Main()
+        private static void Main()
         {
             string text = Console.ReadLine();
 

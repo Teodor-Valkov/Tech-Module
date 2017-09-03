@@ -2,11 +2,11 @@
 {
     using System;
 
-    class TextFilter
+    internal class TextFilter
     {
-        static void Main()
+        private static void Main()
         {
-            string[] forbiddenWords = Console.ReadLine().Split(new [] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] forbiddenWords = Console.ReadLine().Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries);
             string text = Console.ReadLine();
 
             foreach (string forbiddenWord in forbiddenWords)

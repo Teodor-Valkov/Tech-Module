@@ -3,7 +3,7 @@
     using System;
     using System.Linq;
 
-    class Point
+    internal class Point
     {
         public double X { get; set; }
         public double Y { get; set; }
@@ -14,16 +14,16 @@
         }
     }
 
-    class ClosestTwoPointsAndDistance
+    internal class ClosestTwoPointsAndDistance
     {
         public Point First { get; set; }
         public Point Second { get; set; }
         public double Distance { get; set; }
     }
 
-    class NearestTwoPoints
+    internal class NearestTwoPoints
     {
-        static void Main()
+        private static void Main()
         {
             Point[] points = ReadArrayOfPoints();
 
@@ -33,7 +33,7 @@
             Console.WriteLine(closestTwoPointsAndDistance.First);
             Console.WriteLine(closestTwoPointsAndDistance.Second);
         }
-    
+
         public static Point[] ReadArrayOfPoints()
         {
             int n = int.Parse(Console.ReadLine());
@@ -74,7 +74,7 @@
                             First = p1,
                             Second = p2,
                             Distance = currentDistance
-                        } ;
+                        };
                     }
                 }
             }
@@ -86,7 +86,7 @@
         {
             double triangleSideA = (firstPoint.X - secondPoint.X);
             double triangleSideB = (firstPoint.Y - secondPoint.Y);
-            double hipotenus = Math.Sqrt(triangleSideA*triangleSideA + triangleSideB*triangleSideB);
+            double hipotenus = Math.Sqrt(triangleSideA * triangleSideA + triangleSideB * triangleSideB);
 
             return hipotenus;
         }

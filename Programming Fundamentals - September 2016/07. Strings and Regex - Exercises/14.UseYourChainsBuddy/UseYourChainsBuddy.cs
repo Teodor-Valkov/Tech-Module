@@ -3,9 +3,9 @@
     using System;
     using System.Text.RegularExpressions;
 
-    class UseYourChainsBuddy
+    internal class UseYourChainsBuddy
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
 

@@ -1,12 +1,12 @@
 ﻿namespace _06.UserLogs
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class UserLogs
+    internal class UserLogs
     {
-        static void Main()
+        private static void Main()
         {
             SortedDictionary<string, Dictionary<string, int>> userAddressCount = new SortedDictionary<string, Dictionary<string, int>>();
 

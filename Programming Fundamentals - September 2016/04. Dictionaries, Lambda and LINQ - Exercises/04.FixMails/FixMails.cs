@@ -1,14 +1,14 @@
 ﻿namespace _04.FixMails
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class FixMails
+    internal class FixMails
     {
-        static void Main()
+        private static void Main()
         {
-           Dictionary<string, string> nameAndEmail = new Dictionary<string, string>();
+            Dictionary<string, string> nameAndEmail = new Dictionary<string, string>();
 
             while (true)
             {
@@ -25,7 +25,7 @@
                 {
                     continue;
                 }
-                
+
                 nameAndEmail[name] = email;
             }
 

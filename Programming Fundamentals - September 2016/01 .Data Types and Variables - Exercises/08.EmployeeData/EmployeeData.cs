@@ -2,9 +2,9 @@
 {
     using System;
 
-    class EmployeeData
+    internal class EmployeeData
     {
-        static void Main()
+        private static void Main()
         {
             string firstName = "Amanda";
             string secondName = "Jonson";

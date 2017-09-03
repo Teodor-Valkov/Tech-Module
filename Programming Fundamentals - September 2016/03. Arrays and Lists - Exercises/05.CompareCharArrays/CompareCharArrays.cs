@@ -3,14 +3,14 @@
     using System;
     using System.Collections.Generic;
 
-    class CompareCharArrays
+    internal class CompareCharArrays
     {
-        static void Main()
+        private static void Main()
         {
             string firstArray = Console.ReadLine();
             string secondArray = Console.ReadLine();
 
-            List<string> alphabeticalOrder = new List<string>(new [] { firstArray, secondArray });
+            List<string> alphabeticalOrder = new List<string>(new[] { firstArray, secondArray });
             alphabeticalOrder.Sort();
 
             foreach (string inputLine in alphabeticalOrder)

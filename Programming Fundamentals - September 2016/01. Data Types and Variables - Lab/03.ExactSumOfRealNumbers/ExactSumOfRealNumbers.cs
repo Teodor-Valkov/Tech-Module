@@ -2,9 +2,9 @@
 {
     using System;
 
-    class ExactSumOfRealNumbers
+    internal class ExactSumOfRealNumbers
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             decimal sum = 0m;

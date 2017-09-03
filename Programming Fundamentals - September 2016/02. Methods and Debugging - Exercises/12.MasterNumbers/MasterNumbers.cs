@@ -1,13 +1,13 @@
 ﻿namespace _12.MasterNumbers
-{   
+{
     using System;
 
-    class MasterNumbers
+    internal class MasterNumbers
     {
-        static void Main()
+        private static void Main()
         {
             int number = int.Parse(Console.ReadLine());
-            
+
             for (int i = 1; i <= number; i++)
             {
                 bool isPalindrome = IsPalindrome(i);
@@ -21,7 +21,7 @@
             }
         }
 
-         private static bool IsPalindrome(int number)
+        private static bool IsPalindrome(int number)
         {
             bool isPalindrome = true;
             string numberString = number.ToString();
@@ -49,7 +49,7 @@
                 number /= 10;
             }
 
-            if (sum%7 == 0)
+            if (sum % 7 == 0)
             {
                 return true;
             }
@@ -63,7 +63,7 @@
             {
                 int currentDigit = number % 10;
 
-                if (currentDigit%2 == 0)
+                if (currentDigit % 2 == 0)
                 {
                     return true;
                 }
@@ -75,4 +75,3 @@
         }
     }
 }
-

@@ -2,9 +2,9 @@
 {
     using System;
 
-    class FibonacciNumbers
+    internal class FibonacciNumbers
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             int fibonacciNumber = GetFibonacciNumber(n);

@@ -1,14 +1,14 @@
 ﻿namespace _05.HandsOfCards2
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class HandsOfCards2
+    internal class HandsOfCards2
     {
-        static void Main()
+        private static void Main()
         {
-             Dictionary<string, HashSet<string>> nameAndCards = new Dictionary<string, HashSet<string>>();
+            Dictionary<string, HashSet<string>> nameAndCards = new Dictionary<string, HashSet<string>>();
 
             while (true)
             {

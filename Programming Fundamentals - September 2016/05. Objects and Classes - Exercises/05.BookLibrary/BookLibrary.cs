@@ -1,10 +1,10 @@
 ﻿namespace _05.BookLibrary
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Book
+    internal class Book
     {
         public string Title { get; set; }
         public string Author { get; set; }
@@ -14,15 +14,15 @@
         public decimal Price { get; set; }
     }
 
-    class Library
+    internal class Library
     {
         public string Name { get; set; }
         public List<Book> Books { get; set; }
     }
 
-    class BookLibrary
+    internal class BookLibrary
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
 
@@ -46,7 +46,7 @@
                 if (!authorsAndPrices.ContainsKey(currentBook.Author))
                 {
                     authorsAndPrices[currentBook.Author] = currentBook.Price;
-                    //authorsAndPrices.Add(currentBook.Author, currentBook.Price);    
+                    //authorsAndPrices.Add(currentBook.Author, currentBook.Price);
                 }
                 else
                 {

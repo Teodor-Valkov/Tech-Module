@@ -2,9 +2,9 @@
 {
     using System;
 
-    class RectangleProperties
+    internal class RectangleProperties
     {
-        static void Main()
+        private static void Main()
         {
             double width = double.Parse(Console.ReadLine());
             double height = double.Parse(Console.ReadLine());

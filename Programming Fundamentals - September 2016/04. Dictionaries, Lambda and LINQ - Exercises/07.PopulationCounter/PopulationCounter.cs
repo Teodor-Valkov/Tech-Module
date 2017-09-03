@@ -1,14 +1,14 @@
 ﻿namespace _07.PopulationCounter
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class PopulationCounter
+    internal class PopulationCounter
     {
-        static void Main()
+        private static void Main()
         {
-             Dictionary<string, Dictionary<string, long>> countryCityPopulation = new Dictionary<string, Dictionary<string, long>>();
+            Dictionary<string, Dictionary<string, long>> countryCityPopulation = new Dictionary<string, Dictionary<string, long>>();
 
             while (true)
             {
@@ -30,7 +30,7 @@
                 countryCityPopulation[country][city] = population;
             }
 
-            countryCityPopulation = 
+            countryCityPopulation =
                 countryCityPopulation
                 .OrderByDescending(pair => pair.Value.Values.Sum())
                 .ToDictionary(x => x.Key, x => x.Value);

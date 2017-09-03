@@ -1,19 +1,19 @@
 ﻿namespace _01.CountWorkingDays
 {
     using System;
-    using System.Linq;
     using System.Globalization;
+    using System.Linq;
 
-    class CountWorkingDays
+    internal class CountWorkingDays
     {
-        static void Main()
+        private static void Main()
         {
             DateTime startDate = DateTime.ParseExact(Console.ReadLine(), "dd-MM-yyyy", CultureInfo.InvariantCulture);
             DateTime endDate = DateTime.ParseExact(Console.ReadLine(), "dd-MM-yyyy", CultureInfo.InvariantCulture);
             long workingDays = 0;
 
             // The needed holidays in given year
-            DateTime[] officialHollidays = 
+            DateTime[] officialHollidays =
             {
                 new DateTime(2000, 01, 01), new DateTime(2000, 03, 03),
                 new DateTime(2000, 05, 01), new DateTime(2000, 05, 06),

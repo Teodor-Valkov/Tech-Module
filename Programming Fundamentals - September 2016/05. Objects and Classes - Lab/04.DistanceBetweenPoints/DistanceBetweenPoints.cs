@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class DistanceBetweenPoints
+    internal class DistanceBetweenPoints
     {
-        static void Main()
+        private static void Main()
         {
             Point firstPoint = Point.ReadPoint();
             Point secondPoint = Point.ReadPoint();
@@ -15,7 +15,7 @@
         }
     }
 
-    class Point
+    internal class Point
     {
         public double X { get; set; }
         public double Y { get; set; }
@@ -37,7 +37,7 @@
         {
             double triangleSideA = (firstPoint.X - secondPoint.X);
             double triangleSideB = (firstPoint.Y - secondPoint.Y);
-            double hipotenus = Math.Sqrt(triangleSideA*triangleSideA + triangleSideB*triangleSideB);
+            double hipotenus = Math.Sqrt(triangleSideA * triangleSideA + triangleSideB * triangleSideB);
 
             return hipotenus;
         }

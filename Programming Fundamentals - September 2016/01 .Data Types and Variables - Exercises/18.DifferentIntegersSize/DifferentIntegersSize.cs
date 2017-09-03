@@ -2,9 +2,9 @@
 {
     using System;
 
-    class DifferentIntegersSize
+    internal class DifferentIntegersSize
     {
-        static void Main()
+        private static void Main()
         {
             string number = Console.ReadLine();
             bool answer = false;

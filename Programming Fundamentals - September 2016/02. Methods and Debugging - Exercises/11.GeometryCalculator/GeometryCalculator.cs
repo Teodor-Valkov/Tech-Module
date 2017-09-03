@@ -2,12 +2,12 @@
 {
     using System;
 
-    class GeometryCalculator
+    internal class GeometryCalculator
     {
-        static void Main()
+        private static void Main()
         {
             string type = Console.ReadLine();
-           
+
             if (type == "triangle")
             {
                 double side = double.Parse(Console.ReadLine());
@@ -49,7 +49,7 @@
         {
             return side * side;
         }
-     
+
         private static double GetRectangleArea(double firstSide, double secondSide)
         {
             return firstSide * secondSide;

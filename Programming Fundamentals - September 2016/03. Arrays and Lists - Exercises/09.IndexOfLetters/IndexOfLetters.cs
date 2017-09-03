@@ -2,12 +2,12 @@
 {
     using System;
 
-    class IndexOfLetters
+    internal class IndexOfLetters
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
-            
+
             // First Solution
             foreach (char symbol in input)
             {

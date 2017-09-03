@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class SumArrays
+    internal class SumArrays
     {
-        static void Main()
+        private static void Main()
         {
             int[] firstArray = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             int[] secondArray = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();

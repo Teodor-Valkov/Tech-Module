@@ -3,16 +3,16 @@
     using System;
     using System.Text.RegularExpressions;
 
-    class ExtractSentencesByKeyword
+    internal class ExtractSentencesByKeyword
     {
-        static void Main()
+        private static void Main()
         {
             string pattern = Console.ReadLine();
             string input = Console.ReadLine();
 
             if (input != null)
             {
-                string[] inputArgs = input.Split(new [] { '.', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
+                string[] inputArgs = input.Split(new[] { '.', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
 
                 Regex regex = new Regex(@"\b" + pattern + @"\b");
 

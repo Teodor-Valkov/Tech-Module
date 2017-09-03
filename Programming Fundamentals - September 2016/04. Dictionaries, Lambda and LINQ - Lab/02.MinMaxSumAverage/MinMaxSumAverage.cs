@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class MinMaxSumAverage
+    internal class MinMaxSumAverage
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             int[] numbers = new int[n];

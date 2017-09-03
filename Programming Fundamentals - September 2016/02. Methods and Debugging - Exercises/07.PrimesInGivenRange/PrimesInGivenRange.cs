@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class PrimesInGivenRange
+    internal class PrimesInGivenRange
     {
-        static void Main()
+        private static void Main()
         {
             long startNumber = long.Parse(Console.ReadLine());
             long endNumber = long.Parse(Console.ReadLine());
@@ -29,7 +29,7 @@
 
                 for (int j = 2; j <= Math.Sqrt(i); j++)
                 {
-                    if (i%j == 0)
+                    if (i % j == 0)
                     {
                         isPrime = false;
                     }

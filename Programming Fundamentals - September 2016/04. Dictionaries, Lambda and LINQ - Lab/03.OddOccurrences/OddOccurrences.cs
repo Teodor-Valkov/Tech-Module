@@ -1,12 +1,12 @@
 ﻿namespace _03.OddOccurrences
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class OddOccurrences
+    internal class OddOccurrences
     {
-        static void Main()
+        private static void Main()
         {
             List<string> words = Console.ReadLine().ToLower().Split(' ').ToList();
             Dictionary<string, int> counts = new Dictionary<string, int>();
@@ -33,7 +33,7 @@
                     result.Add(pair.Key);
                 }
             }
-            
+
             Console.WriteLine(string.Join(", ", result));
         }
     }

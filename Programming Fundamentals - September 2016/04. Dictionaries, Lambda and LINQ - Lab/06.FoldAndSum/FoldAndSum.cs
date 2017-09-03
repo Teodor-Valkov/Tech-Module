@@ -3,13 +3,13 @@
     using System;
     using System.Linq;
 
-    class FoldAndSum
+    internal class FoldAndSum
     {
-        static void Main()
+        private static void Main()
         {
             int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             int part = numbers.Length / 4;
-            
+
             int[] firstPart = numbers.Take(part).Reverse().ToArray();
             int[] middlePart = numbers.Skip(part).Take(part * 2).ToArray();
             int[] thirdPart = numbers.Reverse().Take(part).ToArray();
@@ -26,6 +26,6 @@
             //}
 
             Console.WriteLine(string.Join(" ", sumNumbersOfTheRows));
-       }
+        }
     }
 }

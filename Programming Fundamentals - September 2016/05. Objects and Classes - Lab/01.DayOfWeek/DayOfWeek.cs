@@ -3,9 +3,9 @@
     using System;
     using System.Globalization;
 
-    class DayOfWeek
+    internal class DayOfWeek
     {
-        static void Main()
+        private static void Main()
         {
             // First Solution
             string dateAsString = Console.ReadLine();

@@ -2,9 +2,9 @@
 {
     using System;
 
-    class LargestCommonEnd
+    internal class LargestCommonEnd
     {
-        static void Main()
+        private static void Main()
         {
             string[] firstArray = Console.ReadLine().Split(' ');
             string[] secondArray = Console.ReadLine().Split(' ');
@@ -12,7 +12,7 @@
             int smallerArrayLength = Math.Min(firstArray.Length, secondArray.Length);
             int leftWordsCounter = 0;
             int rightWordsCounter = 0;
-            
+
             leftWordsCounter = LeftEqualWords(firstArray, secondArray, leftWordsCounter, smallerArrayLength);
             rightWordsCounter = RightEqualWords(firstArray, secondArray, rightWordsCounter, smallerArrayLength);
 

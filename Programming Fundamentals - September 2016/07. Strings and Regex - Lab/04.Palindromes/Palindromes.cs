@@ -1,14 +1,14 @@
 ﻿namespace _04.Palindromes
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class Palindromes
+    internal class Palindromes
     {
-        static void Main()
+        private static void Main()
         {
-            string[] words = Console.ReadLine().Split(new [] { ' ', ',', '.', '?', '!' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] words = Console.ReadLine().Split(new[] { ' ', ',', '.', '?', '!' }, StringSplitOptions.RemoveEmptyEntries);
 
             List<string> palindromes = new List<string>();
 
@@ -24,7 +24,7 @@
 
             palindromes = palindromes.Distinct().OrderBy(x => x).ToList();
 
-            Console.WriteLine(string.Join (", ", palindromes));
+            Console.WriteLine(string.Join(", ", palindromes));
         }
 
         private static bool FindIfWordIsPalindrome(string word)

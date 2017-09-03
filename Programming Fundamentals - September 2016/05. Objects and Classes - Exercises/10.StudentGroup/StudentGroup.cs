@@ -1,33 +1,33 @@
 ﻿namespace _10.StudentGroup
 {
     using System;
-    using System.Linq;
-    using System.Globalization;
     using System.Collections.Generic;
+    using System.Globalization;
+    using System.Linq;
 
-    class Student
+    internal class Student
     {
         public string Name { get; set; }
         public string Email { get; set; }
         public DateTime RegistrationDate { get; set; }
     }
 
-    class Town
+    internal class Town
     {
         public string Name { get; set; }
         public int SeatsCount { get; set; }
         public List<Student> Students { get; set; }
     }
 
-    class Group
+    internal class Group
     {
         public Town Town { get; set; }
         public List<Student> Students { get; set; }
     }
 
-    class StudentGroups
+    internal class StudentGroups
     {
-        static void Main()
+        private static void Main()
         {
             List<Town> towns = ReadTownsAndStudents();
             List<Group> groups = DistributeStudentsIntoGroups(towns);
@@ -46,7 +46,7 @@
             {
                 if (inputLine.Contains("=>"))
                 {
-                    string[] townParameters = inputLine.Split(new [] { '=', '>' }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] townParameters = inputLine.Split(new[] { '=', '>' }, StringSplitOptions.RemoveEmptyEntries);
                     string[] seats = townParameters[1].Trim().Split();
 
                     string townName = townParameters[0].Trim();
@@ -62,10 +62,9 @@
                     towns.Add(town);
                     counter++;
                 }
-
                 else
                 {
-                    string[] parsedStudentInput = inputLine.Split(new [] { '|' }, StringSplitOptions.RemoveEmptyEntries);
+                    string[] parsedStudentInput = inputLine.Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
 
                     Student currentStudent = new Student()
                     {

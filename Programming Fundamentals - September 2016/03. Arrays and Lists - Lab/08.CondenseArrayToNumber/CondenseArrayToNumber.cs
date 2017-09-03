@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class CondenseArrayToNumber
+    internal class CondenseArrayToNumber
     {
-        static void Main()
+        private static void Main()
         {
             int[] nums = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 

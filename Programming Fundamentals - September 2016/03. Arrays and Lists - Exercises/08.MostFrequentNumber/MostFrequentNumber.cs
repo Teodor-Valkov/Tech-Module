@@ -1,12 +1,12 @@
 ﻿namespace _08.MostFrequentNumber
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class MostFrequentNumber
+    internal class MostFrequentNumber
     {
-        static void Main()
+        private static void Main()
         {
             List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 

@@ -4,9 +4,9 @@
     using System.Linq;
     using System.Numerics;
 
-    class ConvertFromBaseToBase
+    internal class ConvertFromBaseToBase
     {
-        static void Main()
+        private static void Main()
         {
             BigInteger[] baseNumberAndNumber = Console.ReadLine().Split(' ').Select(BigInteger.Parse).ToArray();
 

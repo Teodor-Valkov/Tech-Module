@@ -2,9 +2,9 @@
 {
     using System;
 
-    class LastKNumbersSums
+    internal class LastKNumbersSums
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             int k = int.Parse(Console.ReadLine());

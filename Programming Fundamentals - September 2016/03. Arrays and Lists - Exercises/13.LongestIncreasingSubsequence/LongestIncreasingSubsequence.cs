@@ -1,10 +1,10 @@
 ﻿namespace _13.LongestIncreasingSubsequence
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class LongestIncreasingSubsequence
+    internal class LongestIncreasingSubsequence
     {
         public static void Main()
         {

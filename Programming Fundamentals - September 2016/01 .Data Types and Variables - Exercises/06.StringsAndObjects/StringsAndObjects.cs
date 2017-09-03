@@ -2,9 +2,9 @@
 {
     using System;
 
-    class StringsAndObjects
+    internal class StringsAndObjects
     {
-        static void Main()
+        private static void Main()
         {
             string firstWord = Console.ReadLine();
             string secondWord = Console.ReadLine();

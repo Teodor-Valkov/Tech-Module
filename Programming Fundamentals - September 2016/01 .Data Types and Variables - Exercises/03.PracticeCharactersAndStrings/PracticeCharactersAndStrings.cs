@@ -2,9 +2,9 @@
 {
     using System;
 
-    class PracticeCharactersAndStrings
+    internal class PracticeCharactersAndStrings
     {
-        static void Main()
+        private static void Main()
         {
             string text1 = "Software University";
             char text2 = 'B';

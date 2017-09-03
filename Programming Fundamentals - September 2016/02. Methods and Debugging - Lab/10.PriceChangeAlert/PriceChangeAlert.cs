@@ -2,26 +2,26 @@
 {
     using System;
 
-    class PriceChangeAlert
+    internal class PriceChangeAlert
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             double significanceTreshold = double.Parse(Console.ReadLine());
             double initialPrice = double.Parse(Console.ReadLine());
 
-            for (int i = 0; i < n - 1; i++) 
+            for (int i = 0; i < n - 1; i++)
             {
                 double nextPrice = double.Parse(Console.ReadLine());
                 double difference = GetDifference(initialPrice, nextPrice);
-                
+
                 bool isSignificantDifference = HasSignificantDifference(difference, significanceTreshold);
                 string message = GetMessage(nextPrice, initialPrice, difference, isSignificantDifference);
-                
-                initialPrice = nextPrice; 
+
+                initialPrice = nextPrice;
 
                 Console.WriteLine(message);
-            }             
+            }
         }
 
         private static double GetDifference(double firstPrice, double secondPrice)
@@ -45,11 +45,11 @@
             if (difference == 0)
                 message = $"NO CHANGE: {nextPrice}";
             else if (!isSignificantDifference)
-                message = $"MINOR CHANGE: {initialPrice} to {nextPrice} ({difference*100:F2}%)";
+                message = $"MINOR CHANGE: {initialPrice} to {nextPrice} ({difference * 100:F2}%)";
             else if (isSignificantDifference && (difference > 0))
-                message = $"PRICE UP: {initialPrice} to {nextPrice} ({difference*100:F2}%)";
+                message = $"PRICE UP: {initialPrice} to {nextPrice} ({difference * 100:F2}%)";
             else if (isSignificantDifference && (difference < 0))
-                message = $"PRICE DOWN: {initialPrice} to {nextPrice} ({difference*100:F2}%)";
+                message = $"PRICE DOWN: {initialPrice} to {nextPrice} ({difference * 100:F2}%)";
 
             return message;
         }

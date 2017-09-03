@@ -2,9 +2,9 @@
 {
     using System;
 
-    class SignOfIntegerNumber
+    internal class SignOfIntegerNumber
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
 

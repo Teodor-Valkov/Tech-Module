@@ -1,11 +1,11 @@
 ﻿namespace _08.MentorGroup
 {
     using System;
-    using System.Linq;
-    using System.Globalization;
     using System.Collections.Generic;
+    using System.Globalization;
+    using System.Linq;
 
-    class User
+    internal class User
     {
         public User()
         {
@@ -18,9 +18,9 @@
         public List<string> Comments { get; set; }
     }
 
-    class MentorGroup
+    internal class MentorGroup
     {
-        static void Main()
+        private static void Main()
         {
             System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
             Dictionary<string, User> nameUsersDictionary = new Dictionary<string, User>();

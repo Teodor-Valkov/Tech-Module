@@ -3,9 +3,9 @@
     using System;
     using System.Numerics;
 
-    class CenturiesToNanoseconds
+    internal class CenturiesToNanoseconds
     {
-        static void Main()
+        private static void Main()
         {
             byte centuries = byte.Parse(Console.ReadLine());
             short years = (short)(centuries * 100);

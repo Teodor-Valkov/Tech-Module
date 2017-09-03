@@ -3,9 +3,9 @@
     using System;
     using System.Numerics;
 
-    class FactorialTrailingZeroes
+    internal class FactorialTrailingZeroes
     {
-        static void Main()
+        private static void Main()
         {
             int number = int.Parse(Console.ReadLine());
             BigInteger factorial = 1;

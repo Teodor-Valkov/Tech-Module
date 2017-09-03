@@ -1,19 +1,19 @@
 ﻿namespace _16.BombNumbers
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class BombNumbers
+    internal class BombNumbers
     {
-        static void Main()
+        private static void Main()
         {
             List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
             int[] actions = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
             int toDestroy = actions[0];
             int power = actions[1];
-            
+
             for (int i = 0; i < numbers.Count; i++)
             {
                 int position = numbers.IndexOf(toDestroy);

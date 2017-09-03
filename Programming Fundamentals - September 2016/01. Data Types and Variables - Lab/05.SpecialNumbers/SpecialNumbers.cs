@@ -2,12 +2,12 @@
 {
     using System;
 
-    class SpecialNumbers
+    internal class SpecialNumbers
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
-            
+
             for (int i = 1; i <= n; i++)
             {
                 int currentNumber = i;

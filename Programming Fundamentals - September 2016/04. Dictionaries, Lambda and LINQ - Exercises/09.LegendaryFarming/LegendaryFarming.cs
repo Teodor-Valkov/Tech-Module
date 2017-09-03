@@ -1,12 +1,12 @@
 ﻿namespace _09.LegendaryFarming
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class LegendaryFarming
+    internal class LegendaryFarming
     {
-        static void Main()
+        private static void Main()
         {
             Dictionary<string, long> itemQuantity = new Dictionary<string, long>
             {

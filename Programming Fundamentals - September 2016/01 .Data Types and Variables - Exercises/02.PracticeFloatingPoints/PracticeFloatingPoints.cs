@@ -2,9 +2,9 @@
 {
     using System;
 
-    class PracticeFloatingPoints
+    internal class PracticeFloatingPoints
     {
-        static void Main()
+        private static void Main()
         {
             decimal num1 = 3.141592653589793238m;
             double num2 = 1.60217657;

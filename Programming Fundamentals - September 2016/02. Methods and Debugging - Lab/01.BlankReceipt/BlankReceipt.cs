@@ -2,9 +2,9 @@
 {
     using System;
 
-    class BlankReceipt
+    internal class BlankReceipt
     {
-        static void Main()
+        private static void Main()
         {
             PrintReceipt();
         }

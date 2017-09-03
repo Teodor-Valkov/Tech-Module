@@ -2,9 +2,9 @@
 {
     using System;
 
-    class Greeting
+    internal class Greeting
     {
-        static void Main()
+        private static void Main()
         {
             string firstName = Console.ReadLine();
             string lastName = Console.ReadLine();

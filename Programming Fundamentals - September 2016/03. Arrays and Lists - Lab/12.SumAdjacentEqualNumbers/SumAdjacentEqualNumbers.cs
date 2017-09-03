@@ -1,12 +1,12 @@
 ﻿namespace _12.SumAdjacentEqualNumbers
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class SumAdjacentEqualNumbers
+    internal class SumAdjacentEqualNumbers
     {
-        static void Main()
+        private static void Main()
         {
             List<double> numbers = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
 

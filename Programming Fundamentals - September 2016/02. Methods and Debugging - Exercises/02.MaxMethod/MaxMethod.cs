@@ -2,9 +2,9 @@
 {
     using System;
 
-    class MaxMethod
+    internal class MaxMethod
     {
-        static void Main()
+        private static void Main()
         {
             int first = int.Parse(Console.ReadLine());
             int second = int.Parse(Console.ReadLine());

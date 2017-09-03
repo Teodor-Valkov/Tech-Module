@@ -2,12 +2,12 @@
 {
     using System;
 
-    class PrintingTriangle
+    internal class PrintingTriangle
     {
-        static void Main()
+        private static void Main()
         {
             int n = int.Parse(Console.ReadLine());
-     
+
             PrintUpperTrianglePart(n);
 
             PrintMiddleTrianglePart(n);

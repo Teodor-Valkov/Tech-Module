@@ -3,13 +3,13 @@
     using System;
     using System.Collections.Generic;
 
-    class PhonebookUpgrade
+    internal class PhonebookUpgrade
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
             SortedDictionary<string, string> phonebook = new SortedDictionary<string, string>();
-            
+
             while (input != null && input.ToUpper() != "END")
             {
                 if (input == "ListAll")

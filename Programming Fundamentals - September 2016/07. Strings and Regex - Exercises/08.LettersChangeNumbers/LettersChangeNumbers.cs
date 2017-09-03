@@ -3,15 +3,15 @@
     using System;
     using System.Linq;
 
-    class LettersChangeNumbers
+    internal class LettersChangeNumbers
     {
-        static void Main()
+        private static void Main()
         {
             string input = Console.ReadLine();
 
             if (input != null)
             {
-                string[] inputArgs = input.Split(new [] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+                string[] inputArgs = input.Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
                 decimal totalSum = 0;
 
                 foreach (string arg in inputArgs)
@@ -28,7 +28,7 @@
                     decimal number = decimal.Parse(numberString);
 
                     char firstLetter = arg.First();
-                
+
                     if (firstLetter >= 65 && firstLetter <= 90)
                     {
                         number /= firstLetter - 'A' + 1;
@@ -51,7 +51,7 @@
                         number += lastLetter - 'a' + 1;
                     }
 
-                    totalSum += number;                
+                    totalSum += number;
                 }
 
                 Console.WriteLine($"{totalSum:F2}");

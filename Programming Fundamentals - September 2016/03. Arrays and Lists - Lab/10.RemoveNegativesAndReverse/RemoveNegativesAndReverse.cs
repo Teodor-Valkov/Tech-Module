@@ -1,12 +1,12 @@
 ﻿namespace _10.RemoveNegativesAndReverse
 {
     using System;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
 
-    class RemoveNegativesAndReverse
+    internal class RemoveNegativesAndReverse
     {
-        static void Main()
+        private static void Main()
         {
             List<int> numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
