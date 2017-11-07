@@ -1,6 +1,6 @@
 # Tech-Module-September-2016
 
-## Repository about the Programming Fundamentals module in Software Unitiversity.
+## Repository about the Programming Fundamentals module in Software University.
 
 - Programming Fundamentals - all the exercises and exams which I have done on C#.
 
